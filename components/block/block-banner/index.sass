@@ -53,8 +53,6 @@
     @include tablet
       opacity: .48
       object-position: right center !important
-    @include phone-lg
-      display: none
 
     @supports (object-fit: cover)
       height: 100%
@@ -167,10 +165,15 @@
     --blockWidth: 33%
     display: flex
     position: relative
+    flex-wrap: wrap
+    gap: 4rem
     margin: 2rem 0 0
     padding: 3rem 0 0
+    @include tablet-md
+      gap: 2.5rem
+    @include phone-lg
+      gap: 1.5rem
     @include max-width (320px)
-      flex-wrap: wrap
       justify-content: space-around
 
     .block-banner__content--centered &
@@ -201,10 +204,6 @@
 
   &__social-block-item
     list-style: none
-    &:not(:last-child)
-      margin-right: 4rem
-      @include max-width (320px)
-        margin-right: 0
 
   &__social-link
     @include hover-supported

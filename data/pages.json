@@ -347,9 +347,9 @@
         },
         {
           "image": {
-            "src": "https://placehold.co/1000x800/e5e7eb/4b5563.jpg?text=Airway+Orthodontics",
-            "webp": "https://placehold.co/1000x800/e5e7eb/4b5563.webp?text=Airway+Orthodontics",
-            "alt": "Placeholder for airway orthodontics treatment image",
+            "src": "{{cdn}}/treatments/airway-ortho.jpg",
+            "webp": "{{cdn}}/treatments/airway-ortho.webp",
+            "alt": "Airway orthodontics care at Valley Orthodontics",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
