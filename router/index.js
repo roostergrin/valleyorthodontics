@@ -85,6 +85,10 @@ const router = [
         path: '/for-new-patients'
       },
       {
+        name: 'Patient Forms',
+        path: '/patient-forms'
+      },
+      {
         name: 'Why Choose Us',
         path: '/why-choose-us'
       },
@@ -99,14 +103,6 @@ const router = [
       {
         name: 'Financial Information',
         path: '/financial-information'
-      },
-      {
-        name: 'Patient Forms',
-        path: '/patient-forms'
-      },
-      {
-        name: 'Privacy Policy',
-        path: '/privacypolicy'
       },
       {
         name: 'Braces First Aid',
@@ -131,6 +127,10 @@ const router = [
       {
         name: 'Patient Referral Form',
         path: '/doctor-referrals-slips'
+      },
+      {
+        name: 'Privacy Policy',
+        path: '/privacypolicy'
       }
     ]
   },

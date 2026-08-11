@@ -1,4 +1,4 @@
-.block-button(:class=`'block-button--' + props.color` :style="buttonStyles" ref='button')
+.block-button(:class=`['block-button--' + props.color, { 'block-button--full-width': props.full_width }]` :style="buttonStyles" ref='button')
   //- Nuxt Link ============================================
   nuxt-link.block-button__button(
     v-if='props.type === `nuxt`',

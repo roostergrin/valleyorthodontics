@@ -162,6 +162,12 @@
         "path": "/doctor-referrals-slips",
         "hash": "",
         "ext_link": false
+      },
+      {
+        "label": "Blog",
+        "path": "/blog",
+        "hash": "",
+        "ext_link": false
       }
     ]
   },
