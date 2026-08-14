@@ -2039,14 +2039,15 @@
       },
       "media_type": "image",
       "image": {
-        "src": "https://ik.imagekit.io/rooster/tr:w-1920,h-1280,f-jpg,q-auto,fo-auto/123911299_Male_hiker_holding_a_map_in_forest.jpg",
-        "webp": "https://ik.imagekit.io/rooster/tr:w-1920,h-1280,f-webp,q-auto,fo-auto/123911299_Male_hiker_holding_a_map_in_forest.jpg",
+        "src": "{{cdn}}/resources/faq-hero-2.jpg",
+        "webp": "{{cdn}}/resources/faq-hero-2.webp",
         "alt": "Patient smiling with orthodontic braces in our clinic",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
         "addLoader": false,
         "objectPosition": "",
+        "mobileObjectPosition": "right center",
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
