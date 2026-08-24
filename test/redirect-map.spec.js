@@ -1,28 +1,22 @@
 /**
- * Validates infra/redirect-map.json — the map handed to the edge Lambda — against
- * every URL the live WordPress site has indexed.
+ * Validates infra/redirect-map.json — the map consumed by the shared edge
+ * redirect handler — against every URL the live WordPress site has indexed.
  *
  * This is the launch-critical test: the old site's 300 indexed URLs must each
  * either redirect to a real page or carry over unchanged. Nothing may 404, chain,
  * or loop.
  *
- * The constraints asserted below come from the deployed drjenortho-redirects
- * function, which serves the whole RoosterGrin fleet and is not ours to change:
+ * The handler is shared infrastructure, identical for every site, so the data has
+ * to satisfy its input contract rather than the other way round:
  *
- *   - Top-level key is the S3 BUCKET NAME, not the domain. The function runs on
- *     origin-response, where request.headers.host is the origin's host, so
- *     `.split('.')[0]` yields `valleyorthodontics`.
- *   - Keys are the COMPLETED URI. nuxt-url-completion:9 runs first, on
- *     origin-request, and rewrites request.uri to `<path>/index.html`, so a bare
- *     or trailing-slash key can never match. Paths whose last segment holds a dot
- *     are left uncompleted and keyed literally. See completeUri below.
- *   - Destinations must be ABSOLUTE. The relative branch builds
- *     `https://${host}.com${newURI}` with .com hardcoded, and this practice is
- *     .net — a relative destination would point at a domain it does not own.
- *   - `redirects[host].hasOwnProperty(...)` is unguarded, so associating the
- *     function before this site's key exists in its redirects.json throws on
- *     every request and returns 502 sitewide. Add the key, publish the version,
- *     then associate it.
+ *   - Top-level key is the S3 BUCKET NAME, not the domain.
+ *   - Keys are the COMPLETED URI: a directory path has already been rewritten to
+ *     `<path>/index.html` by the time the map is consulted, so a bare or
+ *     trailing-slash key can never match. A path whose last segment holds a dot
+ *     is not rewritten and is keyed literally. See completeUri below.
+ *   - Destinations must be ABSOLUTE. A relative destination is resolved against a
+ *     .com host, and this practice is .net, so it would point at a domain the
+ *     practice does not own.
  */
 
 const fs = require('fs')
@@ -38,13 +32,10 @@ const norm = p => (String(p).split(/[#?]/)[0].replace(/\/+$/, '') || '/').toLowe
 const localPath = d => norm(String(d).replace(SITE, '')) || '/'
 
 /**
- * Mirrors nuxt-url-completion, the origin-request Lambda@Edge function already
- * attached to the site distribution. It rewrites request.uri BEFORE the redirect
- * function (an origin-response trigger) reads it, so the only URI shape the map is
- * ever asked about is the completed one: a directory path becomes
- * `<path>/index.html`, and a path whose last segment has a file extension is left
- * alone. Verified against the deployed source, and against the fleet's own
- * redirects.json where 98% of keys end in index.html and none end in a slash.
+ * Mirrors the URL completion that runs upstream of the redirect lookup, so the
+ * only URI shape the map is ever asked about is the completed one: a directory
+ * path becomes `<path>/index.html`, and a path whose last segment has a file
+ * extension is left alone. Matches the key form used throughout the shared map.
  */
 const completeUri = (uri) => {
   const p = String(uri).replace(SITE, '') || '/'
@@ -122,9 +113,9 @@ describe('redirect map', () => {
   })
 
   it('uses absolute destinations', () => {
-    // The Lambda builds relative destinations as `https://${host}.com${newURI}`,
-    // with .com hardcoded. This site is .net, so a relative destination would
-    // send visitors to a domain the practice does not own.
+    // A relative destination is resolved against a .com host. This site is .net,
+    // so a relative destination would send visitors to a domain the practice does
+    // not own.
     const relative = Object.entries(map).filter(([, to]) => !to.startsWith(`${SITE}/`))
     expect(relative).toEqual([])
   })

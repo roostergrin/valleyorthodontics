@@ -6,8 +6,9 @@
  *
  * The WordPress site is being decommissioned at cutover, so every one of these
  * URLs 404s the moment DNS flips. This script only reads: it downloads to
- * media-staging/ and writes a manifest. Nothing in data/ is touched here —
- * scripts/tokenize-media.js does the JSON rewrite.
+ * media-staging/ and writes a manifest. Nothing in data/ is touched here: the
+ * JSON was rewritten to {{cdn}} tokens in a separate one-shot pass that has
+ * already run, so anything collected now needs its reference added by hand.
  *
  *   node scripts/migrate-media.js            # download + verify + manifest
  *   node scripts/migrate-media.js --dry-run  # list what would be downloaded

@@ -15,13 +15,15 @@
  *                      page maps to which new page (kept as the source of truth)
  *   dist/              to confirm every destination is a real generated route
  *
- * Output: infra/redirect-map.json, in the shape the edge Lambda consumes.
+ * Output: infra/redirect-map.json, in the shape the shared edge redirect handler
+ * consumes.
  *
  * Pre-cutover tool: the inputs are a snapshot of a WordPress site that stops
  * existing at launch, so this cannot be re-run afterwards and the map is frozen
- * at that point. The Lambda's contract — key shape, bucket-name key, absolute
- * destinations, the unguarded lookup — is documented in test/redirect-map.spec.js,
- * which is what enforces it and what outlives this script.
+ * at that point. The input contract the output has to satisfy — key shape,
+ * bucket-name key, absolute destinations — is documented in
+ * test/redirect-map.spec.js, which is what enforces it and what outlives this
+ * script.
  */
 
 const fs = require('fs')
@@ -34,15 +36,15 @@ const DOMAIN = 'valleyorthodontics'
 // shouldRedirectAttachment below. --all-attachments restores them for auditing.
 const ALL_ATTACHMENTS = process.argv.includes('--all-attachments')
 
-// The edge Lambda builds a relative destination as `https://${host}.com${newURI}`,
-// with .com hardcoded — and this site is .net. Any destination containing
-// "https://" is passed through untouched, so every destination here is absolute.
+// A relative destination is resolved against a .com host — and this site is .net.
+// Absolute destinations are passed through untouched, so every destination here is
+// absolute.
 const SITE = 'https://www.valleyorthodontics.net'
 
-// The edge Lambda looks request.uri up verbatim and is shared across the whole
-// fleet, so it will not be changed to normalise. It does not need to: url
-// completion upstream means request.uri is always the /index.html form by the
-// time this trigger reads it, so that is the only key shape emitted.
+// The lookup is exact, and the handler is shared across every site so it will not
+// be changed to normalise. It does not need to: URL completion upstream means the
+// path is always in /index.html form by the time the map is consulted, so that is
+// the only key shape emitted.
 
 const legacy = require(path.join(ROOT, 'test', 'fixtures', 'legacy-urls.json'))
 const parentsFixture = require(path.join(ROOT, 'test', 'fixtures', 'legacy-parents.json'))
@@ -204,9 +206,9 @@ for (const p of legacy.attachments) {
 // No destination may itself be a redirect source: a two-hop 301 leaks link equity,
 // and if the intermediate exists only as a rule it breaks outright.
 let collapsed = 0
-// Mirrors nuxt-url-completion, so a destination is looked up under the same key
-// shape the edge would actually ask for. Probing the bare path instead would
-// silently match nothing and let chains through.
+// Mirrors the upstream URL completion, so a destination is looked up under the
+// same key shape the edge would actually ask for. Probing the bare path instead
+// would silently match nothing and let chains through.
 const completeUri = (p) => {
   const local = norm(String(p).replace(SITE, '')) || '/'
   if (local.split('/').pop().includes('.')) { return local }
