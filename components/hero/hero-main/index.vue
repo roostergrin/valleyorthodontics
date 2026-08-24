@@ -14,7 +14,10 @@ export default {
     }
   },
   data: () => ({
-    videoPlaying: true,
+    // false until playback actually starts: the video is not fetched during the
+    // initial render, so a pause control would be lying about the state.
+    videoPlaying: false,
+    videoSrc: null,
     mediaReady: false,
     options: {
       root: null,
@@ -64,10 +67,13 @@ export default {
     if (this.$refs.image) {
       this.loadImage()
     }
-    if (this.$refs.video) {
-      this.$refs.video.addEventListener('loadeddata', this.handleMediaReady, { once: true })
-      this.$refs.video.addEventListener('error', this.handleMediaReady, { once: true })
-      window.setTimeout(this.handleMediaReady, 3000)
+    if (this.props.media_type === 'video') {
+      // Reveal on the poster, not on the video. This used to wait for
+      // 'loadeddata' with a 3s fallback, and because the page sits at opacity 0
+      // until VIEW_SITE is dispatched — and LCP ignores zero-opacity elements —
+      // a slow connection meant a guaranteed 3s LCP on the homepage.
+      this.handleMediaReady()
+      this.queueVideoLoad()
     }
     if (!this.$refs.video && !this.props.image.src) {
       if (!this.$store.state.siteLoaded) {
@@ -77,6 +83,37 @@ export default {
     }
   },
   methods: {
+    // The hero video is decorative and large. Fetching it after the page has
+    // painted keeps it from competing with the CSS, fonts and hero poster.
+    queueVideoLoad () {
+      const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      if (reduceMotion) {
+        // Leave the poster in place; nothing is lost but the movement.
+        return
+      }
+
+      const start = () => {
+        this.videoSrc = this.props.video.src
+        this.$nextTick(() => {
+          const video = this.$refs.video
+          if (!video) {
+            return
+          }
+          const played = video.play()
+          if (played && typeof played.then === 'function') {
+            played.then(() => { this.videoPlaying = true }).catch(() => { this.videoPlaying = false })
+          } else {
+            this.videoPlaying = true
+          }
+        })
+      }
+
+      if (window.requestIdleCallback) {
+        window.requestIdleCallback(start, { timeout: 2500 })
+      } else {
+        window.setTimeout(start, 1200)
+      }
+    },
     loadImage () {
       // The <img> is already in the document; just wait for it to decode.
       // Queried by tag rather than by child index — the previous
@@ -94,11 +131,19 @@ export default {
       image.addEventListener('error', this.handleMediaReady, { once: true })
     },
     playVideo () {
-      this.$refs.video.play()
-      this.videoPlaying = true
+      // Covers the case where a visitor hits play before the deferred load ran.
+      if (!this.videoSrc) {
+        this.videoSrc = this.props.video.src
+      }
+      this.$nextTick(() => {
+        this.$refs.video.play()
+        this.videoPlaying = true
+      })
     },
     pauseVideo () {
-      this.$refs.video.pause()
+      if (this.$refs.video) {
+        this.$refs.video.pause()
+      }
       this.videoPlaying = false
     },
     handleCtaClick () {

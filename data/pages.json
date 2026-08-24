@@ -34,10 +34,11 @@
         }
       },
       "video": {
-        "src": "{{cdn}}/home-hero-full-1080p.mp4",
+        "src": "{{cdn}}/home-hero-30s.mp4",
         "webm": "",
         "title": "Valley Orthodontics welcome video",
-        "poster": "{{cdn}}/home-hero-poster.jpg"
+        "poster": "{{cdn}}/home-hero-poster-2.jpg",
+        "poster_webp": "{{cdn}}/home-hero-poster-2.webp"
       },
       "small": false
     },
