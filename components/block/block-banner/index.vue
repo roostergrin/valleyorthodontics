@@ -16,12 +16,16 @@ export default {
       default: () => ({})
     }
   },
-  data: () => ({
-    jpgSrc: null,
-    webpSrc: null,
-    imageLoaded: false
-  }),
   computed: {
+    // Computed rather than assigned from a GSAP scrollTrigger callback, which
+    // left the banner background out of the generated HTML entirely. Native
+    // loading="lazy" now handles deferral.
+    jpgSrc () {
+      return this.props.image && this.props.image.src ? this.props.image.src : null
+    },
+    webpSrc () {
+      return this.props.image && this.props.image.webp ? this.props.image.webp : null
+    },
     socialLinks () {
       if (this.props.content_block === 'social_block') {
         return globalData.footer.social_media
@@ -31,7 +35,6 @@ export default {
   },
   mounted () {
     if (this.props.background_type === 'has_image') {
-      this.lazyLoad()
       this.$nextTick(() => {
         this.imageParallax()
       })
@@ -41,28 +44,6 @@ export default {
     })
   },
   methods: {
-    lazyLoad () {
-      const section = document.querySelector('.block-banner')
-
-      this.$gsap.to(this.$refs.theImage, {
-        scrollTrigger: {
-          trigger: section,
-          start: '-50% bottom',
-          onEnter: this.loadImage,
-          once: true
-        }
-      })
-    },
-    loadImage () {
-      const image = this.$refs.theImage
-      if (this.props.image.webp) {
-        this.webpSrc = this.props.image.webp
-      }
-      this.jpgSrc = this.props.image.src
-      image.children[1].onload = () => {
-        this.imageLoaded = true
-      }
-    },
     imageParallax () {
       const section = document.querySelector('.block-banner')
       const img = document.querySelector('.block-banner__background-image')

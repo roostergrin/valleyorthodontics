@@ -1,24 +1,6 @@
 import axios from 'axios'
-import { api, url, cdn } from './api'
-
-// Recursively expand the "{{cdn}}" token in any string within the given data so
-// that JSON content can reference CloudFront assets without hard-coding the URL.
-const expandCdnTokens = (data) => {
-  if (typeof data === 'string') {
-    return data.replace(/\{\{cdn\}\}/g, cdn)
-  }
-  if (Array.isArray(data)) {
-    return data.map(expandCdnTokens)
-  }
-  if (data && typeof data === 'object') {
-    const out = {}
-    for (const key of Object.keys(data)) {
-      out[key] = expandCdnTokens(data[key])
-    }
-    return out
-  }
-  return data
-}
+import { api, url } from './api'
+import { expandCdnTokens } from './cdn'
 
 export const getAllPages = async () => {
   try {
@@ -58,7 +40,19 @@ export const getAllPages = async () => {
 }
 
 // gets data for all forms
+//
+// Local mirror first. The WordPress forms endpoint lives on the domain this site
+// replaces, so post-cutover every call is a guaranteed failure — and the layout
+// fetches forms on every route, which meant one dead request per generated page.
 export const getForms = async () => {
+  try {
+    const local = expandCdnTokens(require('../data/forms.json'))
+    if (Array.isArray(local) ? local.length : Object.keys(local).length) {
+      return local
+    }
+  } catch (e) {
+    console.warn(`Falling back to the live forms API; local data/forms.json unavailable: ${e}`)
+  }
   try {
     const response = await axios.get(
       `${api}/wp/v2/forms?per_page=100`
@@ -79,7 +73,7 @@ export const getForms = async () => {
     }))
   } catch (e) {
     console.warn(`Using local form fallback because the forms API is unavailable: ${e}`)
-    return require('../data/forms.json')
+    return expandCdnTokens(require('../data/forms.json'))
   }
 }
 
@@ -90,7 +84,7 @@ export const getCustomPosts = async (customPostType, total = 100) => {
   // locally in the shape the listing + BlockPost components expect.
   if (customPostType === 'posts') {
     try {
-      return require('../data/posts.json')
+      return expandCdnTokens(require('../data/posts.json'))
     } catch (e) {
       console.warn(`Falling back to live posts API; local data/posts.json unavailable: ${e}`)
     }
@@ -142,7 +136,7 @@ export const getCustomPosts = async (customPostType, total = 100) => {
 }
 
 export const getThemeJSON = () => {
-  return require('../data/theme.json')
+  return expandCdnTokens(require('../data/theme.json'))
 }
 
 export const setJSONData = (slug, customPostType = 'pages') => {
@@ -200,7 +194,7 @@ export const setData = async (slug, customPostType = 'pages') => {
   // static build doesn't depend on the (empty) live ACF for posts.
   if (customPostType === 'posts') {
     try {
-      const local = require('../data/posts.json')
+      const local = expandCdnTokens(require('../data/posts.json'))
       const item = (local.posts || []).find(p => p.slug === slug)
       if (item) {
         return { title: item.title, slug: item.slug, ...item.post }
@@ -225,26 +219,59 @@ export const setData = async (slug, customPostType = 'pages') => {
   }
 }
 
+// Routes that exist in the build but must never be indexed. Kept here (rather
+// than in config/routes.config.js) because that module reads the filesystem and
+// cannot be bundled for the client.
+const NOINDEX_PATHS = ['/404', '/blog', '/thank-you']
+
+/**
+ * Absolute URL for a route path. `url` carries a trailing slash, so the leading
+ * slash is stripped and '/' collapses to the bare origin.
+ */
+const absoluteUrl = (routePath = '') => {
+  const clean = String(routePath).replace(/^\/+/, '').replace(/\/+$/, '')
+  return `${url}${clean}`
+}
+
 export const setMeta = (meta) => {
   // Get the SEO data from either meta.seo or meta.meta.seo
   const seoData = meta.seo || (meta.meta && meta.meta.seo) || {}
 
+  // Prefer the real route path. `meta.slug` is the legacy input and was wrong in
+  // three ways: absent on the six file-based pages (so /about, /contact, /faq,
+  // /get-started and /treatments all canonicalized to the homepage), missing the
+  // `blog/` prefix on posts (so all 15 canonicalized to legacy WordPress URLs
+  // that 301 straight back to the post), and hardcoded to 'blog' on pagination.
+  const routePath = meta.path || (meta.slug ? `/${meta.slug}` : '/')
+  const canonical = absoluteUrl(routePath)
+
+  // Blog posts are articles; the listing and pagination are not.
+  const isArticle = /^\/blog\/(?!page\/)./.test(routePath)
+  const noIndex = seoData.noindex === true || NOINDEX_PATHS.includes(routePath.replace(/\/+$/, '') || '/')
+  const ogImage = seoData.social_meta?.og_meta?.image
+
   return {
     title: seoData.page_title ? seoData.page_title : meta.title,
     meta: [
+      noIndex && { hid: 'robots', name: 'robots', content: 'noindex, follow' },
       seoData.page_description && { hid: 'description', name: 'description', content: seoData.page_description },
       seoData.page_keywords && { hid: 'keywords', name: 'keywords', content: seoData.page_keywords },
-      // // OG Meta
-      { hid: 'og:type', property: 'og:type', content: 'website' },
+      // OG Meta
+      { hid: 'og:type', property: 'og:type', content: isArticle ? 'article' : 'website' },
       seoData.page_title && { hid: 'og:title', property: 'og:title', content: seoData.social_meta?.og_meta?.title ? seoData.social_meta.og_meta.title : seoData.page_title },
       seoData.page_description && { hid: 'og:description', property: 'og:description', content: seoData.social_meta?.og_meta?.description ? seoData.social_meta.og_meta.description : seoData.page_description },
-      seoData.social_meta?.og_meta?.image && { hid: 'og:image', property: 'og:image', content: seoData.social_meta.og_meta.image },
-      { hid: 'og:url', property: 'og:url', content: `${url}${meta.slug || ''}` }
+      ogImage && { hid: 'og:image', property: 'og:image', content: ogImage },
+      { hid: 'og:url', property: 'og:url', content: canonical },
+      // Twitter cards
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+      seoData.page_title && { hid: 'twitter:title', name: 'twitter:title', content: seoData.social_meta?.og_meta?.title ? seoData.social_meta.og_meta.title : seoData.page_title },
+      seoData.page_description && { hid: 'twitter:description', name: 'twitter:description', content: seoData.social_meta?.og_meta?.description ? seoData.social_meta.og_meta.description : seoData.page_description },
+      ogImage && { hid: 'twitter:image', name: 'twitter:image', content: ogImage }
     // Drop falsy entries (missing description/keywords/og:image) so vue-meta
     // doesn't try to read `.hid` off an undefined array element.
     ].filter(Boolean),
     link: [
-      { hid: 'canonical', rel: 'canonical', href: `${url}${meta.slug || ''}` }
+      { hid: 'canonical', rel: 'canonical', href: canonical }
     ].filter(Boolean)
   }
 }

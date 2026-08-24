@@ -17,6 +17,6 @@
           v-else-if='section.button && section.button.label',
           :props='section.button'
         )
-        BaseImage.block-accordion__image(v-if='section.media_type === "image" && section.has_media' v-bind='section.image', forceVisible :bgColor='section.image.loading_mask ? section.image.loading_mask : null ')
+        BaseImage.block-accordion__image(v-if='section.media_type === "image" && section.has_media' v-bind='section.image', :bgColor='section.image.loading_mask ? section.image.loading_mask : null ')
         iframe.block-accordion__video(v-else-if='section.media_type === "video" && section.video.type === "embedded" && section.has_media', :src='section.video.src', title="YouTube video player", frameborder="0", allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture", allowfullscreen)
         video.block-accordion__video(v-else-if='section.media_type === "video" && section.video.type === "file" && section.has_media' :src='section.video.src' controls type='video/mp4' ref='video')

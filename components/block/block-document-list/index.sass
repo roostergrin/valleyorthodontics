@@ -1,0 +1,228 @@
+.block-document-list
+  position: relative
+  overflow: hidden
+
+  &--bg1
+    background: var(--bg-1)
+
+  &--bg2
+    background: var(--bg-2)
+
+  &__container
+    @include container
+
+  &__header,
+  &__body,
+  &__note
+    @include col (10)
+    @include col--offset (1)
+    @include tablet-lg
+      margin-left: 0
+      width: 100%
+
+  &__header
+    margin-bottom: 2.5rem
+    text-align: center
+    @include phone-lg
+      margin-bottom: 2rem
+
+  &__eyebrow
+    @extend %body-small
+    margin-bottom: .75rem
+    text-transform: uppercase
+    color: var(--primary)
+    font-weight: 700
+
+  &__title
+    @extend %h1
+    margin: 0 auto 1rem
+    max-width: rem-calc(880)
+
+  &__intro
+    @extend %body
+    margin: 0 auto
+    max-width: rem-calc(780)
+
+  &__tabs
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    gap: .75rem
+    margin-bottom: 2rem
+    @include phone-lg
+      // Three equal columns beats wrapping on a phone: the group a patient wants
+      // is always in the first row, which is the whole point of the tabs.
+      display: grid
+      grid-template-columns: repeat(3, minmax(0, 1fr))
+      gap: .5rem
+
+  &__tab
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    gap: .5rem
+    transition: background .25s ease, border-color .25s ease, color .25s ease
+    border: rem-calc(2) solid rgba(var(--primary-rgb), .25)
+    border-radius: rem-calc(999)
+    background: transparent
+    cursor: pointer
+    padding: .7rem 1.5rem
+    color: var(--primary)
+    font-weight: 700
+    @include phone-lg
+      padding: .7rem .5rem
+
+    @include hover-supported
+      &:hover
+        border-color: var(--primary)
+        background: rgba(var(--primary-rgb), .08)
+
+    &:focus-visible
+      outline: rem-calc(2) solid var(--primary)
+      outline-offset: rem-calc(3)
+
+    &--active
+      border-color: var(--primary)
+      background: var(--primary)
+      color: var(--bg-1)
+
+  &__tab-label
+    @extend %button-text
+
+  &__tab-count
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    border-radius: rem-calc(999)
+    background: rgba(var(--primary-rgb), .12)
+    width: rem-calc(24)
+    height: rem-calc(24)
+    line-height: 1
+    color: var(--primary)
+    font-size: rem-calc(13)
+    font-weight: 700
+
+    .block-document-list__tab--active &
+      background: rgba($white, .2)
+      color: var(--bg-1)
+
+  &__summary
+    @extend %body
+    margin: 0 auto 1.5rem
+    max-width: rem-calc(720)
+    text-align: center
+
+  &__docs
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(rem-calc(320), 1fr))
+    gap: 1rem
+    margin: 0
+    padding: 0
+    list-style: none
+    @include phone-lg
+      grid-template-columns: 1fr
+
+  &__doc
+    display: flex
+
+  &__doc-link
+    display: flex
+    align-items: center
+    gap: 1rem
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease
+    border: rem-calc(1) solid rgba(var(--primary-rgb), .16)
+    border-radius: rem-calc(14)
+    box-shadow: 0 rem-calc(10) rem-calc(26) rgba($black, .045)
+    background: var(--bg-1)
+    padding: 1.15rem 1.25rem
+    width: 100%
+    text-decoration: none
+    color: var(--text)
+    @include phone-lg
+      gap: .85rem
+      padding: 1rem
+
+    @include hover-supported
+      &:hover
+        transform: translateY(rem-calc(-2))
+        border-color: var(--primary)
+        box-shadow: 0 rem-calc(16) rem-calc(34) rgba($black, .09)
+
+        .block-document-list__doc-title
+          color: var(--primary)
+
+        .block-document-list__doc-arrow
+          transform: translateX(rem-calc(3))
+
+    &:focus-visible
+      outline: rem-calc(2) solid var(--primary)
+      outline-offset: rem-calc(3)
+
+  &__doc-icon
+    display: flex
+    flex-shrink: 0
+    align-items: center
+    justify-content: center
+    border-radius: rem-calc(12)
+    background: rgba(var(--secondary-rgb), .18)
+    width: rem-calc(48)
+    height: rem-calc(48)
+
+    svg
+      width: rem-calc(26)
+      height: rem-calc(26)
+
+      path
+        fill: var(--primary)
+
+  &__doc-text
+    display: flex
+    flex-direction: column
+    gap: .3rem
+    min-width: 0
+
+  &__doc-title
+    @extend %h5
+    margin: 0
+    line-height: 1.25
+    color: var(--text)
+    font-weight: 700
+
+  &__doc-description
+    @extend %body-small
+    line-height: 1.45
+
+  &__doc-meta
+    display: flex
+    flex-shrink: 0
+    align-items: center
+    gap: .4rem
+    margin-left: auto
+    color: var(--primary)
+
+  &__doc-format
+    @extend %body-small
+    letter-spacing: rem-calc(.5)
+    font-weight: 700
+    @include phone-lg
+      // The arrow alone carries the affordance once space is tight.
+      display: none
+
+  &__doc-arrow
+    transition: transform .25s ease
+    width: rem-calc(13)
+    height: rem-calc(13)
+    stroke-width: .5rem
+
+    svg
+      transform: rotate(-90deg)
+      width: 100%
+      height: 100%
+
+      line
+        stroke: currentColor
+
+  &__note
+    @extend %body-small
+    margin-top: 2rem
+    text-align: center

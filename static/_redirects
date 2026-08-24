@@ -1,5 +1,13 @@
 # Canonical replacements for legacy WordPress pages
 /about-us/ /about 301
+# Staff bios retired at launch: they were indexed on the old site but linked from
+# nowhere, so they sent search traffic to a dead end. The team page carries the
+# staff now.
+/meet-marina-our-orthodontic-assistant/ /meet-the-team 301
+/meet-carrie-our-patient-care-coordinator/ /meet-the-team 301
+/meet-abi-our-dental-assistant/ /meet-the-team 301
+/meet-alison-our-orthodontic-assistant/ /meet-the-team 301
+/meet-anna-our-practice-coordinator/ /meet-the-team 301
 /accessibility-statement/ /accessibility 301
 /complimentary-consultation/ /contact#form 301
 /for-adults/ /all-ages-treatments#adults 301
@@ -10,12 +18,14 @@
 /privacypolicy/ /privacy-policy 301
 /what-to-expect-on-the-first-day-of-braces/ /braces 301
 
-# The replacement site uses one blog index instead of a WordPress category archive
-/category/all-posts/ /blog 301
+# The replacement site uses one blog index instead of a WordPress category archive.
+# /blog itself is only a client-side redirect shell, so send it to the real listing.
+/category/all-posts/ /blog/page/1 301
+/blog/ /blog/page/1 301
 
 # WordPress posts move from root-level slugs to the replacement site's blog routes
-# This newest post is not in the local content snapshot yet, so avoid redirecting to a 404
-/patient-appreciation-ice-cream-social-2026/ /blog 301
+/patient-appreciation-ice-cream-social-2026/ /blog/patient-appreciation-ice-cream-social-2026 301
+/orthodontics-for-teens-braces-invisalign-and-everything-in-between/ /blog/orthodontics-for-teens-braces-invisalign-and-everything-in-between 301
 /introducing-grin-remote-orthodontic-monitoring-valley-orthodontics/ /blog/introducing-grin-remote-orthodontic-monitoring-valley-orthodontics 301
 /adult-orthodontics-its-never-too-late-for-a-beautiful-healthy-smile/ /blog/adult-orthodontics-its-never-too-late-for-a-beautiful-healthy-smile 301
 /traveling-with-invisalign-airports-eating-out-and-keeping-track-of-aligners/ /blog/traveling-with-invisalign-airports-eating-out-and-keeping-track-of-aligners 301
@@ -66,7 +76,7 @@
 /team-photo-2/ /about 301
 /team-photo/ /about 301
 /traveling-with-invisalign-aligners/ /blog/traveling-with-invisalign-airports-eating-out-and-keeping-track-of-aligners 301
-/valley-orthodontics-patient-appreciation-ice-cream-social-2026/ /blog 301
+/valley-orthodontics-patient-appreciation-ice-cream-social-2026/ /blog/patient-appreciation-ice-cream-social-2026 301
 /iconix-champagne-gold-braces/attachment/1/ /iconix-champagne-gold-braces 301
 /iconix-champagne-gold-braces/attachment/2/ /iconix-champagne-gold-braces 301
 /iconix-champagne-gold-braces/attachment/3/ /iconix-champagne-gold-braces 301
@@ -98,7 +108,9 @@
 /meet-alison-our-orthodontic-assistant/:attachment/ /meet-alison-our-orthodontic-assistant 301
 /meet-anna-our-practice-coordinator/:attachment/ /meet-anna-our-practice-coordinator 301
 /meet-dr-rocha/:attachment/ /meet-dr-rocha 301
-/meet-marina-our-orthodontic-assistant/:attachment/ /meet-marina-our-orthodontic-assistant 301
+# Marina has no page on the replacement site, so her attachments go straight to
+# the team page rather than chaining through a URL that is itself a redirect.
+/meet-marina-our-orthodontic-assistant/:attachment/ /meet-the-team 301
 /meet-the-team/:attachment/ /meet-the-team 301
 /newsletter/:attachment/ /newsletter 301
 /orthodontic-products-we-recommend/:attachment/ /orthodontic-products-we-recommend 301

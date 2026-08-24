@@ -14,8 +14,6 @@ export default {
     }
   },
   data: () => ({
-    imgSrc: null,
-    webpSrc: null,
     videoPlaying: true,
     mediaReady: false,
     options: {
@@ -25,6 +23,15 @@ export default {
     }
   }),
   computed: {
+    // Computed rather than assigned in mounted(): the hero is the LCP element on
+    // every page, and binding these after hydration kept it out of the static
+    // HTML entirely.
+    imgSrc () {
+      return this.props.image.src || null
+    },
+    webpSrc () {
+      return this.props.image.webp || null
+    },
     routeSlug () {
       return this.$route.path.replace(/^\/|\/$/g, '')
     },
@@ -71,11 +78,20 @@ export default {
   },
   methods: {
     loadImage () {
-      this.imgSrc = this.props.image.src
-      this.webpSrc = this.props.image.webp
-      this.$refs.image.children[1].onload = () => {
+      // The <img> is already in the document; just wait for it to decode.
+      // Queried by tag rather than by child index — the previous
+      // children[1] lookup broke whenever a <source> was added or removed.
+      const image = this.$refs.image.querySelector('img')
+      if (!image) {
         this.handleMediaReady()
+        return
       }
+      if (image.complete) {
+        this.handleMediaReady()
+        return
+      }
+      image.addEventListener('load', this.handleMediaReady, { once: true })
+      image.addEventListener('error', this.handleMediaReady, { once: true })
     },
     playVideo () {
       this.$refs.video.play()

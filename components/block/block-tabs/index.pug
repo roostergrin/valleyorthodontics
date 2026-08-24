@@ -3,7 +3,7 @@ article.block-tabs(:class="[props.background ? 'block-tabs--' + props.background
   .block-tabs__container(:class="{ 'block-tabs__container--reverse': props.reverse }")
     .block-tabs__left
       .block-tabs__image-container
-        BaseImage.block-tabs__image(v-if='!props.is_dynamic' v-bind='props.image' forceVisible)
+        BaseImage.block-tabs__image(v-if='!props.is_dynamic' v-bind='props.image')
         BaseImage.block-tabs__image.block-tabs__image--dynamic(v-else v-for='(tab, i ) in props.tabs',
           v-bind='tab.image.image'
           :key='`image-${i}`'

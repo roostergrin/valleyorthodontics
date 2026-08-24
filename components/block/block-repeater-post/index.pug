@@ -3,7 +3,9 @@ section.block-repeater-post(:style='{ minHeight: `${elemMinHeight}px` }')
     .block-repeater-post__container
       h3 Loading...
   .block-repeater-post__container(ref='container')
-    h1.block-repeater-post__title(v-if='props.title' v-html='props.title' ref='header')
+    //- h2, not h1: the blog listing already gets its h1 from the hero above
+    //- this block, so an h1 here gave /blog two of them.
+    h2.block-repeater-post__title(v-if='props.title' v-html='props.title' ref='header')
     .block-repeater-post__posts(v-if='props && havePosts')
       .block-repeater-post__post.block-repeater-post__post--row(v-for='(post, i) in $store.state.posts.postsPerPage[$route.params.page]',  :key=`$route.name + ' post ' + i` ref='posts')
         .block-repeater-post__post-image-container

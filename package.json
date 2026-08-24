@@ -12,7 +12,13 @@
     "build": "node scripts/process-logo.js && nuxt build --config-file config/nuxt.config.js",
     "start": "node scripts/process-logo.js && nuxt --config-file config/nuxt.config.js",
     "generate": "node scripts/process-logo.js && nuxt generate --config-file config/nuxt.config.js",
-    "deploy": "npm run generate"
+    "deploy": "npm run generate",
+    "media:collect": "node scripts/migrate-media.js",
+    "media:tokenize": "node scripts/tokenize-media.js",
+    "media:verify": "node scripts/verify-cdn-assets.js",
+    "prelaunch:check": "npm run lint && npx jest test/redirect-map.spec.js --coverage=false",
+    "redirects:capture": "node scripts/fetch-legacy-urls.js",
+    "redirects:map": "node scripts/build-redirect-map.js"
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.13.9",

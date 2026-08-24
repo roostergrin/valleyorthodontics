@@ -7,6 +7,7 @@ import BlockBeforeAfterSlider from '~/components/block/block-before-after-slider
 import BlockSmileGallery from '~/components/block/block-smile-gallery'
 import BlockContact from '~/components/block/block-contact'
 import BlockContactForm from '~/components/block/block-contact-form'
+import BlockDocumentList from '~/components/block/block-document-list'
 import BlockGrid from '~/components/block/block-grid'
 import BlogPosts from '~/components/block/block-repeater-post'
 import BlockImage from '~/components/block/block-image'
@@ -40,6 +41,7 @@ export default {
     BlockSmileGallery,
     BlockContact,
     BlockContactForm,
+    BlockDocumentList,
     BlockGrid,
     BlockImage,
     BlockImageText,
@@ -192,6 +194,24 @@ export default {
       const hasBackground = (section.has_background || section.background_type === 'has_background') && section.background
 
       return hasBackground ? sectionBackgroundLabels[section.background] || null : null
+    },
+    /**
+     * True for the first section that actually renders. Used to decide which
+     * block owns the page's h1: most pages get it from the hero, but a page whose
+     * hero is hidden (hide_component) would otherwise ship with no h1 at all.
+     */
+    isFirstRenderedSection (section, i) {
+      const sections = this.renderedSections || []
+
+      for (let index = 0; index < sections.length; index++) {
+        const candidate = sections[index]
+        if (!candidate || !candidate.acf_fc_layout || candidate.hide_component) {
+          continue
+        }
+        return index === i
+      }
+
+      return false
     },
     hasSectionTitleOverride (section, i) {
       const sectionOverrides = this.$store.state.theme?.sectionOverrides || {}

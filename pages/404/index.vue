@@ -9,6 +9,16 @@ export default {
       default: () => ({})
     }
   },
+  // This route is still generated (layouts/error.vue handles thrown errors),
+  // so keep it out of the index explicitly.
+  head () {
+    return {
+      title: 'Page not found',
+      meta: [
+        { hid: 'robots', name: 'robots', content: 'noindex, follow' }
+      ]
+    }
+  },
   mounted () {
     this.$nextTick(() => {
       setTimeout(() => {

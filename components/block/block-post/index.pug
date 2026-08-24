@@ -8,7 +8,9 @@ section.block-post
 
     .block-post__text
 
-      h2.block-post__title(v-html='props.blog_post.title' ref='title')
+      //- h1: this is the post detail page's main heading. Every post shipped
+      //- with no h1 at all while the title rendered as an h2.
+      h1.block-post__title(v-html='props.blog_post.title' ref='title')
       .block-post__date(v-html='props.blog_post.date' ref='date')
 
       .block-post__social-group(ref='social')

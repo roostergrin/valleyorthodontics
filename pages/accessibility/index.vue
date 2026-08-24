@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { setJSONData } from '~/resources/utils'
+import { setJSONData, setMeta } from '~/resources/utils'
 
 export default {
   components: {},
@@ -17,13 +17,17 @@ export default {
     return { props: data }
   },
   head () {
-    return {
-      title: `Accessibility Statement - ${this.props.company_name}`,
-      meta: [
-        { hid: 'description', name: 'description', content: `${this.props.company_name} is committed to facilitating the accessibility and usability of its website for everyone.` },
-        { hid: 'og:title', property: 'og:title', content: `Accessibility Statement - ${this.props.company_name}` }
-      ]
-    }
+    const title = `Accessibility Statement - ${this.props.company_name}`
+    const description = `${this.props.company_name} is committed to facilitating the accessibility and usability of its website for everyone.`
+
+    return setMeta({
+      path: this.$route.path,
+      title,
+      seo: {
+        page_title: title,
+        page_description: description
+      }
+    })
   },
   mounted () {
     this.$nextTick(() => {

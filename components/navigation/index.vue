@@ -21,7 +21,13 @@ export default {
     props: null,
     scrollPos: null,
     scrollDir: null,
-    windowWidth: 0,
+    // SSR default. Both nav branches are gated on windowWidth (> 1280 desktop,
+    // <= 1280 mobile), so a 0 here rendered NEITHER during `nuxt generate` and no
+    // navigation links reached the static HTML at all — crawlers saw a site with
+    // no internal linking. Defaulting to a desktop width puts the full link list
+    // in the markup. There is no flash risk: .navigation is opacity 0 until the
+    // client sets siteLoaded, by which point windowWidth is the real value.
+    windowWidth: 1440,
     drawerOpen: false,
     dropdownActive: false,
     currentDropdown: null

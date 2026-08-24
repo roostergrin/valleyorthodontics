@@ -5,8 +5,7 @@ export const api = 'https://www.valleyorthodontics.net/wp-json'
 // Make sure the url contains the trailing "/"
 export const url = 'https://www.valleyorthodontics.net/'
 
-// CDN base for media hosted on CloudFront. In data/*.json, reference these
-// assets with the "{{cdn}}" token (e.g. "{{cdn}}/home-hero-poster.jpg") and it
-// is expanded to the full URL at load time (see setJSONData in utils.js). No
-// trailing slash — always start the path with "/".
-export const cdn = 'https://d1euqd8u2uyjl7.cloudfront.net'
+// The CDN base and the {{cdn}} token expander live in resources/cdn.js so that
+// config/nuxt.config.js can use the expander at build time without importing the
+// whole data layer. Re-exported here for back-compat with existing imports.
+export { cdn, expandCdnTokens } from './cdn'

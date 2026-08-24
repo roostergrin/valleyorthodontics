@@ -2,6 +2,17 @@
 
 <script>
 
+/**
+ * The <img> and its srcset are bound straight to the props so they exist in the
+ * statically generated HTML.
+ *
+ * This component previously gated its whole template behind `v-if="loaded"` with
+ * `loaded` set in mounted(), and only assigned src/srcset inside an
+ * IntersectionObserver callback. The result was that `nuxt generate` emitted no
+ * <img> tags at all: no src and no alt reached the served document, so images
+ * could not be indexed and a hero image could never be the LCP element. Lazy
+ * loading is now the browser's native `loading` attribute instead.
+ */
 export default {
   props: {
     src: {
@@ -9,10 +20,6 @@ export default {
       default: () => ``
     },
     webp: {
-      type: String,
-      default: () => ``
-    },
-    jp2: {
       type: String,
       default: () => ``
     },
@@ -34,16 +41,19 @@ export default {
     },
     alt: {
       type: String,
-      default: () => {
-        if (process.client) {
-          return `${document.location.hostname} image for section`
-        }
-      }
+      // Empty rather than a generated string: the old default read
+      // document.location under process.client only, so SSR rendered
+      // alt="undefined" into the markup.
+      default: ''
     },
     forceAlt: {
       type: Boolean,
       default: false
     },
+    // Above-the-fold opt-in: skips lazy loading and raises fetch priority so the
+    // image can be the LCP element. Note that loading="lazy" already loads
+    // anything inside the initial viewport immediately, so this is only needed
+    // where an image must be prioritised, not merely rendered.
     forceVisible: {
       type: Boolean,
       default: false
@@ -51,39 +61,40 @@ export default {
   },
   data () {
     return {
-      currentImg: null,
-      currWebP: null,
-      currJp2: null,
-      imageType: 'contain',
-      loading: true,
-      loaded: false,
-      intersectionOptions: {
-        root: null,
-        rootMargin: '500px 0px 0px 0px',
-        threshold: [ 0.01 ]
-      }
+      hydrated: false,
+      loading: true
     }
   },
-  created () {
-    if (process.client) {
-      if (this.imageBackground) {
-        this.imageType = 'cover'
-      }
+  computed: {
+    imageType () {
+      // Was assigned in created() behind a process.client check, so server
+      // rendering always fell through to 'contain' regardless of the prop.
+      return this.imageBackground ? 'cover' : 'contain'
+    },
+    loadingAttribute () {
+      return this.forceVisible ? 'eager' : 'lazy'
+    },
+    fetchPriority () {
+      return this.forceVisible ? 'high' : null
+    },
+    showOverlay () {
+      // Never rendered server-side: an opaque overlay in the static HTML would
+      // hide the very images this component now emits.
+      return this.hydrated && this.loading
     }
   },
   mounted () {
-    this.loaded = true
+    this.hydrated = true
+    // An image the browser already fetched while parsing the document is
+    // complete before this runs, so no overlay should flash in.
+    const image = this.$refs.image
+    if (!image || image.complete) {
+      this.loading = false
+    }
   },
   methods: {
-    onWaypoint ({ going, direction, el }) {
-      if (going === 'in' || this.forceVisible) {
-        this.currentImg = this.src
-        this.currWebP = this.webp
-        this.currJp2 = this.jp2
-        el.children[2].onload = () => {
-          this.loading = false
-        }
-      }
+    onLoad () {
+      this.loading = false
     }
   }
 }

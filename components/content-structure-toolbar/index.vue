@@ -26,6 +26,7 @@ const sectionIconByLayout = {
   tabs: imageTextIcon,
   block_grid: gridIcon,
   block_resource_grid: gridIcon,
+  block_document_list: gridIcon,
   multi_item_row: gridIcon,
   logo_banner: gridIcon,
   block_masonary_grid: masonryGridIcon,

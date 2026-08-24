@@ -6,7 +6,10 @@
   .block-resource-grid__container
     header.block-resource-grid__header(v-if='props.eyebrow || props.title || props.intro')
       p.block-resource-grid__eyebrow(v-if='props.eyebrow' v-html='props.eyebrow')
-      h2.block-resource-grid__title(v-if='props.title' v-html='props.title')
+      //- Tag is dynamic: on /instructional-videos and
+      //- /orthodontic-products-we-recommend the hero is hidden, so this is the
+      //- first rendered section and owns the page's only h1.
+      component.block-resource-grid__title(:is='headingLevel' v-if='props.title' v-html='props.title')
       p.block-resource-grid__intro(v-if='props.intro' v-html='props.intro')
 
     .block-resource-grid__grid(:data-layout='props.layout')
@@ -23,7 +26,7 @@
             :href='videoHref(item)',
             :aria-label='videoLinkLabel(item)'
           )
-            BaseImage.block-resource-grid__image(v-if='videoThumbnail(item)' v-bind='videoThumbnail(item)' imageBackground forceVisible)
+            BaseImage.block-resource-grid__image(v-if='videoThumbnail(item)' v-bind='videoThumbnail(item)' imageBackground)
             video.block-resource-grid__video(
               v-else-if='isFileVideo(item)',
               :src='item.video.src',
@@ -36,7 +39,7 @@
               BaseIcon.block-resource-grid__play-icon(name='play')
 
         .block-resource-grid__media.block-resource-grid__media--image(v-else-if='isImageCard(item)')
-          BaseImage.block-resource-grid__image(v-bind='item.image' forceVisible)
+          BaseImage.block-resource-grid__image(v-bind='item.image')
 
         .block-resource-grid__icon-shell(v-else-if='item.icon')
           BaseIcon.block-resource-grid__icon(:name='item.icon')

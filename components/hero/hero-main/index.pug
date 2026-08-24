@@ -2,12 +2,14 @@
   .hero-main__overlay
   .hero-main__image-container(v-if='props.media_type === "image"')
     picture.hero-main__picture(ref='image')
-      source(:srcset='webpSrc' type='image/webp')
-      img.hero-main__image(:src='imgSrc', :alt='props.image.alt', :style='imageStyles' :aria-hidden='props.image.alt ? "false" : "true"')
+      source(v-if='webpSrc', :srcset='webpSrc', type='image/webp')
+      img.hero-main__image(:src='imgSrc', :alt='props.image.alt', :style='imageStyles' :aria-hidden='props.image.alt ? "false" : "true"' loading='eager' fetchpriority='high' decoding='async')
   .hero-main__video(v-else-if='props.media_type === "video"')
     video.hero-main__video(:src='props.video.src' :title='props.video.title' :poster='props.video.poster' autoplay muted playsinline loop ref='video')
-      source(:src='props.video.webm', type='video/webm')
-      source(:src='props.video.src', type='video/mp4')
+      //- v-if guards: no webm exists in the data, and an empty src made the
+      //- browser try to load the page itself as a video source.
+      source(v-if='props.video.webm', :src='props.video.webm', type='video/webm')
+      source(v-if='props.video.src', :src='props.video.src', type='video/mp4')
     button.hero-main__video-control(v-if='videoPlaying' @click='pauseVideo' aria-label='pause hero video')
       BaseIcon.hero-main__video-control-pause(name='pause')
     button.hero-main__video-control(v-else-if='!videoPlaying' @click='playVideo' aria-label='play hero video')

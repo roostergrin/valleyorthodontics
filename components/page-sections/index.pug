@@ -24,6 +24,10 @@
       BlockContactForm(v-else-if='section.acf_fc_layout === "form" && !section.hide_component',
         :class='`component-padding--` + section.component_padding',
         :props='section')
+      BlockDocumentList(v-else-if='section.acf_fc_layout === "block_document_list" && !section.hide_component',
+        :class='section.component_options && section.component_options.component_padding ? `component-padding--${section.component_options.component_padding}` : null',
+        :props='section'
+        :heading-level='isFirstRenderedSection(section, i) ? "h1" : "h2"')
       BlockGrid(v-else-if='section.acf_fc_layout === "block_grid" && !section.hide_component',
         :class='`component-padding--` + section.component_padding',
         :props='section')
@@ -47,7 +51,8 @@
         :props='section')
       BlockResourceGrid(v-else-if='section.acf_fc_layout === "block_resource_grid" && !section.hide_component',
         :class='section.component_options && section.component_options.component_padding ? `component-padding--${section.component_options.component_padding}` : null',
-        :props='section')
+        :props='section'
+        :heading-level='isFirstRenderedSection(section, i) ? "h1" : "h2"')
       BlockSingleImageSlider(v-else-if='section.acf_fc_layout === "single_image_slider" && !section.hide_component',
         :class='`component-padding--` + section.component_padding',
         :props='section')

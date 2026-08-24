@@ -17,7 +17,7 @@
             "og_meta": {
               "title": "Orthodontics for Teens: Braces, Invisalign, and Everything In Between",
               "description": "The teen years are one of the most common times to start orthodontic treatment, and for good reason. By the teenage years, most permanent teeth have come in, which makes it an ideal window to guide a smile into place. If you’re a parent in Marin County weighing the options for your teen, here’s what ...",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal.webp"
+              "image": "{{cdn}}/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal.webp"
             }
           }
         },
@@ -26,15 +26,15 @@
           "date": "July 29, 2026",
           "excerpt": "The teen years are one of the most common times to start orthodontic treatment, and for good reason. By the teenage years, most permanent teeth have come in, which makes it an ideal window to guide a smile into place. If you’re a parent in Marin County weighing the options for your teen, here’s what ...",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-768x526.webp",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-768x526.webp",
+            "src": "{{cdn}}/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-768x526.webp",
+            "webp": "{{cdn}}/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-768x526.webp",
             "alt": "Orthodontics for Teens: Braces, Invisalign, and Everything In Between",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-1024x701.webp",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-1024x701.webp",
+            "src": "{{cdn}}/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-1024x701.webp",
+            "webp": "{{cdn}}/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-1024x701.webp",
             "alt": "Orthodontics for Teens: Braces, Invisalign, and Everything In Between",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -42,7 +42,7 @@
           "paragraphs": [
             {
               "header": "",
-              "body": "<p>The teen years are one of the most common times to start <a href=\"/for-teens/\">orthodontic treatment</a>, and for good reason. By the teenage years, most permanent teeth have come in, which makes it an ideal window to guide a smile into place. If you&#8217;re a parent in Marin County weighing the options for your teen, here&#8217;s what you should know.</p>\n<h2>Metal Braces: The Classic for a Reason</h2>\n<p>Metal braces remain a go-to for teens. They&#8217;re effective across a wide range of cases, durable enough for active lifestyles, and today&#8217;s versions are more comfortable than ever. Bonus: many teens love picking new band colors at each appointment, which turns treatment into something they can have a little fun with.</p>\n<h2>Ceramic Braces: A More Discreet Look</h2>\n<p>For teens who feel self-conscious about a mouthful of metal, <a href=\"/braces/\">clear ceramic braces</a> are a great alternative. They work just like metal braces but use tooth-colored brackets that blend in, so your teen gets the same reliable results with a subtler appearance.</p>\n<h2>Invisalign and Clear Aligners: Freedom and Flexibility</h2>\n<p><a href=\"/clear-aligners/\">Clear aligners</a> like Invisalign are a popular choice for responsible teens. The trays are removable and nearly invisible, which means your teen can keep eating their favorite foods and brush and floss normally. For sports, band, or big school events, being able to take them out is a real plus. Success does depend on wearing them consistently, so they tend to work best for teens who are ready to stay on track.</p>\n<h2>How to Choose</h2>\n<p>Every teen is different, and so is every smile. The right option depends on your teen&#8217;s specific needs, their daily routine, and what will help them feel most confident. That&#8217;s where a personalized consultation comes in. Dr. Rocha and our team take the time to get to know each patient and recommend the approach that fits best.</p>\n<p>Valley Orthodontics proudly serves teens and families across San Rafael, Mill Valley, Novato, and Marin County. Ready to help your teen start their smile journey? <a href=\"/complimentary-consultation/\">Schedule a complimentary consultation</a> today.</p>\n<h2>Frequently Asked Questions</h2>\n<h3>Who Offers Braces for Teens in Marin County?</h3>\n<p>Valley Orthodontics offers braces for teens across Marin County from our San Rafael office. Teens can choose from metal braces, clear ceramic braces, or Invisalign, and Dr. Rocha will help match the right option to your teen&#8217;s needs and lifestyle. Book a complimentary consultation to get started.</p>\n<h3>Who Offers Braces for Kids in Marin County?</h3>\n<p>Valley Orthodontics welcomes kids from all over Marin County at our San Rafael practice. Dr. Rocha provides early treatment for younger children when it&#8217;s helpful and full braces when the timing is right, always with a warm, kid-friendly approach. Reach out for a complimentary consultation, and we&#8217;ll let you know what&#8217;s best for your child.</p>\n<h3>Who Is the Best Orthodontist for Kids in San Rafael?</h3>\n<p>Families across San Rafael trust Dr. Rocha at Valley Orthodontics for their kids&#8217; smiles. As a specialist who focuses only on orthodontics, she creates a comfortable, encouraging experience that helps children feel at ease from the very first visit. Schedule a complimentary consultation to meet our team and see if we&#8217;re the right fit for your family.</p>\n"
+              "body": "<p>The teen years are one of the most common times to start <a href=\"/all-ages-treatments#teens\">orthodontic treatment</a>, and for good reason. By the teenage years, most permanent teeth have come in, which makes it an ideal window to guide a smile into place. If you&#8217;re a parent in Marin County weighing the options for your teen, here&#8217;s what you should know.</p>\n<h2>Metal Braces: The Classic for a Reason</h2>\n<p>Metal braces remain a go-to for teens. They&#8217;re effective across a wide range of cases, durable enough for active lifestyles, and today&#8217;s versions are more comfortable than ever. Bonus: many teens love picking new band colors at each appointment, which turns treatment into something they can have a little fun with.</p>\n<h2>Ceramic Braces: A More Discreet Look</h2>\n<p>For teens who feel self-conscious about a mouthful of metal, <a href=\"/braces\">clear ceramic braces</a> are a great alternative. They work just like metal braces but use tooth-colored brackets that blend in, so your teen gets the same reliable results with a subtler appearance.</p>\n<h2>Invisalign and Clear Aligners: Freedom and Flexibility</h2>\n<p><a href=\"/clear-aligners\">Clear aligners</a> like Invisalign are a popular choice for responsible teens. The trays are removable and nearly invisible, which means your teen can keep eating their favorite foods and brush and floss normally. For sports, band, or big school events, being able to take them out is a real plus. Success does depend on wearing them consistently, so they tend to work best for teens who are ready to stay on track.</p>\n<h2>How to Choose</h2>\n<p>Every teen is different, and so is every smile. The right option depends on your teen&#8217;s specific needs, their daily routine, and what will help them feel most confident. That&#8217;s where a personalized consultation comes in. Dr. Rocha and our team take the time to get to know each patient and recommend the approach that fits best.</p>\n<p>Valley Orthodontics proudly serves teens and families across San Rafael, Mill Valley, Novato, and Marin County. Ready to help your teen start their smile journey? <a href=\"/contact#form\">Schedule a complimentary consultation</a> today.</p>\n<h2>Frequently Asked Questions</h2>\n<h3>Who Offers Braces for Teens in Marin County?</h3>\n<p>Valley Orthodontics offers braces for teens across Marin County from our San Rafael office. Teens can choose from metal braces, clear ceramic braces, or Invisalign, and Dr. Rocha will help match the right option to your teen&#8217;s needs and lifestyle. Book a complimentary consultation to get started.</p>\n<h3>Who Offers Braces for Kids in Marin County?</h3>\n<p>Valley Orthodontics welcomes kids from all over Marin County at our San Rafael practice. Dr. Rocha provides early treatment for younger children when it&#8217;s helpful and full braces when the timing is right, always with a warm, kid-friendly approach. Reach out for a complimentary consultation, and we&#8217;ll let you know what&#8217;s best for your child.</p>\n<h3>Who Is the Best Orthodontist for Kids in San Rafael?</h3>\n<p>Families across San Rafael trust Dr. Rocha at Valley Orthodontics for their kids&#8217; smiles. As a specialist who focuses only on orthodontics, she creates a comfortable, encouraging experience that helps children feel at ease from the very first visit. Schedule a complimentary consultation to meet our team and see if we&#8217;re the right fit for your family.</p>\n"
             }
           ]
         }
@@ -65,7 +65,7 @@
             "og_meta": {
               "title": "Join Valley Orthodontics for Our 2026 Patient Appreciation Ice Cream Social",
               "description": "Join Valley Orthodontics in San Rafael for our Patient Appreciation Ice Cream Social on Thursday, August 27, 2026, from 2:30–5:00 p.m.",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg"
+              "image": "{{cdn}}/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg"
             }
           }
         },
@@ -74,15 +74,15 @@
           "date": "July 13, 2026",
           "excerpt": "Join Valley Orthodontics in San Rafael for our Patient Appreciation Ice Cream Social on Thursday, August 27, 2026, from 2:30–5:00 p.m.",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
+            "src": "{{cdn}}/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
+            "webp": "{{cdn}}/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
             "alt": "Valley Orthodontics Back to School Patient Appreciation Ice Cream Social on August 27, 2026",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
+            "src": "{{cdn}}/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
+            "webp": "{{cdn}}/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
             "alt": "Valley Orthodontics Back to School Patient Appreciation Ice Cream Social on August 27, 2026",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -125,7 +125,7 @@
             "og_meta": {
               "title": "Introducing Grin: Remote Orthodontic Monitoring for Valley Orthodontics Patients",
               "description": "Valley Orthodontics is introducing Grin remote orthodontic monitoring to help patients stay connected with Dr. Rocha and our team between visits, with convenient digital check-ins from home.",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics.jpg"
+              "image": "{{cdn}}/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics.jpg"
             }
           }
         },
@@ -134,15 +134,15 @@
           "date": "July 1, 2026",
           "excerpt": "Valley Orthodontics is introducing Grin remote orthodontic monitoring to help patients stay connected with Dr. Rocha and our team between visits, with convenient digital check-ins from home.",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-768x433.jpg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-768x433.jpg",
+            "src": "{{cdn}}/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-768x433.jpg",
+            "webp": "{{cdn}}/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-768x433.jpg",
             "alt": "Patient using Grin remote orthodontic monitoring with a smartphone",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-1024x578.jpg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-1024x578.jpg",
+            "src": "{{cdn}}/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-1024x578.jpg",
+            "webp": "{{cdn}}/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-1024x578.jpg",
             "alt": "Patient using Grin remote orthodontic monitoring with a smartphone",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -173,7 +173,7 @@
             "og_meta": {
               "title": "Adult Orthodontics: It's Never Too Late for a Beautiful, Healthy Smile",
               "description": "Many adults assume that orthodontic treatment is only for teenagers. The truth is that more adults than ever are choosing to improve their smiles with braces or clear aligners—and not just for cosmetic reasons. At Valley Orthodontics in San Rafael, CA, we treat patients of all ages throughout Marin County, including Novato, Mill Valley, Larkspur, ...",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/adult-braces-1024x683.jpeg"
+              "image": "{{cdn}}/uploads/2026/06/adult-braces-1024x683.jpeg"
             }
           }
         },
@@ -182,15 +182,15 @@
           "date": "June 18, 2026",
           "excerpt": "Many adults assume that orthodontic treatment is only for teenagers. The truth is that more adults than ever are choosing to improve their smiles with braces or clear aligners—and not just for cosmetic reasons. At Valley Orthodontics in San Rafael, CA, we treat patients of all ages throughout Marin County, including Novato, Mill Valley, Larkspur, ...",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/adult-braces-768x512.jpeg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/adult-braces-768x512.jpeg",
+            "src": "{{cdn}}/uploads/2026/06/adult-braces-768x512.jpeg",
+            "webp": "{{cdn}}/uploads/2026/06/adult-braces-768x512.jpeg",
             "alt": "Adult woman with braces smiling",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/adult-braces-1024x683.jpeg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/adult-braces-1024x683.jpeg",
+            "src": "{{cdn}}/uploads/2026/06/adult-braces-1024x683.jpeg",
+            "webp": "{{cdn}}/uploads/2026/06/adult-braces-1024x683.jpeg",
             "alt": "Adult woman with braces smiling",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -221,7 +221,7 @@
             "og_meta": {
               "title": "Traveling With Invisalign: Airports, Eating Out, and Keeping Track of Aligners",
               "description": "Traveling with Invisalign? Valley Orthodontics in San Rafael shares expert Invisalign travel tips for patients in Mill Valley, Larkspur, Corte Madera, Novato, and throughout Marin County",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/traveling-with-invisalign-aligners-1024x682.jpg"
+              "image": "{{cdn}}/uploads/2026/05/traveling-with-invisalign-aligners-1024x682.jpg"
             }
           }
         },
@@ -230,15 +230,15 @@
           "date": "June 1, 2026",
           "excerpt": "Traveling with Invisalign? Valley Orthodontics in San Rafael shares expert Invisalign travel tips for patients in Mill Valley, Larkspur, Corte Madera, Novato, and throughout Marin County",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/traveling-with-invisalign-aligners-768x512.jpg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/traveling-with-invisalign-aligners-768x512.jpg",
+            "src": "{{cdn}}/uploads/2026/05/traveling-with-invisalign-aligners-768x512.jpg",
+            "webp": "{{cdn}}/uploads/2026/05/traveling-with-invisalign-aligners-768x512.jpg",
             "alt": "Hands holding clear Invisalign aligners",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/traveling-with-invisalign-aligners-1024x682.jpg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/traveling-with-invisalign-aligners-1024x682.jpg",
+            "src": "{{cdn}}/uploads/2026/05/traveling-with-invisalign-aligners-1024x682.jpg",
+            "webp": "{{cdn}}/uploads/2026/05/traveling-with-invisalign-aligners-1024x682.jpg",
             "alt": "Hands holding clear Invisalign aligners",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -269,7 +269,7 @@
             "og_meta": {
               "title": "Common Myths About Orthodontic Treatment Debunked",
               "description": "Modern orthodontics is more comfortable, convenient, and effective than ever. Learn the truth behind common myths about braces, clear aligners, retainers, and treatment timelines.",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/common-myths-orthodontic-treatment-1024x682.jpg"
+              "image": "{{cdn}}/uploads/2026/05/common-myths-orthodontic-treatment-1024x682.jpg"
             }
           }
         },
@@ -278,15 +278,15 @@
           "date": "May 18, 2026",
           "excerpt": "Modern orthodontics is more comfortable, convenient, and effective than ever. Learn the truth behind common myths about braces, clear aligners, retainers, and treatment timelines.",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/common-myths-orthodontic-treatment-768x512.jpg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/common-myths-orthodontic-treatment-768x512.jpg",
+            "src": "{{cdn}}/uploads/2026/05/common-myths-orthodontic-treatment-768x512.jpg",
+            "webp": "{{cdn}}/uploads/2026/05/common-myths-orthodontic-treatment-768x512.jpg",
             "alt": "Woman receiving orthodontic care at the dentist",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/common-myths-orthodontic-treatment-1024x682.jpg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/common-myths-orthodontic-treatment-1024x682.jpg",
+            "src": "{{cdn}}/uploads/2026/05/common-myths-orthodontic-treatment-1024x682.jpg",
+            "webp": "{{cdn}}/uploads/2026/05/common-myths-orthodontic-treatment-1024x682.jpg",
             "alt": "Woman receiving orthodontic care at the dentist",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -317,7 +317,7 @@
             "og_meta": {
               "title": "More Than Just a Straight Smile: Why Airway Matters in Orthodontics",
               "description": "When you think of the orthodontist, you probably think of braces, clear aligners, and perfectly straight teeth. While a beautiful smile is a fantastic goal, at Valley Orthodontics, we believe it’s only one piece of the puzzle. As an airway-centered orthodontic practice, we don’t just look at your teeth; we look at the person behind",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/airway-ortho.jpg"
+              "image": "{{cdn}}/uploads/2026/02/airway-ortho.jpg"
             }
           }
         },
@@ -326,15 +326,15 @@
           "date": "April 27, 2026",
           "excerpt": "When you think of the orthodontist, you probably think of braces, clear aligners, and perfectly straight teeth. While a beautiful smile is a fantastic goal, at Valley Orthodontics, we believe it’s only one piece of the puzzle. As an airway-centered orthodontic practice, we don’t just look at your teeth; we look at the person behind",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/airway-ortho-768x512.jpg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/airway-ortho-768x512.jpg",
+            "src": "{{cdn}}/uploads/2026/02/airway-ortho-768x512.jpg",
+            "webp": "{{cdn}}/uploads/2026/02/airway-ortho-768x512.jpg",
             "alt": "More Than Just a Straight Smile: Why Airway Matters in Orthodontics",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/airway-ortho.jpg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/airway-ortho.jpg",
+            "src": "{{cdn}}/uploads/2026/02/airway-ortho.jpg",
+            "webp": "{{cdn}}/uploads/2026/02/airway-ortho.jpg",
             "alt": "More Than Just a Straight Smile: Why Airway Matters in Orthodontics",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -342,7 +342,7 @@
           "paragraphs": [
             {
               "header": "",
-              "body": "<p>When you think of the orthodontist, you probably think of braces, clear aligners, and perfectly straight teeth. While a beautiful smile is a fantastic goal, at<b> Valley Orthodontics</b>, we believe it’s only one piece of the puzzle.</p>\n<p>As an<strong> airway-centered orthodontic practice</strong>, we don&#8217;t just look at your teeth; we look at the person behind the smile. Our goal is to identify the root cause of dental issues, ensuring our patients breathe, sleep, and live better.</p>\n<hr />\n<h2>Why Your Airway is Part of Your Orthodontic Plan</h2>\n<p>Have you ever wondered why teeth become crowded in the first place? Often, it’s because the &#8220;housing&#8221; for the teeth—the dental arches—is too narrow or constricted. When the mouth is narrow, the airway is often impacted as well.</p>\n<p>By evaluating the airway, we can determine if a patient is struggling to breathe properly through their nose. Proper nasal breathing is essential for:</p>\n<ul>\n<li><b>Facial Development: </b>Helping the jaw grow into its correct position.</li>\n<li><b>Quality Sleep: </b>Ensuring the brain and body get enough oxygen at night.</li>\n<li><b>Overall Health: </b>Reducing the risk of long-term issues like sleep apnea.</li>\n</ul>\n<h2>Signs Your Child Might Need an Airway Evaluation</h2>\n<p>Sometimes, the symptoms of a restricted airway aren&#8217;t obvious. If your child experiences any of the following, it might be time for a holistic orthodontic check-up:</p>\n<ul>\n<li><b>Snoring </b>or heavy breathing during sleep.</li>\n<li><b>Grinding teeth </b>(often a sign the body is trying to &#8220;wake up&#8221; the airway).</li>\n<li><b>Restless sleep </b>or waking up tired.</li>\n<li><b>Difficulty concentrating </b>or behavioral issues at school (often mistaken for ADHD).</li>\n<li><b>Mouth breathing </b>during the day or night.</li>\n</ul>\n<hr />\n<h2>High-Tech Diagnosis for Holistic Care</h2>\n<p>We’ve invested in the latest technology to ensure we see the full picture. At our San Rafael office, we use:</p>\n<ul>\n<li><b>3D Imaging (CBCT): </b>Unlike traditional 2D X-rays, our 3D scans allow us to visualize the airway, nasal passages, and jaw structure in incredible detail. We can literally see if there is an obstruction in the nose or throat.</li>\n<li><b>Digital Scans: </b>No more messy impressions! We use precise digital scanners to create a 3D model of the teeth and arches, helping us plan how to expand narrow arches to create more room for both teeth and air.</li>\n</ul>\n<hr />\n<h2>Treating the Source, Not Just the Symptom</h2>\n<p>Our philosophy is simple:<b> We treat the source of the problem. </b>If a patient has a narrow arch or a restricted airway, simply straightening the teeth won&#8217;t fix the underlying health issue.</p>\n<p>By diagnosing these issues early, we can:</p>\n<ul>\n<li><b>Expand the palate </b>to improve airflow and create space for teeth.</li>\n<li><b>Collaborate with Specialists: </b>We work closely with a network of experts, including<b> ENTs (Ear, Nose, and Throat doctors) </b>,<b> Allergists</b>, and<b> Myofunctional Therapists </b>to ensure you get the comprehensive care you deserve.</li>\n</ul>\n<hr />\n<h2>Start Your Journey at Valley Orthodontics</h2>\n<p>Located conveniently in<strong> San Rafael, Marin County</strong>, we are proud to serve our community with a health-first approach to orthodontics. Whether you’re interested in braces for your child or a more comfortable night&#8217;s sleep for yourself, we are here to help.</p>\n<p><strong>Ready to breathe easier and smile brighter?</strong></p>\n<p><a href=\"https://www.valleyorthodontics.net/complimentary-consultation/\">Contact us today </a>for a<strong> complimentary evaluation </strong>and see the difference that airway-centered care can make.</p>"
+              "body": "<p>When you think of the orthodontist, you probably think of braces, clear aligners, and perfectly straight teeth. While a beautiful smile is a fantastic goal, at<b> Valley Orthodontics</b>, we believe it’s only one piece of the puzzle.</p>\n<p>As an<strong> airway-centered orthodontic practice</strong>, we don&#8217;t just look at your teeth; we look at the person behind the smile. Our goal is to identify the root cause of dental issues, ensuring our patients breathe, sleep, and live better.</p>\n<hr />\n<h2>Why Your Airway is Part of Your Orthodontic Plan</h2>\n<p>Have you ever wondered why teeth become crowded in the first place? Often, it’s because the &#8220;housing&#8221; for the teeth—the dental arches—is too narrow or constricted. When the mouth is narrow, the airway is often impacted as well.</p>\n<p>By evaluating the airway, we can determine if a patient is struggling to breathe properly through their nose. Proper nasal breathing is essential for:</p>\n<ul>\n<li><b>Facial Development: </b>Helping the jaw grow into its correct position.</li>\n<li><b>Quality Sleep: </b>Ensuring the brain and body get enough oxygen at night.</li>\n<li><b>Overall Health: </b>Reducing the risk of long-term issues like sleep apnea.</li>\n</ul>\n<h2>Signs Your Child Might Need an Airway Evaluation</h2>\n<p>Sometimes, the symptoms of a restricted airway aren&#8217;t obvious. If your child experiences any of the following, it might be time for a holistic orthodontic check-up:</p>\n<ul>\n<li><b>Snoring </b>or heavy breathing during sleep.</li>\n<li><b>Grinding teeth </b>(often a sign the body is trying to &#8220;wake up&#8221; the airway).</li>\n<li><b>Restless sleep </b>or waking up tired.</li>\n<li><b>Difficulty concentrating </b>or behavioral issues at school (often mistaken for ADHD).</li>\n<li><b>Mouth breathing </b>during the day or night.</li>\n</ul>\n<hr />\n<h2>High-Tech Diagnosis for Holistic Care</h2>\n<p>We’ve invested in the latest technology to ensure we see the full picture. At our San Rafael office, we use:</p>\n<ul>\n<li><b>3D Imaging (CBCT): </b>Unlike traditional 2D X-rays, our 3D scans allow us to visualize the airway, nasal passages, and jaw structure in incredible detail. We can literally see if there is an obstruction in the nose or throat.</li>\n<li><b>Digital Scans: </b>No more messy impressions! We use precise digital scanners to create a 3D model of the teeth and arches, helping us plan how to expand narrow arches to create more room for both teeth and air.</li>\n</ul>\n<hr />\n<h2>Treating the Source, Not Just the Symptom</h2>\n<p>Our philosophy is simple:<b> We treat the source of the problem. </b>If a patient has a narrow arch or a restricted airway, simply straightening the teeth won&#8217;t fix the underlying health issue.</p>\n<p>By diagnosing these issues early, we can:</p>\n<ul>\n<li><b>Expand the palate </b>to improve airflow and create space for teeth.</li>\n<li><b>Collaborate with Specialists: </b>We work closely with a network of experts, including<b> ENTs (Ear, Nose, and Throat doctors) </b>,<b> Allergists</b>, and<b> Myofunctional Therapists </b>to ensure you get the comprehensive care you deserve.</li>\n</ul>\n<hr />\n<h2>Start Your Journey at Valley Orthodontics</h2>\n<p>Located conveniently in<strong> San Rafael, Marin County</strong>, we are proud to serve our community with a health-first approach to orthodontics. Whether you’re interested in braces for your child or a more comfortable night&#8217;s sleep for yourself, we are here to help.</p>\n<p><strong>Ready to breathe easier and smile brighter?</strong></p>\n<p><a href=\"/contact#form\">Contact us today </a>for a<strong> complimentary evaluation </strong>and see the difference that airway-centered care can make.</p>"
             }
           ]
         }
@@ -365,7 +365,7 @@
             "og_meta": {
               "title": "Affordable Braces in San Rafael: Payment Plans, Insurance, and How to Fit Treatment Into Your Budget",
               "description": "If you’re searching for affordable braces in San Rafael or Marin County, you’re not alone. Many families want a healthy, confident smile—but understandably worry about cost. At Valley Orthodontics in San Rafael, we believe that finances should never stand in the way of exceptional orthodontic care. Whether you’re considering braces for your child, teen, or even yourself,",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/affordable-braces-2-1024x683.jpeg"
+              "image": "{{cdn}}/uploads/2026/02/affordable-braces-2-1024x683.jpeg"
             }
           }
         },
@@ -374,15 +374,15 @@
           "date": "February 25, 2026",
           "excerpt": "If you’re searching for affordable braces in San Rafael or Marin County, you’re not alone. Many families want a healthy, confident smile—but understandably worry about cost. At Valley Orthodontics in San Rafael, we believe that finances should never stand in the way of exceptional orthodontic care. Whether you’re considering braces for your child, teen, or even yourself,",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/affordable-braces-2-768x512.jpeg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/affordable-braces-2-768x512.jpeg",
+            "src": "{{cdn}}/uploads/2026/02/affordable-braces-2-768x512.jpeg",
+            "webp": "{{cdn}}/uploads/2026/02/affordable-braces-2-768x512.jpeg",
             "alt": "Affordable Braces in San Rafael: Payment Plans, Insurance, and How to Fit Treatment Into Your Budget",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/affordable-braces-2-1024x683.jpeg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/affordable-braces-2-1024x683.jpeg",
+            "src": "{{cdn}}/uploads/2026/02/affordable-braces-2-1024x683.jpeg",
+            "webp": "{{cdn}}/uploads/2026/02/affordable-braces-2-1024x683.jpeg",
             "alt": "Affordable Braces in San Rafael: Payment Plans, Insurance, and How to Fit Treatment Into Your Budget",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -413,7 +413,7 @@
             "og_meta": {
               "title": "7 Important Questions Parents Should Ask at an Orthodontic Consultation",
               "description": "If you’re a parent searching for a trusted orthodontist near you, you may be wondering when your child should see an orthodontist and how to prepare for the first visit. An orthodontic consultation is an important step in protecting your child’s long-term oral health—and it should feel informative, comfortable, and stress-free. At Valley Orthodontics in",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/7-questions-1024x683.jpeg"
+              "image": "{{cdn}}/uploads/2026/02/7-questions-1024x683.jpeg"
             }
           }
         },
@@ -422,15 +422,15 @@
           "date": "February 4, 2026",
           "excerpt": "If you’re a parent searching for a trusted orthodontist near you, you may be wondering when your child should see an orthodontist and how to prepare for the first visit. An orthodontic consultation is an important step in protecting your child’s long-term oral health—and it should feel informative, comfortable, and stress-free. At Valley Orthodontics in",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/7-questions-768x512.jpeg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/7-questions-768x512.jpeg",
+            "src": "{{cdn}}/uploads/2026/02/7-questions-768x512.jpeg",
+            "webp": "{{cdn}}/uploads/2026/02/7-questions-768x512.jpeg",
             "alt": "7 Important Questions Parents Should Ask at an Orthodontic Consultation",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/7-questions-1024x683.jpeg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/7-questions-1024x683.jpeg",
+            "src": "{{cdn}}/uploads/2026/02/7-questions-1024x683.jpeg",
+            "webp": "{{cdn}}/uploads/2026/02/7-questions-1024x683.jpeg",
             "alt": "7 Important Questions Parents Should Ask at an Orthodontic Consultation",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -438,7 +438,7 @@
           "paragraphs": [
             {
               "header": "",
-              "body": "<p>If you’re a parent searching for a trusted orthodontist near you, you may be wondering when your child should see an orthodontist and how to prepare for the first visit. An orthodontic consultation is an important step in protecting your child’s long-term oral health—and it should feel informative, comfortable, and stress-free.</p>\n<p>At Valley Orthodontics in San Rafael, we believe that educated parents make confident decisions. Below are seven essential questions parents should ask at an orthodontic consultation to help determine the best care for their child’s smile.</p>\n<p><strong><b>💡 Download our helpful guide:</b></strong> <a href=\"/wp-content/uploads/2026/02/Parent-Consult-Checklist.pdf\">Click here to download the Parent Consultation Checklist (PDF)</a></p>\n<h2><strong><b>1. Does My Child Need Braces or Orthodontic Treatment Right Now?</b></strong></h2>\n<p>One of the most common questions parents ask is, “Does my child need braces yet? When is the best time to schedule an initial consultation?” The answer isn’t always immediate treatment. In many cases, early orthodontic evaluations allow us to monitor growth and recommend treatment at the ideal time. We recommend patients visiting an orthodontist for an initial screening no later than 7 years old, earlier if concerns exist from you or their dentist.</p>\n<p>A trusted San Rafael orthodontist will explain whether treatment should begin now, later, or if observation is the best approach based on your child’s development. And equally important, ask why now is or use the time, if an explanation isn’t offered.</p>\n<h2><strong><b>2. What Type of Orthodontic Treatment Is Best for My Child?</b></strong></h2>\n<p>There are several orthodontic treatment options for children and teens, including traditional braces, clear braces, and clear aligners. The best option depends on your child’s bite, jaw growth, tooth alignment, and lifestyle.</p>\n<p>Ask your orthodontist:</p>\n<ul>\n<li>Which treatment option is recommended</li>\n<li>If a particular option is better suited for any major sport/hobbies/lifestyle (mention if your an athlete, play an instrument, etc, in case a treatment option is best suited)</li>\n<li>Pros and cons of each treatment option, including compliance required for success</li>\n</ul>\n<p>At Valley Orthodontics, we focus on personalized treatment plans—because every smile and every child is different. Ask about our exclusive “champagne” colored brackets- a local favorite of patients of all ages!</p>\n<h2><strong><b>3. How Long Will Orthodontic Treatment Take?</b></strong></h2>\n<p>Many parents search online for “how long do braces take for kids?” While treatment time varies, your orthodontist should provide a realistic estimate and explain what factors may influence the timeline, including growth patterns, oral hygiene, and compliance.</p>\n<p>Clear expectations help families plan with confidence.</p>\n<h2><strong><b>4. How Much Do Braces Cost and What’s Included?</b></strong></h2>\n<p>Orthodontic treatment is an investment in you and/or your child’s health and confidence. Be sure to ask for a clear explanation of:</p>\n<ul>\n<li>Total treatment cost</li>\n<li>What’s included (adjustments, retainers, repairs, emergency visits)</li>\n<li>Insurance coverage and flexible payment options</li>\n</ul>\n<p>A reputable Marin County orthodontic office will always be transparent and happy to review financial details with you.</p>\n<h2><strong><b>5. How Often Are Orthodontic Appointments?</b></strong></h2>\n<p>Knowing how frequently appointments are scheduled helps families balance school, work, and extracurricular activities. Ask how often your child will need to come in and how flexible the office is if appointments need to be rescheduled.</p>\n<p>Convenient, family-friendly care makes orthodontic treatment much easier for parents and kids alike.</p>\n<h2><strong><b>6. What Can We Do at Home to Support Treatment?</b></strong></h2>\n<p>Successful orthodontic treatment is a team effort. Ask your orthodontist about:</p>\n<ul>\n<li>Proper brushing and flossing with braces or aligners</li>\n<li>Foods to avoid during treatment</li>\n<li>How to manage soreness or minor issues at home</li>\n</ul>\n<p>Following home care instructions helps keep treatment on track and avoid broken appliances.</p>\n<h2><strong><b>7. What Happens After Braces Come Off?</b></strong></h2>\n<p>Many parents don’t realize how important retainers are after orthodontic treatment. Ask about:</p>\n<ul>\n<li>Retainer options</li>\n<li>How long retainers are needed</li>\n<li>Long-term follow-up care</li>\n<li>Cost of retainers and how open they need to be replaced</li>\n</ul>\n<p>Protecting your child’s new smile is just as important as creating it.</p>\n<h2><strong><b>Why Parents Trust Valley Orthodontics</b></strong></h2>\n<p>Choosing an orthodontist is about more than straight teeth—it’s about trust, communication, and long-term care. At Valley Orthodontics, we take the time to answer questions, explain treatment options clearly, and guide families through every stage of orthodontic care. And welcoming you to the Valley Ortho Family 🙂</p>\n<p>If you’re searching for a trusted orthodontist for children and teens in San Rafael or Marin County, we’re here to help.</p>\n<p>👉 <a href=\"https://www.valleyorthodontics.net/\">Schedule an orthodontic consultation</a> with Valley Orthodontics today and get the clarity and confidence you deserve.</p>\n<p>📍 <strong>Valley Orthodontics — San Rafael Orthodontist Serving Marin County, California</strong><br />\nAddress: 2400 Las Gallinas Ave, Suite 130, San Rafael, CA 94903<br />\nPhone: 415-479-2400<br />\nWebsite: <a href=\"https://www.valleyorthodontics.net/\">ValleyOrthodontics.net</a></p>\n<p>Providing trusted orthodontic care for children, teens, and families throughout San Rafael and Marin County, California</p>"
+              "body": "<p>If you’re a parent searching for a trusted orthodontist near you, you may be wondering when your child should see an orthodontist and how to prepare for the first visit. An orthodontic consultation is an important step in protecting your child’s long-term oral health—and it should feel informative, comfortable, and stress-free.</p>\n<p>At Valley Orthodontics in San Rafael, we believe that educated parents make confident decisions. Below are seven essential questions parents should ask at an orthodontic consultation to help determine the best care for their child’s smile.</p>\n<p><strong><b>💡 Download our helpful guide:</b></strong> <a href=\"{{cdn}}/uploads/2026/02/Parent-Consult-Checklist.pdf\">Click here to download the Parent Consultation Checklist (PDF)</a></p>\n<h2><strong><b>1. Does My Child Need Braces or Orthodontic Treatment Right Now?</b></strong></h2>\n<p>One of the most common questions parents ask is, “Does my child need braces yet? When is the best time to schedule an initial consultation?” The answer isn’t always immediate treatment. In many cases, early orthodontic evaluations allow us to monitor growth and recommend treatment at the ideal time. We recommend patients visiting an orthodontist for an initial screening no later than 7 years old, earlier if concerns exist from you or their dentist.</p>\n<p>A trusted San Rafael orthodontist will explain whether treatment should begin now, later, or if observation is the best approach based on your child’s development. And equally important, ask why now is or use the time, if an explanation isn’t offered.</p>\n<h2><strong><b>2. What Type of Orthodontic Treatment Is Best for My Child?</b></strong></h2>\n<p>There are several orthodontic treatment options for children and teens, including traditional braces, clear braces, and clear aligners. The best option depends on your child’s bite, jaw growth, tooth alignment, and lifestyle.</p>\n<p>Ask your orthodontist:</p>\n<ul>\n<li>Which treatment option is recommended</li>\n<li>If a particular option is better suited for any major sport/hobbies/lifestyle (mention if your an athlete, play an instrument, etc, in case a treatment option is best suited)</li>\n<li>Pros and cons of each treatment option, including compliance required for success</li>\n</ul>\n<p>At Valley Orthodontics, we focus on personalized treatment plans—because every smile and every child is different. Ask about our exclusive “champagne” colored brackets- a local favorite of patients of all ages!</p>\n<h2><strong><b>3. How Long Will Orthodontic Treatment Take?</b></strong></h2>\n<p>Many parents search online for “how long do braces take for kids?” While treatment time varies, your orthodontist should provide a realistic estimate and explain what factors may influence the timeline, including growth patterns, oral hygiene, and compliance.</p>\n<p>Clear expectations help families plan with confidence.</p>\n<h2><strong><b>4. How Much Do Braces Cost and What’s Included?</b></strong></h2>\n<p>Orthodontic treatment is an investment in you and/or your child’s health and confidence. Be sure to ask for a clear explanation of:</p>\n<ul>\n<li>Total treatment cost</li>\n<li>What’s included (adjustments, retainers, repairs, emergency visits)</li>\n<li>Insurance coverage and flexible payment options</li>\n</ul>\n<p>A reputable Marin County orthodontic office will always be transparent and happy to review financial details with you.</p>\n<h2><strong><b>5. How Often Are Orthodontic Appointments?</b></strong></h2>\n<p>Knowing how frequently appointments are scheduled helps families balance school, work, and extracurricular activities. Ask how often your child will need to come in and how flexible the office is if appointments need to be rescheduled.</p>\n<p>Convenient, family-friendly care makes orthodontic treatment much easier for parents and kids alike.</p>\n<h2><strong><b>6. What Can We Do at Home to Support Treatment?</b></strong></h2>\n<p>Successful orthodontic treatment is a team effort. Ask your orthodontist about:</p>\n<ul>\n<li>Proper brushing and flossing with braces or aligners</li>\n<li>Foods to avoid during treatment</li>\n<li>How to manage soreness or minor issues at home</li>\n</ul>\n<p>Following home care instructions helps keep treatment on track and avoid broken appliances.</p>\n<h2><strong><b>7. What Happens After Braces Come Off?</b></strong></h2>\n<p>Many parents don’t realize how important retainers are after orthodontic treatment. Ask about:</p>\n<ul>\n<li>Retainer options</li>\n<li>How long retainers are needed</li>\n<li>Long-term follow-up care</li>\n<li>Cost of retainers and how open they need to be replaced</li>\n</ul>\n<p>Protecting your child’s new smile is just as important as creating it.</p>\n<h2><strong><b>Why Parents Trust Valley Orthodontics</b></strong></h2>\n<p>Choosing an orthodontist is about more than straight teeth—it’s about trust, communication, and long-term care. At Valley Orthodontics, we take the time to answer questions, explain treatment options clearly, and guide families through every stage of orthodontic care. And welcoming you to the Valley Ortho Family 🙂</p>\n<p>If you’re searching for a trusted orthodontist for children and teens in San Rafael or Marin County, we’re here to help.</p>\n<p>👉 <a href=\"/\">Schedule an orthodontic consultation</a> with Valley Orthodontics today and get the clarity and confidence you deserve.</p>\n<p>📍 <strong>Valley Orthodontics — San Rafael Orthodontist Serving Marin County, California</strong><br />\nAddress: 2400 Las Gallinas Ave, Suite 130, San Rafael, CA 94903<br />\nPhone: 415-479-2400<br />\nWebsite: <a href=\"/\">ValleyOrthodontics.net</a></p>\n<p>Providing trusted orthodontic care for children, teens, and families throughout San Rafael and Marin County, California</p>"
             }
           ]
         }
@@ -461,7 +461,7 @@
             "og_meta": {
               "title": "Comprehensive Orthodontic Care for Kids & Families",
               "description": "Early orthodontic care plays a vital role. It shapes a child’s long-term oral health, facial development, and overall confidence. On-time detection and treatment of alignment problems like bite irregularities and spacing issues can help prevent numerous complications in the future. Thankfully, modern orthodontics has come a long way in recent years. It offers gentle, efficient,",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png"
+              "image": "{{cdn}}/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png"
             }
           }
         },
@@ -470,15 +470,15 @@
           "date": "December 22, 2025",
           "excerpt": "Early orthodontic care plays a vital role. It shapes a child’s long-term oral health, facial development, and overall confidence. On-time detection and treatment of alignment problems like bite irregularities and spacing issues can help prevent numerous complications in the future. Thankfully, modern orthodontics has come a long way in recent years. It offers gentle, efficient,",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
+            "src": "{{cdn}}/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
+            "webp": "{{cdn}}/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
             "alt": "Comprehensive Orthodontic Care for Kids & Families",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
+            "src": "{{cdn}}/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
+            "webp": "{{cdn}}/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
             "alt": "Comprehensive Orthodontic Care for Kids & Families",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -486,7 +486,7 @@
           "paragraphs": [
             {
               "header": "",
-              "body": "<p>Early orthodontic care plays a vital role. It shapes a child&#8217;s long-term oral health, facial development, and overall confidence. On-time detection and treatment of alignment problems like bite irregularities and spacing issues can help prevent numerous complications in the future.</p>\n<p>Thankfully, modern orthodontics has come a long way in recent years. It offers gentle, efficient, and highly precise treatment options for kids, teens, and adults. Plus, digital tools, customized appliances, and technology-driven planning ensure effective orthodontic care tailored to their needs.</p>\n<h2><strong><b>Why Early Orthodontic Care Matters</b></strong></h2>\n<p>The American Association of Orthodontists suggests that orthodontic assessments should be conducted on children at around age seven. Specialists can identify crowding, crossbites, open bites, and jaw growth discrepancies at this age.</p>\n<p>Early assessment lets orthodontists treat at the appropriate developmental phase. It helps them guide the development of teeth.</p>\n<h2><strong><b>What Makes a Great Orthodontist for Kids</b></strong></h2>\n<p>An expert pediatric orthodontist combines years of practice with patience and gentleness. They can explain treatments in ways that keep both children and parents informed and comfortable.</p>\n<p>Digital scanning, low-radiation imaging, and modern monitoring devices ensure faster and stress-free procedures. Above all, a fantastic kids&#8217; orthodontist develops trust during the initial stages that makes every visit positive and reassuring.</p>\n<h2><strong><b>Orthodontic Treatments for Kids and Teens</b></strong></h2>\n<p>Children and teens benefit from a range of treatment options. These include:</p>\n<ul>\n<li>Traditional metal braces</li>\n<li>Ceramic braces</li>\n<li>Clear aligners</li>\n</ul>\n<p>Orthodontists tailor treatment plans according to growth patterns, tooth development, lifestyle, and comfort.</p>\n<h2><strong><b>Expert Orthodontic Care for All Ages</b></strong></h2>\n<p>Although early treatment is very important, orthodontic solutions are now equally developed for both teens and adults. Digital planning, 3-D printing, and finely designed appliances deliver effective and accurate results at any age.</p>\n<p>Adults particularly embrace discreet treatment options. These include clear aligners and low-profile brackets that blend well into daily lives. These modern tools allow orthodontists to deliver transformative results with minimal disruption to professional and social life.</p>\n<h2><strong><b>Emergency Orthodontic Care – What You Should Know</b></strong></h2>\n<p>Broken brackets, poking wires, loose bands, or lost retainers may be considered orthodontic emergencies. A timely response prevents unnecessary discomfort. It ensures appliances continue functioning correctly. Experienced orthodontists provide fast, compassionate care. That&#8217;s how they resolve urgent issues and help patients get back on track without stress.</p>\n<h2><strong><b>The Role of Expertise in Orthodontic Success</b></strong></h2>\n<p>Your orthodontist&#8217;s competence is crucial in achieving successful outcomes. Skilled orthodontists apply modern methods and technology to develop precise, predictable, and comfortable treatments. Individualized planning means every patient gets personalized advice from start to finish.</p>\n<p>Technology, training, and a patient-centered attitude are all very important for achieving long-lasting and beautiful results.</p>\n<h2><strong><b>What to Expect During Your Orthodontic Visit</b></strong></h2>\n<p>Your first visit typically includes a digital evaluation and comprehensive oral assessment. This is when your orthodontist will discuss your treatment goals. They may use scans and imaging to create plans that align with your needs. This, in turn, allows our team to help you with functional and aesthetic improvements. You&#8217;ll also get clear guidance so you feel confident moving forward.</p>\n<h2><strong><b>Orthodontic Aftercare and Maintenance Tips</b></strong></h2>\n<p>Maintaining excellent oral hygiene is essential during <a href=\"https://www.valleyorthodontics.net/\"><u>orthodontic treatment</u></a>.</p>\n<p>You&#8217;re advised to brush around your brackets and use flossing tools designed for orthodontic appliances. In case of minor discomfort or loose brackets, temporary at-home remedies can help until you reach your orthodontist.</p>\n<p>After treatment, retainers play a crucial role. They uphold alignment and maintain long-term results.</p>\n<h2><strong><b>Why Choose a Trusted Orthodontic Team?</b></strong></h2>\n<p>A reliable orthodontic team values patient comfort, effective communication, and customized treatment. Accuracy is guaranteed via modern technologies, and a supportive environment empowers patients of any age to enjoy their journey to a healthier smile.</p>\n<p>A reliable team makes you feel confident. They help with long-term dental wellness for kids, teens, and adults.</p>\n<h2><strong><b>Book Your Orthodontic Consultation Today</b></strong></h2>\n<p>Take the first step toward a healthier and more confident smile. Book your orthodontic appointment now. Enjoy quality care and high-tech products to achieve the best outcomes.</p>\n<h2><strong><b>Locations We Serve</b></strong></h2>\n<ul>\n<li>Marin County</li>\n<li>San Rafael</li>\n<li>Mill Valley</li>\n<li>Novato</li>\n<li>&amp; surrounding areas</li>\n</ul>"
+              "body": "<p>Early orthodontic care plays a vital role. It shapes a child&#8217;s long-term oral health, facial development, and overall confidence. On-time detection and treatment of alignment problems like bite irregularities and spacing issues can help prevent numerous complications in the future.</p>\n<p>Thankfully, modern orthodontics has come a long way in recent years. It offers gentle, efficient, and highly precise treatment options for kids, teens, and adults. Plus, digital tools, customized appliances, and technology-driven planning ensure effective orthodontic care tailored to their needs.</p>\n<h2><strong><b>Why Early Orthodontic Care Matters</b></strong></h2>\n<p>The American Association of Orthodontists suggests that orthodontic assessments should be conducted on children at around age seven. Specialists can identify crowding, crossbites, open bites, and jaw growth discrepancies at this age.</p>\n<p>Early assessment lets orthodontists treat at the appropriate developmental phase. It helps them guide the development of teeth.</p>\n<h2><strong><b>What Makes a Great Orthodontist for Kids</b></strong></h2>\n<p>An expert pediatric orthodontist combines years of practice with patience and gentleness. They can explain treatments in ways that keep both children and parents informed and comfortable.</p>\n<p>Digital scanning, low-radiation imaging, and modern monitoring devices ensure faster and stress-free procedures. Above all, a fantastic kids&#8217; orthodontist develops trust during the initial stages that makes every visit positive and reassuring.</p>\n<h2><strong><b>Orthodontic Treatments for Kids and Teens</b></strong></h2>\n<p>Children and teens benefit from a range of treatment options. These include:</p>\n<ul>\n<li>Traditional metal braces</li>\n<li>Ceramic braces</li>\n<li>Clear aligners</li>\n</ul>\n<p>Orthodontists tailor treatment plans according to growth patterns, tooth development, lifestyle, and comfort.</p>\n<h2><strong><b>Expert Orthodontic Care for All Ages</b></strong></h2>\n<p>Although early treatment is very important, orthodontic solutions are now equally developed for both teens and adults. Digital planning, 3-D printing, and finely designed appliances deliver effective and accurate results at any age.</p>\n<p>Adults particularly embrace discreet treatment options. These include clear aligners and low-profile brackets that blend well into daily lives. These modern tools allow orthodontists to deliver transformative results with minimal disruption to professional and social life.</p>\n<h2><strong><b>Emergency Orthodontic Care – What You Should Know</b></strong></h2>\n<p>Broken brackets, poking wires, loose bands, or lost retainers may be considered orthodontic emergencies. A timely response prevents unnecessary discomfort. It ensures appliances continue functioning correctly. Experienced orthodontists provide fast, compassionate care. That&#8217;s how they resolve urgent issues and help patients get back on track without stress.</p>\n<h2><strong><b>The Role of Expertise in Orthodontic Success</b></strong></h2>\n<p>Your orthodontist&#8217;s competence is crucial in achieving successful outcomes. Skilled orthodontists apply modern methods and technology to develop precise, predictable, and comfortable treatments. Individualized planning means every patient gets personalized advice from start to finish.</p>\n<p>Technology, training, and a patient-centered attitude are all very important for achieving long-lasting and beautiful results.</p>\n<h2><strong><b>What to Expect During Your Orthodontic Visit</b></strong></h2>\n<p>Your first visit typically includes a digital evaluation and comprehensive oral assessment. This is when your orthodontist will discuss your treatment goals. They may use scans and imaging to create plans that align with your needs. This, in turn, allows our team to help you with functional and aesthetic improvements. You&#8217;ll also get clear guidance so you feel confident moving forward.</p>\n<h2><strong><b>Orthodontic Aftercare and Maintenance Tips</b></strong></h2>\n<p>Maintaining excellent oral hygiene is essential during <a href=\"/\"><u>orthodontic treatment</u></a>.</p>\n<p>You&#8217;re advised to brush around your brackets and use flossing tools designed for orthodontic appliances. In case of minor discomfort or loose brackets, temporary at-home remedies can help until you reach your orthodontist.</p>\n<p>After treatment, retainers play a crucial role. They uphold alignment and maintain long-term results.</p>\n<h2><strong><b>Why Choose a Trusted Orthodontic Team?</b></strong></h2>\n<p>A reliable orthodontic team values patient comfort, effective communication, and customized treatment. Accuracy is guaranteed via modern technologies, and a supportive environment empowers patients of any age to enjoy their journey to a healthier smile.</p>\n<p>A reliable team makes you feel confident. They help with long-term dental wellness for kids, teens, and adults.</p>\n<h2><strong><b>Book Your Orthodontic Consultation Today</b></strong></h2>\n<p>Take the first step toward a healthier and more confident smile. Book your orthodontic appointment now. Enjoy quality care and high-tech products to achieve the best outcomes.</p>\n<h2><strong><b>Locations We Serve</b></strong></h2>\n<ul>\n<li>Marin County</li>\n<li>San Rafael</li>\n<li>Mill Valley</li>\n<li>Novato</li>\n<li>&amp; surrounding areas</li>\n</ul>"
             }
           ]
         }
@@ -509,7 +509,7 @@
             "og_meta": {
               "title": "Achieve a Confident, Straighter Smile with Advanced Invisalign Treatment",
               "description": "Invisalign has emerged as one of the most reliable modern methods of orthodontic treatment. It’s a discreet and painless alternative to conventional metal braces. This system lets teenagers and adults improve their smiles and stay confident during the treatment process. Through current digital advancements, Invisalign provides very precise outcomes that support long-term oral health and",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png"
+              "image": "{{cdn}}/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png"
             }
           }
         },
@@ -518,15 +518,15 @@
           "date": "December 22, 2025",
           "excerpt": "Invisalign has emerged as one of the most reliable modern methods of orthodontic treatment. It’s a discreet and painless alternative to conventional metal braces. This system lets teenagers and adults improve their smiles and stay confident during the treatment process. Through current digital advancements, Invisalign provides very precise outcomes that support long-term oral health and",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
+            "src": "{{cdn}}/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
+            "webp": "{{cdn}}/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
             "alt": "Achieve a Confident, Straighter Smile with Advanced Invisalign Treatment",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
+            "src": "{{cdn}}/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
+            "webp": "{{cdn}}/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
             "alt": "Achieve a Confident, Straighter Smile with Advanced Invisalign Treatment",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -534,7 +534,7 @@
           "paragraphs": [
             {
               "header": "",
-              "body": "<p>Invisalign has emerged as one of the most reliable modern methods of orthodontic treatment. It&#8217;s a discreet and painless alternative to conventional metal braces. This system lets teenagers and adults improve their smiles and stay confident during the treatment process.</p>\n<p>Through current digital advancements, Invisalign provides very precise outcomes that support long-term oral health and overall bite functionality.</p>\n<h3><strong><b>What Is Invisalign, and How Does It Work?</b></strong></h3>\n<p>Invisalign uses a series of clear, removable aligners. They guide teeth through targeted, gradual movement. These aligners are created using digital imaging and precise 3D scans.</p>\n<p>Treatment starts with a comprehensive consultation. This is when our orthodontist uses digital impressions to map out how your teeth will shift over time. You&#8217;ll get a set of aligners that you&#8217;ll replace at specific intervals. This allows for steady progress until you achieve your final smile.</p>\n<h3><strong><b>Benefits of Choosing Invisalign over Traditional Braces</b></strong></h3>\n<p>Invisalign offers a number of significant benefits for people who want discreet <a href=\"https://www.valleyorthodontics.net/\"><u>orthodontic treatment</u></a>. The aligners are very transparent, so you can enhance your smile without drawing attention to your treatment. Their smooth design reduces irritation. Plus, they&#8217;re removable. That means maintaining daily oral hygiene is easier than with fixed appliances.</p>\n<p>You can take your aligners out before meals. Additionally, using digital planning to map out efficient tooth movement reduces treatment time for many people.</p>\n<h3><strong><b>Who&#8217;s a Good Candidate for Invisalign?</b></strong></h3>\n<p>Invisalign is effective for mild to moderate crowding, spacing issues, and certain bite irregularities. It&#8217;s a perfect solution for working professionals who want a discreet option that fits into their lives. This system is also beneficial for teens who&#8217;d like a less conspicuous method they can wear consistently.</p>\n<p>Successful treatment requires commitment. So you&#8217;ll need to follow your orthodontist&#8217;s guidance and wear your aligners for the recommended number of hours each day.</p>\n<h3><strong><b>The Invisalign Treatment Process</b></strong></h3>\n<p><strong><b>Step 1:</b></strong> Your consultation includes a full orthodontic examination and a 3D scan to create an accurate digital model of your teeth.</p>\n<p><strong><b>Step 2:</b></strong> Your orthodontist plans an individualized treatment.</p>\n<p><strong><b>Step 3:</b></strong> You&#8217;ll return for progress appointments. This is when we ensure your teeth are shifting properly. You&#8217;ll also receive updated aligners during these visits.</p>\n<p><strong><b>Step 4:</b></strong> Once treatment is complete, you&#8217;ll get retainers to protect your alignment.</p>\n<h3><strong><b>Why Choose an Invisalign Specialist?</b></strong></h3>\n<p>The difference between orthodontic specialists and general dental providers is that the former can handle complex cases and align bite concerns with precision. By selecting an <a href=\"https://www.valleyorthodontics.net/invisalign \"><u>Invisalign specialist</u></a>, you can be sure that your treatment is based on high-level orthodontic education and experience in teeth movement.</p>\n<p>You&#8217;ll feel more confident knowing that your treatment is planned and directed by experts who understand all the aspects of orthodontics.</p>\n<h3><strong><b>Affordable Invisalign Treatment Options</b></strong></h3>\n<p>Many orthodontic practices offer flexible financing like monthly payment plans, insurance coordination, and financing programs. They&#8217;re all designed to help families manage treatment expenses comfortably. You’ll continue to get comprehensive digital planning, frequent monitoring, and quality retainers after treatment.</p>\n<h3><strong><b>Maintaining Results after Invisalign</b></strong></h3>\n<p>You&#8217;ve got a significant role to play in maintaining your new smile after treatment. Retainers help preserve tooth position and protect the investment you made during active alignment.</p>\n<p>Oral hygiene helps maintain gum health and prevents problems that may affect tooth stability. Regular checkups with your orthodontist help ensure that your alignment is intact and your retainers are still fitting well.</p>\n<p>Invisalign outcomes stay stable and attractive even after treatment is over with regular maintenance.</p>\n<h3><strong><b>Why Choose a Trusted Orthodontic Team for Invisalign?</b></strong></h3>\n<p>A trusted orthodontic team offers customized treatment. They use advanced digital planning and provide supportive guidance at every stage. Their expertise allows for the creation of comfortable aligners that move teeth with precision. So you&#8217;ll get reliable long-term stability.</p>\n<p>The technology and compassionate approach make it an ideal experience for anyone who wants a discreet but effective solution for their bite problem.</p>\n<h3><strong><b>Book Your Invisalign Consultation Today</b></strong></h3>\n<p>Transform your smile with professional guidance from trained Invisalign experts. Book your consultation today. Let&#8217;s discuss your concerns and find the best solution that fits your lifestyle.</p>\n<h3><strong><b>Locations We Serve</b></strong></h3>\n<ul>\n<li>Marin County</li>\n<li>San Rafael</li>\n<li>Mill Valley</li>\n<li>Novato</li>\n<li>&amp; surrounding areas</li>\n</ul>"
+              "body": "<p>Invisalign has emerged as one of the most reliable modern methods of orthodontic treatment. It&#8217;s a discreet and painless alternative to conventional metal braces. This system lets teenagers and adults improve their smiles and stay confident during the treatment process.</p>\n<p>Through current digital advancements, Invisalign provides very precise outcomes that support long-term oral health and overall bite functionality.</p>\n<h3><strong><b>What Is Invisalign, and How Does It Work?</b></strong></h3>\n<p>Invisalign uses a series of clear, removable aligners. They guide teeth through targeted, gradual movement. These aligners are created using digital imaging and precise 3D scans.</p>\n<p>Treatment starts with a comprehensive consultation. This is when our orthodontist uses digital impressions to map out how your teeth will shift over time. You&#8217;ll get a set of aligners that you&#8217;ll replace at specific intervals. This allows for steady progress until you achieve your final smile.</p>\n<h3><strong><b>Benefits of Choosing Invisalign over Traditional Braces</b></strong></h3>\n<p>Invisalign offers a number of significant benefits for people who want discreet <a href=\"/\"><u>orthodontic treatment</u></a>. The aligners are very transparent, so you can enhance your smile without drawing attention to your treatment. Their smooth design reduces irritation. Plus, they&#8217;re removable. That means maintaining daily oral hygiene is easier than with fixed appliances.</p>\n<p>You can take your aligners out before meals. Additionally, using digital planning to map out efficient tooth movement reduces treatment time for many people.</p>\n<h3><strong><b>Who&#8217;s a Good Candidate for Invisalign?</b></strong></h3>\n<p>Invisalign is effective for mild to moderate crowding, spacing issues, and certain bite irregularities. It&#8217;s a perfect solution for working professionals who want a discreet option that fits into their lives. This system is also beneficial for teens who&#8217;d like a less conspicuous method they can wear consistently.</p>\n<p>Successful treatment requires commitment. So you&#8217;ll need to follow your orthodontist&#8217;s guidance and wear your aligners for the recommended number of hours each day.</p>\n<h3><strong><b>The Invisalign Treatment Process</b></strong></h3>\n<p><strong><b>Step 1:</b></strong> Your consultation includes a full orthodontic examination and a 3D scan to create an accurate digital model of your teeth.</p>\n<p><strong><b>Step 2:</b></strong> Your orthodontist plans an individualized treatment.</p>\n<p><strong><b>Step 3:</b></strong> You&#8217;ll return for progress appointments. This is when we ensure your teeth are shifting properly. You&#8217;ll also receive updated aligners during these visits.</p>\n<p><strong><b>Step 4:</b></strong> Once treatment is complete, you&#8217;ll get retainers to protect your alignment.</p>\n<h3><strong><b>Why Choose an Invisalign Specialist?</b></strong></h3>\n<p>The difference between orthodontic specialists and general dental providers is that the former can handle complex cases and align bite concerns with precision. By selecting an <a href=\"/clear-aligners\"><u>Invisalign specialist</u></a>, you can be sure that your treatment is based on high-level orthodontic education and experience in teeth movement.</p>\n<p>You&#8217;ll feel more confident knowing that your treatment is planned and directed by experts who understand all the aspects of orthodontics.</p>\n<h3><strong><b>Affordable Invisalign Treatment Options</b></strong></h3>\n<p>Many orthodontic practices offer flexible financing like monthly payment plans, insurance coordination, and financing programs. They&#8217;re all designed to help families manage treatment expenses comfortably. You’ll continue to get comprehensive digital planning, frequent monitoring, and quality retainers after treatment.</p>\n<h3><strong><b>Maintaining Results after Invisalign</b></strong></h3>\n<p>You&#8217;ve got a significant role to play in maintaining your new smile after treatment. Retainers help preserve tooth position and protect the investment you made during active alignment.</p>\n<p>Oral hygiene helps maintain gum health and prevents problems that may affect tooth stability. Regular checkups with your orthodontist help ensure that your alignment is intact and your retainers are still fitting well.</p>\n<p>Invisalign outcomes stay stable and attractive even after treatment is over with regular maintenance.</p>\n<h3><strong><b>Why Choose a Trusted Orthodontic Team for Invisalign?</b></strong></h3>\n<p>A trusted orthodontic team offers customized treatment. They use advanced digital planning and provide supportive guidance at every stage. Their expertise allows for the creation of comfortable aligners that move teeth with precision. So you&#8217;ll get reliable long-term stability.</p>\n<p>The technology and compassionate approach make it an ideal experience for anyone who wants a discreet but effective solution for their bite problem.</p>\n<h3><strong><b>Book Your Invisalign Consultation Today</b></strong></h3>\n<p>Transform your smile with professional guidance from trained Invisalign experts. Book your consultation today. Let&#8217;s discuss your concerns and find the best solution that fits your lifestyle.</p>\n<h3><strong><b>Locations We Serve</b></strong></h3>\n<ul>\n<li>Marin County</li>\n<li>San Rafael</li>\n<li>Mill Valley</li>\n<li>Novato</li>\n<li>&amp; surrounding areas</li>\n</ul>"
             }
           ]
         }
@@ -557,7 +557,7 @@
             "og_meta": {
               "title": "Transform Your Smile with Modern, Affordable Braces for Kids, Teens, and Adults",
               "description": "Braces are one of the most reliable ways to get a beautiful, healthy smile. Over the years, we’ve moved from chunky metal appliances to comfortable, efficient aligners. Whether you’re dealing with alignment issues, bite problems, or just want to improve your smile’s appearance, today’s braces can make orthodontics effective and empowering. Understanding How Braces Work",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png"
+              "image": "{{cdn}}/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png"
             }
           }
         },
@@ -566,15 +566,15 @@
           "date": "December 22, 2025",
           "excerpt": "Braces are one of the most reliable ways to get a beautiful, healthy smile. Over the years, we’ve moved from chunky metal appliances to comfortable, efficient aligners. Whether you’re dealing with alignment issues, bite problems, or just want to improve your smile’s appearance, today’s braces can make orthodontics effective and empowering. Understanding How Braces Work",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
+            "src": "{{cdn}}/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
+            "webp": "{{cdn}}/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
             "alt": "Transform Your Smile with Modern, Affordable Braces for Kids, Teens, and Adults",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
+            "src": "{{cdn}}/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
+            "webp": "{{cdn}}/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
             "alt": "Transform Your Smile with Modern, Affordable Braces for Kids, Teens, and Adults",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -582,7 +582,7 @@
           "paragraphs": [
             {
               "header": "",
-              "body": "<p>Braces are one of the most reliable ways to get a beautiful, healthy smile. Over the years, we’ve moved from chunky metal appliances to comfortable, efficient aligners. Whether you&#8217;re dealing with alignment issues, bite problems, or just want to improve your smile&#8217;s appearance, today&#8217;s braces can make orthodontics effective and empowering.</p>\n<h3>Understanding How Braces Work</h3>\n<p>Braces use consistent, gentle pressure to shift your teeth into the right position. The system includes brackets attached to each tooth, archwires that guide tooth movement, and elastics that fine-tune your bite.</p>\n<p>Together, these elements gradually move teeth into healthier positions. This corrects issues like crowding, gaps, overbites, and underbites.</p>\n<h3>Types of Braces Available</h3>\n<h4>Traditional Metal Braces</h4>\n<p>Metal braces can handle even the toughest orthodontic cases. They&#8217;re the most effective and durable option out there. They deliver solid results with consistent control.</p>\n<h4>Clear Ceramic Braces</h4>\n<p>Ceramic braces offer a more discreet alternative. They blend in with your natural tooth color. They&#8217;re perfect for adults and teens who want subtle treatment.</p>\n<h4>Damon Braces</h4>\n<p><a href=\"https://www.valleyorthodontics.net/braces\"><u>Damon braces</u></a> use self-ligating technology, which means they don&#8217;t need elastic ties. This provides quicker movement that’s comfortable and requires fewer adjustments.</p>\n<h4>Customized Treatment Options</h4>\n<p>Custom treatment plans are designed based on your age, tooth development, or aesthetic goals.</p>\n<h3>Braces for Kids: Early Orthodontic Intervention</h3>\n<p>It&#8217;s best to bring your kids in around ages 7 to 9 for early diagnosis. This lets your orthodontist spot any emerging concerns in their early stages.</p>\n<p>Early intervention guides jaw growth and helps create space for permanent teeth, reducing the need for extensive treatment later.</p>\n<h3>Braces for Teens: Discreet and Confident Smiles</h3>\n<p>Teens want discreet, comfortable treatment that keeps their confidence intact. That’s where options like clear braces and Damon systems come in. They support long-term oral health, giving teens a smile they feel proud to share.</p>\n<h3>Affordable Braces Options</h3>\n<p>Modern orthodontic practices deliver flexible solutions like payment plans, insurance arrangements, and financing options designed to fit most budgets. And just because it&#8217;s affordable doesn&#8217;t mean you have to compromise on quality. You&#8217;ll still get high-tech, personalized care with solid clinical expertise and technology.</p>\n<h3>Why Choose Modern Orthodontic Systems?</h3>\n<p>Today&#8217;s braces offer major advantages, including shorter treatment times and improved comfort. Digital imaging, 3D modeling, and advanced planning tools create accurate treatment plans based on each patient’s needs.</p>\n<h3>Benefits of Professional Orthodontic Care</h3>\n<p>Professional orthodontic treatment ensures customized planning designed for precise tooth movement and predictable results. Patients, regardless of age, experience improved overall health and functional benefits as well.</p>\n<h3>Caring for Your Braces</h3>\n<p>Caring for braces during treatment is pretty straightforward. Here&#8217;s how:</p>\n<ul>\n<li>Brush and floss daily using tools designed for braces.</li>\n<li>Avoid food that&#8217;s sticky or hard to chew.</li>\n<li>Make it a habit to visit your orthodontist for routine adjustments.</li>\n</ul>\n<h3>Why Choose a Trusted Orthodontic Team</h3>\n<p>Working with a trusted orthodontic team means gaining access to a group with extensive experience. These experts use advanced technology to deliver predictable outcomes. Your trusted team is committed to comfort, communication, and high-quality care.</p>\n<h3>Book Your Orthodontic Consultation Today</h3>\n<p>Achieving a beautiful and confident smile starts with making an appointment with our orthodontist. Don’t wait to explore a comfortable and customized approach to designing a perfectly aligned smile.</p>\n<h3>Locations We Serve</h3>\n<ul >\n<li>Marin County</li>\n<li>San Rafael</li>\n<li>Mill Valley</li>\n<li>Novato</li>\n<li>&amp; surrounding areas</li>\n</ul>"
+              "body": "<p>Braces are one of the most reliable ways to get a beautiful, healthy smile. Over the years, we’ve moved from chunky metal appliances to comfortable, efficient aligners. Whether you&#8217;re dealing with alignment issues, bite problems, or just want to improve your smile&#8217;s appearance, today&#8217;s braces can make orthodontics effective and empowering.</p>\n<h3>Understanding How Braces Work</h3>\n<p>Braces use consistent, gentle pressure to shift your teeth into the right position. The system includes brackets attached to each tooth, archwires that guide tooth movement, and elastics that fine-tune your bite.</p>\n<p>Together, these elements gradually move teeth into healthier positions. This corrects issues like crowding, gaps, overbites, and underbites.</p>\n<h3>Types of Braces Available</h3>\n<h4>Traditional Metal Braces</h4>\n<p>Metal braces can handle even the toughest orthodontic cases. They&#8217;re the most effective and durable option out there. They deliver solid results with consistent control.</p>\n<h4>Clear Ceramic Braces</h4>\n<p>Ceramic braces offer a more discreet alternative. They blend in with your natural tooth color. They&#8217;re perfect for adults and teens who want subtle treatment.</p>\n<h4>Damon Braces</h4>\n<p><a href=\"/braces\"><u>Damon braces</u></a> use self-ligating technology, which means they don&#8217;t need elastic ties. This provides quicker movement that’s comfortable and requires fewer adjustments.</p>\n<h4>Customized Treatment Options</h4>\n<p>Custom treatment plans are designed based on your age, tooth development, or aesthetic goals.</p>\n<h3>Braces for Kids: Early Orthodontic Intervention</h3>\n<p>It&#8217;s best to bring your kids in around ages 7 to 9 for early diagnosis. This lets your orthodontist spot any emerging concerns in their early stages.</p>\n<p>Early intervention guides jaw growth and helps create space for permanent teeth, reducing the need for extensive treatment later.</p>\n<h3>Braces for Teens: Discreet and Confident Smiles</h3>\n<p>Teens want discreet, comfortable treatment that keeps their confidence intact. That’s where options like clear braces and Damon systems come in. They support long-term oral health, giving teens a smile they feel proud to share.</p>\n<h3>Affordable Braces Options</h3>\n<p>Modern orthodontic practices deliver flexible solutions like payment plans, insurance arrangements, and financing options designed to fit most budgets. And just because it&#8217;s affordable doesn&#8217;t mean you have to compromise on quality. You&#8217;ll still get high-tech, personalized care with solid clinical expertise and technology.</p>\n<h3>Why Choose Modern Orthodontic Systems?</h3>\n<p>Today&#8217;s braces offer major advantages, including shorter treatment times and improved comfort. Digital imaging, 3D modeling, and advanced planning tools create accurate treatment plans based on each patient’s needs.</p>\n<h3>Benefits of Professional Orthodontic Care</h3>\n<p>Professional orthodontic treatment ensures customized planning designed for precise tooth movement and predictable results. Patients, regardless of age, experience improved overall health and functional benefits as well.</p>\n<h3>Caring for Your Braces</h3>\n<p>Caring for braces during treatment is pretty straightforward. Here&#8217;s how:</p>\n<ul>\n<li>Brush and floss daily using tools designed for braces.</li>\n<li>Avoid food that&#8217;s sticky or hard to chew.</li>\n<li>Make it a habit to visit your orthodontist for routine adjustments.</li>\n</ul>\n<h3>Why Choose a Trusted Orthodontic Team</h3>\n<p>Working with a trusted orthodontic team means gaining access to a group with extensive experience. These experts use advanced technology to deliver predictable outcomes. Your trusted team is committed to comfort, communication, and high-quality care.</p>\n<h3>Book Your Orthodontic Consultation Today</h3>\n<p>Achieving a beautiful and confident smile starts with making an appointment with our orthodontist. Don’t wait to explore a comfortable and customized approach to designing a perfectly aligned smile.</p>\n<h3>Locations We Serve</h3>\n<ul >\n<li>Marin County</li>\n<li>San Rafael</li>\n<li>Mill Valley</li>\n<li>Novato</li>\n<li>&amp; surrounding areas</li>\n</ul>"
             }
           ]
         }
@@ -605,7 +605,7 @@
             "og_meta": {
               "title": "Trick, Treat & Smile: How to Have a Braces-Friendly Halloween",
               "description": "Trick or Treat with Braces? Yes You Can! — Your Friendly Guide to a Braces-Safe Halloween Halloween is just around the corner, and we know what that means — costumes, spooky decorations, and of course… CANDY! But if you’re rocking braces this year, you might be wondering: Can I still enjoy Halloween treats without breaking",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2025/10/AdobeStock_447820503-1-1024x751.jpeg"
+              "image": "{{cdn}}/uploads/2025/10/AdobeStock_447820503-1-1024x751.jpeg"
             }
           }
         },
@@ -614,15 +614,15 @@
           "date": "October 15, 2025",
           "excerpt": "Trick or Treat with Braces? Yes You Can! — Your Friendly Guide to a Braces-Safe Halloween Halloween is just around the corner, and we know what that means — costumes, spooky decorations, and of course… CANDY! But if you’re rocking braces this year, you might be wondering: Can I still enjoy Halloween treats without breaking",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/10/AdobeStock_447820503-1-768x563.jpeg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/10/AdobeStock_447820503-1-768x563.jpeg",
+            "src": "{{cdn}}/uploads/2025/10/AdobeStock_447820503-1-768x563.jpeg",
+            "webp": "{{cdn}}/uploads/2025/10/AdobeStock_447820503-1-768x563.jpeg",
             "alt": "Trick, Treat & Smile: How to Have a Braces-Friendly Halloween",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/10/AdobeStock_447820503-1-1024x751.jpeg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/10/AdobeStock_447820503-1-1024x751.jpeg",
+            "src": "{{cdn}}/uploads/2025/10/AdobeStock_447820503-1-1024x751.jpeg",
+            "webp": "{{cdn}}/uploads/2025/10/AdobeStock_447820503-1-1024x751.jpeg",
             "alt": "Trick, Treat & Smile: How to Have a Braces-Friendly Halloween",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -653,7 +653,7 @@
             "og_meta": {
               "title": "Retainers for Life: Why Your Smile Needs a Lifetime Security System",
               "description": "If you’ve recently finished orthodontic treatment or are just curious about keeping your smile straight forever, you need to know about one superstar appliance: the retainer! Let’s break down why your retainer is absolutely crucial—and how it keeps your teeth in line no matter your age. Why Teeth Never Stop Moving Did you know your",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2025/08/blog-retainer-for-life-1024x683.jpg"
+              "image": "{{cdn}}/uploads/2025/08/blog-retainer-for-life-1024x683.jpg"
             }
           }
         },
@@ -662,15 +662,15 @@
           "date": "August 14, 2025",
           "excerpt": "If you’ve recently finished orthodontic treatment or are just curious about keeping your smile straight forever, you need to know about one superstar appliance: the retainer! Let’s break down why your retainer is absolutely crucial—and how it keeps your teeth in line no matter your age. Why Teeth Never Stop Moving Did you know your",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/08/blog-retainer-for-life-768x512.jpg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/08/blog-retainer-for-life-768x512.jpg",
+            "src": "{{cdn}}/uploads/2025/08/blog-retainer-for-life-768x512.jpg",
+            "webp": "{{cdn}}/uploads/2025/08/blog-retainer-for-life-768x512.jpg",
             "alt": "Retainers for Life: Why Your Smile Needs a Lifetime Security System",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/08/blog-retainer-for-life-1024x683.jpg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/08/blog-retainer-for-life-1024x683.jpg",
+            "src": "{{cdn}}/uploads/2025/08/blog-retainer-for-life-1024x683.jpg",
+            "webp": "{{cdn}}/uploads/2025/08/blog-retainer-for-life-1024x683.jpg",
             "alt": "Retainers for Life: Why Your Smile Needs a Lifetime Security System",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -701,7 +701,7 @@
             "og_meta": {
               "title": "What is Phase I “Early Interceptive” Orthodontic Treatment?",
               "description": "What Is Phase I Treatment? Phase I, or “early interceptive” orthodontic treatment, is an approach designed for children while they still have some baby teeth. The goal is to address specific dental and jaw issues early—during a child’s active growth phase—so we can guide the development of their bite and smile in the healthiest direction",
-              "image": "https://www.valleyorthodontics.net/wp-content/uploads/2025/05/phase-one.jpeg"
+              "image": "{{cdn}}/uploads/2025/05/phase-one.jpeg"
             }
           }
         },
@@ -710,15 +710,15 @@
           "date": "May 28, 2025",
           "excerpt": "What Is Phase I Treatment? Phase I, or “early interceptive” orthodontic treatment, is an approach designed for children while they still have some baby teeth. The goal is to address specific dental and jaw issues early—during a child’s active growth phase—so we can guide the development of their bite and smile in the healthiest direction",
           "thumbnail_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/05/phase-one-768x512.jpeg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/05/phase-one-768x512.jpeg",
+            "src": "{{cdn}}/uploads/2025/05/phase-one-768x512.jpeg",
+            "webp": "{{cdn}}/uploads/2025/05/phase-one-768x512.jpeg",
             "alt": "What is Phase I “Early Interceptive” Orthodontic Treatment?",
             "bgColor": "#ffffff",
             "imageBackground": false
           },
           "main_image": {
-            "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/05/phase-one.jpeg",
-            "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/05/phase-one.jpeg",
+            "src": "{{cdn}}/uploads/2025/05/phase-one.jpeg",
+            "webp": "{{cdn}}/uploads/2025/05/phase-one.jpeg",
             "alt": "What is Phase I “Early Interceptive” Orthodontic Treatment?",
             "bgColor": "#ffffff",
             "imageBackground": false
@@ -752,7 +752,7 @@
               "og_meta": {
                 "title": "Orthodontics for Teens: Braces, Invisalign, and Everything In Between",
                 "description": "The teen years are one of the most common times to start orthodontic treatment, and for good reason. By the teenage years, most permanent teeth have come in, which makes it an ideal window to guide a smile into place. If you’re a parent in Marin County weighing the options for your teen, here’s what ...",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal.webp"
+                "image": "{{cdn}}/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal.webp"
               }
             }
           },
@@ -761,15 +761,15 @@
             "date": "July 29, 2026",
             "excerpt": "The teen years are one of the most common times to start orthodontic treatment, and for good reason. By the teenage years, most permanent teeth have come in, which makes it an ideal window to guide a smile into place. If you’re a parent in Marin County weighing the options for your teen, here’s what ...",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-768x526.webp",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-768x526.webp",
+              "src": "{{cdn}}/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-768x526.webp",
+              "webp": "{{cdn}}/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-768x526.webp",
               "alt": "Orthodontics for Teens: Braces, Invisalign, and Everything In Between",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-1024x701.webp",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-1024x701.webp",
+              "src": "{{cdn}}/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-1024x701.webp",
+              "webp": "{{cdn}}/uploads/2026/07/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal-1024x701.webp",
               "alt": "Orthodontics for Teens: Braces, Invisalign, and Everything In Between",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -777,7 +777,7 @@
             "paragraphs": [
               {
                 "header": "",
-                "body": "<p>The teen years are one of the most common times to start <a href=\"/for-teens/\">orthodontic treatment</a>, and for good reason. By the teenage years, most permanent teeth have come in, which makes it an ideal window to guide a smile into place. If you&#8217;re a parent in Marin County weighing the options for your teen, here&#8217;s what you should know.</p>\n<h2>Metal Braces: The Classic for a Reason</h2>\n<p>Metal braces remain a go-to for teens. They&#8217;re effective across a wide range of cases, durable enough for active lifestyles, and today&#8217;s versions are more comfortable than ever. Bonus: many teens love picking new band colors at each appointment, which turns treatment into something they can have a little fun with.</p>\n<h2>Ceramic Braces: A More Discreet Look</h2>\n<p>For teens who feel self-conscious about a mouthful of metal, <a href=\"/braces/\">clear ceramic braces</a> are a great alternative. They work just like metal braces but use tooth-colored brackets that blend in, so your teen gets the same reliable results with a subtler appearance.</p>\n<h2>Invisalign and Clear Aligners: Freedom and Flexibility</h2>\n<p><a href=\"/clear-aligners/\">Clear aligners</a> like Invisalign are a popular choice for responsible teens. The trays are removable and nearly invisible, which means your teen can keep eating their favorite foods and brush and floss normally. For sports, band, or big school events, being able to take them out is a real plus. Success does depend on wearing them consistently, so they tend to work best for teens who are ready to stay on track.</p>\n<h2>How to Choose</h2>\n<p>Every teen is different, and so is every smile. The right option depends on your teen&#8217;s specific needs, their daily routine, and what will help them feel most confident. That&#8217;s where a personalized consultation comes in. Dr. Rocha and our team take the time to get to know each patient and recommend the approach that fits best.</p>\n<p>Valley Orthodontics proudly serves teens and families across San Rafael, Mill Valley, Novato, and Marin County. Ready to help your teen start their smile journey? <a href=\"/complimentary-consultation/\">Schedule a complimentary consultation</a> today.</p>\n<h2>Frequently Asked Questions</h2>\n<h3>Who Offers Braces for Teens in Marin County?</h3>\n<p>Valley Orthodontics offers braces for teens across Marin County from our San Rafael office. Teens can choose from metal braces, clear ceramic braces, or Invisalign, and Dr. Rocha will help match the right option to your teen&#8217;s needs and lifestyle. Book a complimentary consultation to get started.</p>\n<h3>Who Offers Braces for Kids in Marin County?</h3>\n<p>Valley Orthodontics welcomes kids from all over Marin County at our San Rafael practice. Dr. Rocha provides early treatment for younger children when it&#8217;s helpful and full braces when the timing is right, always with a warm, kid-friendly approach. Reach out for a complimentary consultation, and we&#8217;ll let you know what&#8217;s best for your child.</p>\n<h3>Who Is the Best Orthodontist for Kids in San Rafael?</h3>\n<p>Families across San Rafael trust Dr. Rocha at Valley Orthodontics for their kids&#8217; smiles. As a specialist who focuses only on orthodontics, she creates a comfortable, encouraging experience that helps children feel at ease from the very first visit. Schedule a complimentary consultation to meet our team and see if we&#8217;re the right fit for your family.</p>\n"
+                "body": "<p>The teen years are one of the most common times to start <a href=\"/all-ages-treatments#teens\">orthodontic treatment</a>, and for good reason. By the teenage years, most permanent teeth have come in, which makes it an ideal window to guide a smile into place. If you&#8217;re a parent in Marin County weighing the options for your teen, here&#8217;s what you should know.</p>\n<h2>Metal Braces: The Classic for a Reason</h2>\n<p>Metal braces remain a go-to for teens. They&#8217;re effective across a wide range of cases, durable enough for active lifestyles, and today&#8217;s versions are more comfortable than ever. Bonus: many teens love picking new band colors at each appointment, which turns treatment into something they can have a little fun with.</p>\n<h2>Ceramic Braces: A More Discreet Look</h2>\n<p>For teens who feel self-conscious about a mouthful of metal, <a href=\"/braces\">clear ceramic braces</a> are a great alternative. They work just like metal braces but use tooth-colored brackets that blend in, so your teen gets the same reliable results with a subtler appearance.</p>\n<h2>Invisalign and Clear Aligners: Freedom and Flexibility</h2>\n<p><a href=\"/clear-aligners\">Clear aligners</a> like Invisalign are a popular choice for responsible teens. The trays are removable and nearly invisible, which means your teen can keep eating their favorite foods and brush and floss normally. For sports, band, or big school events, being able to take them out is a real plus. Success does depend on wearing them consistently, so they tend to work best for teens who are ready to stay on track.</p>\n<h2>How to Choose</h2>\n<p>Every teen is different, and so is every smile. The right option depends on your teen&#8217;s specific needs, their daily routine, and what will help them feel most confident. That&#8217;s where a personalized consultation comes in. Dr. Rocha and our team take the time to get to know each patient and recommend the approach that fits best.</p>\n<p>Valley Orthodontics proudly serves teens and families across San Rafael, Mill Valley, Novato, and Marin County. Ready to help your teen start their smile journey? <a href=\"/contact#form\">Schedule a complimentary consultation</a> today.</p>\n<h2>Frequently Asked Questions</h2>\n<h3>Who Offers Braces for Teens in Marin County?</h3>\n<p>Valley Orthodontics offers braces for teens across Marin County from our San Rafael office. Teens can choose from metal braces, clear ceramic braces, or Invisalign, and Dr. Rocha will help match the right option to your teen&#8217;s needs and lifestyle. Book a complimentary consultation to get started.</p>\n<h3>Who Offers Braces for Kids in Marin County?</h3>\n<p>Valley Orthodontics welcomes kids from all over Marin County at our San Rafael practice. Dr. Rocha provides early treatment for younger children when it&#8217;s helpful and full braces when the timing is right, always with a warm, kid-friendly approach. Reach out for a complimentary consultation, and we&#8217;ll let you know what&#8217;s best for your child.</p>\n<h3>Who Is the Best Orthodontist for Kids in San Rafael?</h3>\n<p>Families across San Rafael trust Dr. Rocha at Valley Orthodontics for their kids&#8217; smiles. As a specialist who focuses only on orthodontics, she creates a comfortable, encouraging experience that helps children feel at ease from the very first visit. Schedule a complimentary consultation to meet our team and see if we&#8217;re the right fit for your family.</p>\n"
               }
             ]
           }
@@ -800,7 +800,7 @@
               "og_meta": {
                 "title": "Join Valley Orthodontics for Our 2026 Patient Appreciation Ice Cream Social",
                 "description": "Join Valley Orthodontics in San Rafael for our Patient Appreciation Ice Cream Social on Thursday, August 27, 2026, from 2:30–5:00 p.m.",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg"
+                "image": "{{cdn}}/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg"
               }
             }
           },
@@ -809,15 +809,15 @@
             "date": "July 13, 2026",
             "excerpt": "Join Valley Orthodontics in San Rafael for our Patient Appreciation Ice Cream Social on Thursday, August 27, 2026, from 2:30–5:00 p.m.",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
+              "src": "{{cdn}}/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
+              "webp": "{{cdn}}/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
               "alt": "Valley Orthodontics Back to School Patient Appreciation Ice Cream Social on August 27, 2026",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
+              "src": "{{cdn}}/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
+              "webp": "{{cdn}}/uploads/2026/07/valley-orthodontics-patient-appreciation-ice-cream-social-2026.jpg",
               "alt": "Valley Orthodontics Back to School Patient Appreciation Ice Cream Social on August 27, 2026",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -860,7 +860,7 @@
               "og_meta": {
                 "title": "Introducing Grin: Remote Orthodontic Monitoring for Valley Orthodontics Patients",
                 "description": "Valley Orthodontics is introducing Grin remote orthodontic monitoring to help patients stay connected with Dr. Rocha and our team between visits, with convenient digital check-ins from home.",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics.jpg"
+                "image": "{{cdn}}/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics.jpg"
               }
             }
           },
@@ -869,15 +869,15 @@
             "date": "July 1, 2026",
             "excerpt": "Valley Orthodontics is introducing Grin remote orthodontic monitoring to help patients stay connected with Dr. Rocha and our team between visits, with convenient digital check-ins from home.",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-768x433.jpg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-768x433.jpg",
+              "src": "{{cdn}}/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-768x433.jpg",
+              "webp": "{{cdn}}/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-768x433.jpg",
               "alt": "Patient using Grin remote orthodontic monitoring with a smartphone",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-1024x578.jpg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-1024x578.jpg",
+              "src": "{{cdn}}/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-1024x578.jpg",
+              "webp": "{{cdn}}/uploads/2026/06/grin-remote-orthodontic-monitoring-valley-orthodontics-1024x578.jpg",
               "alt": "Patient using Grin remote orthodontic monitoring with a smartphone",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -908,7 +908,7 @@
               "og_meta": {
                 "title": "Adult Orthodontics: It's Never Too Late for a Beautiful, Healthy Smile",
                 "description": "Many adults assume that orthodontic treatment is only for teenagers. The truth is that more adults than ever are choosing to improve their smiles with braces or clear aligners—and not just for cosmetic reasons. At Valley Orthodontics in San Rafael, CA, we treat patients of all ages throughout Marin County, including Novato, Mill Valley, Larkspur, ...",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/adult-braces-1024x683.jpeg"
+                "image": "{{cdn}}/uploads/2026/06/adult-braces-1024x683.jpeg"
               }
             }
           },
@@ -917,15 +917,15 @@
             "date": "June 18, 2026",
             "excerpt": "Many adults assume that orthodontic treatment is only for teenagers. The truth is that more adults than ever are choosing to improve their smiles with braces or clear aligners—and not just for cosmetic reasons. At Valley Orthodontics in San Rafael, CA, we treat patients of all ages throughout Marin County, including Novato, Mill Valley, Larkspur, ...",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/adult-braces-768x512.jpeg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/adult-braces-768x512.jpeg",
+              "src": "{{cdn}}/uploads/2026/06/adult-braces-768x512.jpeg",
+              "webp": "{{cdn}}/uploads/2026/06/adult-braces-768x512.jpeg",
               "alt": "Adult woman with braces smiling",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/adult-braces-1024x683.jpeg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/06/adult-braces-1024x683.jpeg",
+              "src": "{{cdn}}/uploads/2026/06/adult-braces-1024x683.jpeg",
+              "webp": "{{cdn}}/uploads/2026/06/adult-braces-1024x683.jpeg",
               "alt": "Adult woman with braces smiling",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -956,7 +956,7 @@
               "og_meta": {
                 "title": "Traveling With Invisalign: Airports, Eating Out, and Keeping Track of Aligners",
                 "description": "Traveling with Invisalign? Valley Orthodontics in San Rafael shares expert Invisalign travel tips for patients in Mill Valley, Larkspur, Corte Madera, Novato, and throughout Marin County",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/traveling-with-invisalign-aligners-1024x682.jpg"
+                "image": "{{cdn}}/uploads/2026/05/traveling-with-invisalign-aligners-1024x682.jpg"
               }
             }
           },
@@ -965,15 +965,15 @@
             "date": "June 1, 2026",
             "excerpt": "Traveling with Invisalign? Valley Orthodontics in San Rafael shares expert Invisalign travel tips for patients in Mill Valley, Larkspur, Corte Madera, Novato, and throughout Marin County",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/traveling-with-invisalign-aligners-768x512.jpg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/traveling-with-invisalign-aligners-768x512.jpg",
+              "src": "{{cdn}}/uploads/2026/05/traveling-with-invisalign-aligners-768x512.jpg",
+              "webp": "{{cdn}}/uploads/2026/05/traveling-with-invisalign-aligners-768x512.jpg",
               "alt": "Hands holding clear Invisalign aligners",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/traveling-with-invisalign-aligners-1024x682.jpg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/traveling-with-invisalign-aligners-1024x682.jpg",
+              "src": "{{cdn}}/uploads/2026/05/traveling-with-invisalign-aligners-1024x682.jpg",
+              "webp": "{{cdn}}/uploads/2026/05/traveling-with-invisalign-aligners-1024x682.jpg",
               "alt": "Hands holding clear Invisalign aligners",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -1004,7 +1004,7 @@
               "og_meta": {
                 "title": "Common Myths About Orthodontic Treatment Debunked",
                 "description": "Modern orthodontics is more comfortable, convenient, and effective than ever. Learn the truth behind common myths about braces, clear aligners, retainers, and treatment timelines.",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/common-myths-orthodontic-treatment-1024x682.jpg"
+                "image": "{{cdn}}/uploads/2026/05/common-myths-orthodontic-treatment-1024x682.jpg"
               }
             }
           },
@@ -1013,15 +1013,15 @@
             "date": "May 18, 2026",
             "excerpt": "Modern orthodontics is more comfortable, convenient, and effective than ever. Learn the truth behind common myths about braces, clear aligners, retainers, and treatment timelines.",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/common-myths-orthodontic-treatment-768x512.jpg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/common-myths-orthodontic-treatment-768x512.jpg",
+              "src": "{{cdn}}/uploads/2026/05/common-myths-orthodontic-treatment-768x512.jpg",
+              "webp": "{{cdn}}/uploads/2026/05/common-myths-orthodontic-treatment-768x512.jpg",
               "alt": "Woman receiving orthodontic care at the dentist",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/common-myths-orthodontic-treatment-1024x682.jpg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/05/common-myths-orthodontic-treatment-1024x682.jpg",
+              "src": "{{cdn}}/uploads/2026/05/common-myths-orthodontic-treatment-1024x682.jpg",
+              "webp": "{{cdn}}/uploads/2026/05/common-myths-orthodontic-treatment-1024x682.jpg",
               "alt": "Woman receiving orthodontic care at the dentist",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -1052,7 +1052,7 @@
               "og_meta": {
                 "title": "More Than Just a Straight Smile: Why Airway Matters in Orthodontics",
                 "description": "When you think of the orthodontist, you probably think of braces, clear aligners, and perfectly straight teeth. While a beautiful smile is a fantastic goal, at Valley Orthodontics, we believe it’s only one piece of the puzzle. As an airway-centered orthodontic practice, we don’t just look at your teeth; we look at the person behind",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/airway-ortho.jpg"
+                "image": "{{cdn}}/uploads/2026/02/airway-ortho.jpg"
               }
             }
           },
@@ -1061,15 +1061,15 @@
             "date": "April 27, 2026",
             "excerpt": "When you think of the orthodontist, you probably think of braces, clear aligners, and perfectly straight teeth. While a beautiful smile is a fantastic goal, at Valley Orthodontics, we believe it’s only one piece of the puzzle. As an airway-centered orthodontic practice, we don’t just look at your teeth; we look at the person behind",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/airway-ortho-768x512.jpg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/airway-ortho-768x512.jpg",
+              "src": "{{cdn}}/uploads/2026/02/airway-ortho-768x512.jpg",
+              "webp": "{{cdn}}/uploads/2026/02/airway-ortho-768x512.jpg",
               "alt": "More Than Just a Straight Smile: Why Airway Matters in Orthodontics",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/airway-ortho.jpg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/airway-ortho.jpg",
+              "src": "{{cdn}}/uploads/2026/02/airway-ortho.jpg",
+              "webp": "{{cdn}}/uploads/2026/02/airway-ortho.jpg",
               "alt": "More Than Just a Straight Smile: Why Airway Matters in Orthodontics",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -1077,7 +1077,7 @@
             "paragraphs": [
               {
                 "header": "",
-                "body": "<p>When you think of the orthodontist, you probably think of braces, clear aligners, and perfectly straight teeth. While a beautiful smile is a fantastic goal, at<b> Valley Orthodontics</b>, we believe it’s only one piece of the puzzle.</p>\n<p>As an<strong> airway-centered orthodontic practice</strong>, we don&#8217;t just look at your teeth; we look at the person behind the smile. Our goal is to identify the root cause of dental issues, ensuring our patients breathe, sleep, and live better.</p>\n<hr />\n<h2>Why Your Airway is Part of Your Orthodontic Plan</h2>\n<p>Have you ever wondered why teeth become crowded in the first place? Often, it’s because the &#8220;housing&#8221; for the teeth—the dental arches—is too narrow or constricted. When the mouth is narrow, the airway is often impacted as well.</p>\n<p>By evaluating the airway, we can determine if a patient is struggling to breathe properly through their nose. Proper nasal breathing is essential for:</p>\n<ul>\n<li><b>Facial Development: </b>Helping the jaw grow into its correct position.</li>\n<li><b>Quality Sleep: </b>Ensuring the brain and body get enough oxygen at night.</li>\n<li><b>Overall Health: </b>Reducing the risk of long-term issues like sleep apnea.</li>\n</ul>\n<h2>Signs Your Child Might Need an Airway Evaluation</h2>\n<p>Sometimes, the symptoms of a restricted airway aren&#8217;t obvious. If your child experiences any of the following, it might be time for a holistic orthodontic check-up:</p>\n<ul>\n<li><b>Snoring </b>or heavy breathing during sleep.</li>\n<li><b>Grinding teeth </b>(often a sign the body is trying to &#8220;wake up&#8221; the airway).</li>\n<li><b>Restless sleep </b>or waking up tired.</li>\n<li><b>Difficulty concentrating </b>or behavioral issues at school (often mistaken for ADHD).</li>\n<li><b>Mouth breathing </b>during the day or night.</li>\n</ul>\n<hr />\n<h2>High-Tech Diagnosis for Holistic Care</h2>\n<p>We’ve invested in the latest technology to ensure we see the full picture. At our San Rafael office, we use:</p>\n<ul>\n<li><b>3D Imaging (CBCT): </b>Unlike traditional 2D X-rays, our 3D scans allow us to visualize the airway, nasal passages, and jaw structure in incredible detail. We can literally see if there is an obstruction in the nose or throat.</li>\n<li><b>Digital Scans: </b>No more messy impressions! We use precise digital scanners to create a 3D model of the teeth and arches, helping us plan how to expand narrow arches to create more room for both teeth and air.</li>\n</ul>\n<hr />\n<h2>Treating the Source, Not Just the Symptom</h2>\n<p>Our philosophy is simple:<b> We treat the source of the problem. </b>If a patient has a narrow arch or a restricted airway, simply straightening the teeth won&#8217;t fix the underlying health issue.</p>\n<p>By diagnosing these issues early, we can:</p>\n<ul>\n<li><b>Expand the palate </b>to improve airflow and create space for teeth.</li>\n<li><b>Collaborate with Specialists: </b>We work closely with a network of experts, including<b> ENTs (Ear, Nose, and Throat doctors) </b>,<b> Allergists</b>, and<b> Myofunctional Therapists </b>to ensure you get the comprehensive care you deserve.</li>\n</ul>\n<hr />\n<h2>Start Your Journey at Valley Orthodontics</h2>\n<p>Located conveniently in<strong> San Rafael, Marin County</strong>, we are proud to serve our community with a health-first approach to orthodontics. Whether you’re interested in braces for your child or a more comfortable night&#8217;s sleep for yourself, we are here to help.</p>\n<p><strong>Ready to breathe easier and smile brighter?</strong></p>\n<p><a href=\"https://www.valleyorthodontics.net/complimentary-consultation/\">Contact us today </a>for a<strong> complimentary evaluation </strong>and see the difference that airway-centered care can make.</p>"
+                "body": "<p>When you think of the orthodontist, you probably think of braces, clear aligners, and perfectly straight teeth. While a beautiful smile is a fantastic goal, at<b> Valley Orthodontics</b>, we believe it’s only one piece of the puzzle.</p>\n<p>As an<strong> airway-centered orthodontic practice</strong>, we don&#8217;t just look at your teeth; we look at the person behind the smile. Our goal is to identify the root cause of dental issues, ensuring our patients breathe, sleep, and live better.</p>\n<hr />\n<h2>Why Your Airway is Part of Your Orthodontic Plan</h2>\n<p>Have you ever wondered why teeth become crowded in the first place? Often, it’s because the &#8220;housing&#8221; for the teeth—the dental arches—is too narrow or constricted. When the mouth is narrow, the airway is often impacted as well.</p>\n<p>By evaluating the airway, we can determine if a patient is struggling to breathe properly through their nose. Proper nasal breathing is essential for:</p>\n<ul>\n<li><b>Facial Development: </b>Helping the jaw grow into its correct position.</li>\n<li><b>Quality Sleep: </b>Ensuring the brain and body get enough oxygen at night.</li>\n<li><b>Overall Health: </b>Reducing the risk of long-term issues like sleep apnea.</li>\n</ul>\n<h2>Signs Your Child Might Need an Airway Evaluation</h2>\n<p>Sometimes, the symptoms of a restricted airway aren&#8217;t obvious. If your child experiences any of the following, it might be time for a holistic orthodontic check-up:</p>\n<ul>\n<li><b>Snoring </b>or heavy breathing during sleep.</li>\n<li><b>Grinding teeth </b>(often a sign the body is trying to &#8220;wake up&#8221; the airway).</li>\n<li><b>Restless sleep </b>or waking up tired.</li>\n<li><b>Difficulty concentrating </b>or behavioral issues at school (often mistaken for ADHD).</li>\n<li><b>Mouth breathing </b>during the day or night.</li>\n</ul>\n<hr />\n<h2>High-Tech Diagnosis for Holistic Care</h2>\n<p>We’ve invested in the latest technology to ensure we see the full picture. At our San Rafael office, we use:</p>\n<ul>\n<li><b>3D Imaging (CBCT): </b>Unlike traditional 2D X-rays, our 3D scans allow us to visualize the airway, nasal passages, and jaw structure in incredible detail. We can literally see if there is an obstruction in the nose or throat.</li>\n<li><b>Digital Scans: </b>No more messy impressions! We use precise digital scanners to create a 3D model of the teeth and arches, helping us plan how to expand narrow arches to create more room for both teeth and air.</li>\n</ul>\n<hr />\n<h2>Treating the Source, Not Just the Symptom</h2>\n<p>Our philosophy is simple:<b> We treat the source of the problem. </b>If a patient has a narrow arch or a restricted airway, simply straightening the teeth won&#8217;t fix the underlying health issue.</p>\n<p>By diagnosing these issues early, we can:</p>\n<ul>\n<li><b>Expand the palate </b>to improve airflow and create space for teeth.</li>\n<li><b>Collaborate with Specialists: </b>We work closely with a network of experts, including<b> ENTs (Ear, Nose, and Throat doctors) </b>,<b> Allergists</b>, and<b> Myofunctional Therapists </b>to ensure you get the comprehensive care you deserve.</li>\n</ul>\n<hr />\n<h2>Start Your Journey at Valley Orthodontics</h2>\n<p>Located conveniently in<strong> San Rafael, Marin County</strong>, we are proud to serve our community with a health-first approach to orthodontics. Whether you’re interested in braces for your child or a more comfortable night&#8217;s sleep for yourself, we are here to help.</p>\n<p><strong>Ready to breathe easier and smile brighter?</strong></p>\n<p><a href=\"/contact#form\">Contact us today </a>for a<strong> complimentary evaluation </strong>and see the difference that airway-centered care can make.</p>"
               }
             ]
           }
@@ -1100,7 +1100,7 @@
               "og_meta": {
                 "title": "Affordable Braces in San Rafael: Payment Plans, Insurance, and How to Fit Treatment Into Your Budget",
                 "description": "If you’re searching for affordable braces in San Rafael or Marin County, you’re not alone. Many families want a healthy, confident smile—but understandably worry about cost. At Valley Orthodontics in San Rafael, we believe that finances should never stand in the way of exceptional orthodontic care. Whether you’re considering braces for your child, teen, or even yourself,",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/affordable-braces-2-1024x683.jpeg"
+                "image": "{{cdn}}/uploads/2026/02/affordable-braces-2-1024x683.jpeg"
               }
             }
           },
@@ -1109,15 +1109,15 @@
             "date": "February 25, 2026",
             "excerpt": "If you’re searching for affordable braces in San Rafael or Marin County, you’re not alone. Many families want a healthy, confident smile—but understandably worry about cost. At Valley Orthodontics in San Rafael, we believe that finances should never stand in the way of exceptional orthodontic care. Whether you’re considering braces for your child, teen, or even yourself,",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/affordable-braces-2-768x512.jpeg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/affordable-braces-2-768x512.jpeg",
+              "src": "{{cdn}}/uploads/2026/02/affordable-braces-2-768x512.jpeg",
+              "webp": "{{cdn}}/uploads/2026/02/affordable-braces-2-768x512.jpeg",
               "alt": "Affordable Braces in San Rafael: Payment Plans, Insurance, and How to Fit Treatment Into Your Budget",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/affordable-braces-2-1024x683.jpeg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/affordable-braces-2-1024x683.jpeg",
+              "src": "{{cdn}}/uploads/2026/02/affordable-braces-2-1024x683.jpeg",
+              "webp": "{{cdn}}/uploads/2026/02/affordable-braces-2-1024x683.jpeg",
               "alt": "Affordable Braces in San Rafael: Payment Plans, Insurance, and How to Fit Treatment Into Your Budget",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -1148,7 +1148,7 @@
               "og_meta": {
                 "title": "7 Important Questions Parents Should Ask at an Orthodontic Consultation",
                 "description": "If you’re a parent searching for a trusted orthodontist near you, you may be wondering when your child should see an orthodontist and how to prepare for the first visit. An orthodontic consultation is an important step in protecting your child’s long-term oral health—and it should feel informative, comfortable, and stress-free. At Valley Orthodontics in",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/7-questions-1024x683.jpeg"
+                "image": "{{cdn}}/uploads/2026/02/7-questions-1024x683.jpeg"
               }
             }
           },
@@ -1157,15 +1157,15 @@
             "date": "February 4, 2026",
             "excerpt": "If you’re a parent searching for a trusted orthodontist near you, you may be wondering when your child should see an orthodontist and how to prepare for the first visit. An orthodontic consultation is an important step in protecting your child’s long-term oral health—and it should feel informative, comfortable, and stress-free. At Valley Orthodontics in",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/7-questions-768x512.jpeg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/7-questions-768x512.jpeg",
+              "src": "{{cdn}}/uploads/2026/02/7-questions-768x512.jpeg",
+              "webp": "{{cdn}}/uploads/2026/02/7-questions-768x512.jpeg",
               "alt": "7 Important Questions Parents Should Ask at an Orthodontic Consultation",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/7-questions-1024x683.jpeg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2026/02/7-questions-1024x683.jpeg",
+              "src": "{{cdn}}/uploads/2026/02/7-questions-1024x683.jpeg",
+              "webp": "{{cdn}}/uploads/2026/02/7-questions-1024x683.jpeg",
               "alt": "7 Important Questions Parents Should Ask at an Orthodontic Consultation",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -1173,7 +1173,7 @@
             "paragraphs": [
               {
                 "header": "",
-                "body": "<p>If you’re a parent searching for a trusted orthodontist near you, you may be wondering when your child should see an orthodontist and how to prepare for the first visit. An orthodontic consultation is an important step in protecting your child’s long-term oral health—and it should feel informative, comfortable, and stress-free.</p>\n<p>At Valley Orthodontics in San Rafael, we believe that educated parents make confident decisions. Below are seven essential questions parents should ask at an orthodontic consultation to help determine the best care for their child’s smile.</p>\n<p><strong><b>💡 Download our helpful guide:</b></strong> <a href=\"/wp-content/uploads/2026/02/Parent-Consult-Checklist.pdf\">Click here to download the Parent Consultation Checklist (PDF)</a></p>\n<h2><strong><b>1. Does My Child Need Braces or Orthodontic Treatment Right Now?</b></strong></h2>\n<p>One of the most common questions parents ask is, “Does my child need braces yet? When is the best time to schedule an initial consultation?” The answer isn’t always immediate treatment. In many cases, early orthodontic evaluations allow us to monitor growth and recommend treatment at the ideal time. We recommend patients visiting an orthodontist for an initial screening no later than 7 years old, earlier if concerns exist from you or their dentist.</p>\n<p>A trusted San Rafael orthodontist will explain whether treatment should begin now, later, or if observation is the best approach based on your child’s development. And equally important, ask why now is or use the time, if an explanation isn’t offered.</p>\n<h2><strong><b>2. What Type of Orthodontic Treatment Is Best for My Child?</b></strong></h2>\n<p>There are several orthodontic treatment options for children and teens, including traditional braces, clear braces, and clear aligners. The best option depends on your child’s bite, jaw growth, tooth alignment, and lifestyle.</p>\n<p>Ask your orthodontist:</p>\n<ul>\n<li>Which treatment option is recommended</li>\n<li>If a particular option is better suited for any major sport/hobbies/lifestyle (mention if your an athlete, play an instrument, etc, in case a treatment option is best suited)</li>\n<li>Pros and cons of each treatment option, including compliance required for success</li>\n</ul>\n<p>At Valley Orthodontics, we focus on personalized treatment plans—because every smile and every child is different. Ask about our exclusive “champagne” colored brackets- a local favorite of patients of all ages!</p>\n<h2><strong><b>3. How Long Will Orthodontic Treatment Take?</b></strong></h2>\n<p>Many parents search online for “how long do braces take for kids?” While treatment time varies, your orthodontist should provide a realistic estimate and explain what factors may influence the timeline, including growth patterns, oral hygiene, and compliance.</p>\n<p>Clear expectations help families plan with confidence.</p>\n<h2><strong><b>4. How Much Do Braces Cost and What’s Included?</b></strong></h2>\n<p>Orthodontic treatment is an investment in you and/or your child’s health and confidence. Be sure to ask for a clear explanation of:</p>\n<ul>\n<li>Total treatment cost</li>\n<li>What’s included (adjustments, retainers, repairs, emergency visits)</li>\n<li>Insurance coverage and flexible payment options</li>\n</ul>\n<p>A reputable Marin County orthodontic office will always be transparent and happy to review financial details with you.</p>\n<h2><strong><b>5. How Often Are Orthodontic Appointments?</b></strong></h2>\n<p>Knowing how frequently appointments are scheduled helps families balance school, work, and extracurricular activities. Ask how often your child will need to come in and how flexible the office is if appointments need to be rescheduled.</p>\n<p>Convenient, family-friendly care makes orthodontic treatment much easier for parents and kids alike.</p>\n<h2><strong><b>6. What Can We Do at Home to Support Treatment?</b></strong></h2>\n<p>Successful orthodontic treatment is a team effort. Ask your orthodontist about:</p>\n<ul>\n<li>Proper brushing and flossing with braces or aligners</li>\n<li>Foods to avoid during treatment</li>\n<li>How to manage soreness or minor issues at home</li>\n</ul>\n<p>Following home care instructions helps keep treatment on track and avoid broken appliances.</p>\n<h2><strong><b>7. What Happens After Braces Come Off?</b></strong></h2>\n<p>Many parents don’t realize how important retainers are after orthodontic treatment. Ask about:</p>\n<ul>\n<li>Retainer options</li>\n<li>How long retainers are needed</li>\n<li>Long-term follow-up care</li>\n<li>Cost of retainers and how open they need to be replaced</li>\n</ul>\n<p>Protecting your child’s new smile is just as important as creating it.</p>\n<h2><strong><b>Why Parents Trust Valley Orthodontics</b></strong></h2>\n<p>Choosing an orthodontist is about more than straight teeth—it’s about trust, communication, and long-term care. At Valley Orthodontics, we take the time to answer questions, explain treatment options clearly, and guide families through every stage of orthodontic care. And welcoming you to the Valley Ortho Family 🙂</p>\n<p>If you’re searching for a trusted orthodontist for children and teens in San Rafael or Marin County, we’re here to help.</p>\n<p>👉 <a href=\"https://www.valleyorthodontics.net/\">Schedule an orthodontic consultation</a> with Valley Orthodontics today and get the clarity and confidence you deserve.</p>\n<p>📍 <strong>Valley Orthodontics — San Rafael Orthodontist Serving Marin County, California</strong><br />\nAddress: 2400 Las Gallinas Ave, Suite 130, San Rafael, CA 94903<br />\nPhone: 415-479-2400<br />\nWebsite: <a href=\"https://www.valleyorthodontics.net/\">ValleyOrthodontics.net</a></p>\n<p>Providing trusted orthodontic care for children, teens, and families throughout San Rafael and Marin County, California</p>"
+                "body": "<p>If you’re a parent searching for a trusted orthodontist near you, you may be wondering when your child should see an orthodontist and how to prepare for the first visit. An orthodontic consultation is an important step in protecting your child’s long-term oral health—and it should feel informative, comfortable, and stress-free.</p>\n<p>At Valley Orthodontics in San Rafael, we believe that educated parents make confident decisions. Below are seven essential questions parents should ask at an orthodontic consultation to help determine the best care for their child’s smile.</p>\n<p><strong><b>💡 Download our helpful guide:</b></strong> <a href=\"{{cdn}}/uploads/2026/02/Parent-Consult-Checklist.pdf\">Click here to download the Parent Consultation Checklist (PDF)</a></p>\n<h2><strong><b>1. Does My Child Need Braces or Orthodontic Treatment Right Now?</b></strong></h2>\n<p>One of the most common questions parents ask is, “Does my child need braces yet? When is the best time to schedule an initial consultation?” The answer isn’t always immediate treatment. In many cases, early orthodontic evaluations allow us to monitor growth and recommend treatment at the ideal time. We recommend patients visiting an orthodontist for an initial screening no later than 7 years old, earlier if concerns exist from you or their dentist.</p>\n<p>A trusted San Rafael orthodontist will explain whether treatment should begin now, later, or if observation is the best approach based on your child’s development. And equally important, ask why now is or use the time, if an explanation isn’t offered.</p>\n<h2><strong><b>2. What Type of Orthodontic Treatment Is Best for My Child?</b></strong></h2>\n<p>There are several orthodontic treatment options for children and teens, including traditional braces, clear braces, and clear aligners. The best option depends on your child’s bite, jaw growth, tooth alignment, and lifestyle.</p>\n<p>Ask your orthodontist:</p>\n<ul>\n<li>Which treatment option is recommended</li>\n<li>If a particular option is better suited for any major sport/hobbies/lifestyle (mention if your an athlete, play an instrument, etc, in case a treatment option is best suited)</li>\n<li>Pros and cons of each treatment option, including compliance required for success</li>\n</ul>\n<p>At Valley Orthodontics, we focus on personalized treatment plans—because every smile and every child is different. Ask about our exclusive “champagne” colored brackets- a local favorite of patients of all ages!</p>\n<h2><strong><b>3. How Long Will Orthodontic Treatment Take?</b></strong></h2>\n<p>Many parents search online for “how long do braces take for kids?” While treatment time varies, your orthodontist should provide a realistic estimate and explain what factors may influence the timeline, including growth patterns, oral hygiene, and compliance.</p>\n<p>Clear expectations help families plan with confidence.</p>\n<h2><strong><b>4. How Much Do Braces Cost and What’s Included?</b></strong></h2>\n<p>Orthodontic treatment is an investment in you and/or your child’s health and confidence. Be sure to ask for a clear explanation of:</p>\n<ul>\n<li>Total treatment cost</li>\n<li>What’s included (adjustments, retainers, repairs, emergency visits)</li>\n<li>Insurance coverage and flexible payment options</li>\n</ul>\n<p>A reputable Marin County orthodontic office will always be transparent and happy to review financial details with you.</p>\n<h2><strong><b>5. How Often Are Orthodontic Appointments?</b></strong></h2>\n<p>Knowing how frequently appointments are scheduled helps families balance school, work, and extracurricular activities. Ask how often your child will need to come in and how flexible the office is if appointments need to be rescheduled.</p>\n<p>Convenient, family-friendly care makes orthodontic treatment much easier for parents and kids alike.</p>\n<h2><strong><b>6. What Can We Do at Home to Support Treatment?</b></strong></h2>\n<p>Successful orthodontic treatment is a team effort. Ask your orthodontist about:</p>\n<ul>\n<li>Proper brushing and flossing with braces or aligners</li>\n<li>Foods to avoid during treatment</li>\n<li>How to manage soreness or minor issues at home</li>\n</ul>\n<p>Following home care instructions helps keep treatment on track and avoid broken appliances.</p>\n<h2><strong><b>7. What Happens After Braces Come Off?</b></strong></h2>\n<p>Many parents don’t realize how important retainers are after orthodontic treatment. Ask about:</p>\n<ul>\n<li>Retainer options</li>\n<li>How long retainers are needed</li>\n<li>Long-term follow-up care</li>\n<li>Cost of retainers and how open they need to be replaced</li>\n</ul>\n<p>Protecting your child’s new smile is just as important as creating it.</p>\n<h2><strong><b>Why Parents Trust Valley Orthodontics</b></strong></h2>\n<p>Choosing an orthodontist is about more than straight teeth—it’s about trust, communication, and long-term care. At Valley Orthodontics, we take the time to answer questions, explain treatment options clearly, and guide families through every stage of orthodontic care. And welcoming you to the Valley Ortho Family 🙂</p>\n<p>If you’re searching for a trusted orthodontist for children and teens in San Rafael or Marin County, we’re here to help.</p>\n<p>👉 <a href=\"/\">Schedule an orthodontic consultation</a> with Valley Orthodontics today and get the clarity and confidence you deserve.</p>\n<p>📍 <strong>Valley Orthodontics — San Rafael Orthodontist Serving Marin County, California</strong><br />\nAddress: 2400 Las Gallinas Ave, Suite 130, San Rafael, CA 94903<br />\nPhone: 415-479-2400<br />\nWebsite: <a href=\"/\">ValleyOrthodontics.net</a></p>\n<p>Providing trusted orthodontic care for children, teens, and families throughout San Rafael and Marin County, California</p>"
               }
             ]
           }
@@ -1196,7 +1196,7 @@
               "og_meta": {
                 "title": "Comprehensive Orthodontic Care for Kids & Families",
                 "description": "Early orthodontic care plays a vital role. It shapes a child’s long-term oral health, facial development, and overall confidence. On-time detection and treatment of alignment problems like bite irregularities and spacing issues can help prevent numerous complications in the future. Thankfully, modern orthodontics has come a long way in recent years. It offers gentle, efficient,",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png"
+                "image": "{{cdn}}/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png"
               }
             }
           },
@@ -1205,15 +1205,15 @@
             "date": "December 22, 2025",
             "excerpt": "Early orthodontic care plays a vital role. It shapes a child’s long-term oral health, facial development, and overall confidence. On-time detection and treatment of alignment problems like bite irregularities and spacing issues can help prevent numerous complications in the future. Thankfully, modern orthodontics has come a long way in recent years. It offers gentle, efficient,",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
+              "src": "{{cdn}}/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
+              "webp": "{{cdn}}/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
               "alt": "Comprehensive Orthodontic Care for Kids & Families",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
+              "src": "{{cdn}}/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
+              "webp": "{{cdn}}/uploads/2025/12/Comprehensive-Orthodontic-Care-for-Kids-Families.png",
               "alt": "Comprehensive Orthodontic Care for Kids & Families",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -1221,7 +1221,7 @@
             "paragraphs": [
               {
                 "header": "",
-                "body": "<p>Early orthodontic care plays a vital role. It shapes a child&#8217;s long-term oral health, facial development, and overall confidence. On-time detection and treatment of alignment problems like bite irregularities and spacing issues can help prevent numerous complications in the future.</p>\n<p>Thankfully, modern orthodontics has come a long way in recent years. It offers gentle, efficient, and highly precise treatment options for kids, teens, and adults. Plus, digital tools, customized appliances, and technology-driven planning ensure effective orthodontic care tailored to their needs.</p>\n<h2><strong><b>Why Early Orthodontic Care Matters</b></strong></h2>\n<p>The American Association of Orthodontists suggests that orthodontic assessments should be conducted on children at around age seven. Specialists can identify crowding, crossbites, open bites, and jaw growth discrepancies at this age.</p>\n<p>Early assessment lets orthodontists treat at the appropriate developmental phase. It helps them guide the development of teeth.</p>\n<h2><strong><b>What Makes a Great Orthodontist for Kids</b></strong></h2>\n<p>An expert pediatric orthodontist combines years of practice with patience and gentleness. They can explain treatments in ways that keep both children and parents informed and comfortable.</p>\n<p>Digital scanning, low-radiation imaging, and modern monitoring devices ensure faster and stress-free procedures. Above all, a fantastic kids&#8217; orthodontist develops trust during the initial stages that makes every visit positive and reassuring.</p>\n<h2><strong><b>Orthodontic Treatments for Kids and Teens</b></strong></h2>\n<p>Children and teens benefit from a range of treatment options. These include:</p>\n<ul>\n<li>Traditional metal braces</li>\n<li>Ceramic braces</li>\n<li>Clear aligners</li>\n</ul>\n<p>Orthodontists tailor treatment plans according to growth patterns, tooth development, lifestyle, and comfort.</p>\n<h2><strong><b>Expert Orthodontic Care for All Ages</b></strong></h2>\n<p>Although early treatment is very important, orthodontic solutions are now equally developed for both teens and adults. Digital planning, 3-D printing, and finely designed appliances deliver effective and accurate results at any age.</p>\n<p>Adults particularly embrace discreet treatment options. These include clear aligners and low-profile brackets that blend well into daily lives. These modern tools allow orthodontists to deliver transformative results with minimal disruption to professional and social life.</p>\n<h2><strong><b>Emergency Orthodontic Care – What You Should Know</b></strong></h2>\n<p>Broken brackets, poking wires, loose bands, or lost retainers may be considered orthodontic emergencies. A timely response prevents unnecessary discomfort. It ensures appliances continue functioning correctly. Experienced orthodontists provide fast, compassionate care. That&#8217;s how they resolve urgent issues and help patients get back on track without stress.</p>\n<h2><strong><b>The Role of Expertise in Orthodontic Success</b></strong></h2>\n<p>Your orthodontist&#8217;s competence is crucial in achieving successful outcomes. Skilled orthodontists apply modern methods and technology to develop precise, predictable, and comfortable treatments. Individualized planning means every patient gets personalized advice from start to finish.</p>\n<p>Technology, training, and a patient-centered attitude are all very important for achieving long-lasting and beautiful results.</p>\n<h2><strong><b>What to Expect During Your Orthodontic Visit</b></strong></h2>\n<p>Your first visit typically includes a digital evaluation and comprehensive oral assessment. This is when your orthodontist will discuss your treatment goals. They may use scans and imaging to create plans that align with your needs. This, in turn, allows our team to help you with functional and aesthetic improvements. You&#8217;ll also get clear guidance so you feel confident moving forward.</p>\n<h2><strong><b>Orthodontic Aftercare and Maintenance Tips</b></strong></h2>\n<p>Maintaining excellent oral hygiene is essential during <a href=\"https://www.valleyorthodontics.net/\"><u>orthodontic treatment</u></a>.</p>\n<p>You&#8217;re advised to brush around your brackets and use flossing tools designed for orthodontic appliances. In case of minor discomfort or loose brackets, temporary at-home remedies can help until you reach your orthodontist.</p>\n<p>After treatment, retainers play a crucial role. They uphold alignment and maintain long-term results.</p>\n<h2><strong><b>Why Choose a Trusted Orthodontic Team?</b></strong></h2>\n<p>A reliable orthodontic team values patient comfort, effective communication, and customized treatment. Accuracy is guaranteed via modern technologies, and a supportive environment empowers patients of any age to enjoy their journey to a healthier smile.</p>\n<p>A reliable team makes you feel confident. They help with long-term dental wellness for kids, teens, and adults.</p>\n<h2><strong><b>Book Your Orthodontic Consultation Today</b></strong></h2>\n<p>Take the first step toward a healthier and more confident smile. Book your orthodontic appointment now. Enjoy quality care and high-tech products to achieve the best outcomes.</p>\n<h2><strong><b>Locations We Serve</b></strong></h2>\n<ul>\n<li>Marin County</li>\n<li>San Rafael</li>\n<li>Mill Valley</li>\n<li>Novato</li>\n<li>&amp; surrounding areas</li>\n</ul>"
+                "body": "<p>Early orthodontic care plays a vital role. It shapes a child&#8217;s long-term oral health, facial development, and overall confidence. On-time detection and treatment of alignment problems like bite irregularities and spacing issues can help prevent numerous complications in the future.</p>\n<p>Thankfully, modern orthodontics has come a long way in recent years. It offers gentle, efficient, and highly precise treatment options for kids, teens, and adults. Plus, digital tools, customized appliances, and technology-driven planning ensure effective orthodontic care tailored to their needs.</p>\n<h2><strong><b>Why Early Orthodontic Care Matters</b></strong></h2>\n<p>The American Association of Orthodontists suggests that orthodontic assessments should be conducted on children at around age seven. Specialists can identify crowding, crossbites, open bites, and jaw growth discrepancies at this age.</p>\n<p>Early assessment lets orthodontists treat at the appropriate developmental phase. It helps them guide the development of teeth.</p>\n<h2><strong><b>What Makes a Great Orthodontist for Kids</b></strong></h2>\n<p>An expert pediatric orthodontist combines years of practice with patience and gentleness. They can explain treatments in ways that keep both children and parents informed and comfortable.</p>\n<p>Digital scanning, low-radiation imaging, and modern monitoring devices ensure faster and stress-free procedures. Above all, a fantastic kids&#8217; orthodontist develops trust during the initial stages that makes every visit positive and reassuring.</p>\n<h2><strong><b>Orthodontic Treatments for Kids and Teens</b></strong></h2>\n<p>Children and teens benefit from a range of treatment options. These include:</p>\n<ul>\n<li>Traditional metal braces</li>\n<li>Ceramic braces</li>\n<li>Clear aligners</li>\n</ul>\n<p>Orthodontists tailor treatment plans according to growth patterns, tooth development, lifestyle, and comfort.</p>\n<h2><strong><b>Expert Orthodontic Care for All Ages</b></strong></h2>\n<p>Although early treatment is very important, orthodontic solutions are now equally developed for both teens and adults. Digital planning, 3-D printing, and finely designed appliances deliver effective and accurate results at any age.</p>\n<p>Adults particularly embrace discreet treatment options. These include clear aligners and low-profile brackets that blend well into daily lives. These modern tools allow orthodontists to deliver transformative results with minimal disruption to professional and social life.</p>\n<h2><strong><b>Emergency Orthodontic Care – What You Should Know</b></strong></h2>\n<p>Broken brackets, poking wires, loose bands, or lost retainers may be considered orthodontic emergencies. A timely response prevents unnecessary discomfort. It ensures appliances continue functioning correctly. Experienced orthodontists provide fast, compassionate care. That&#8217;s how they resolve urgent issues and help patients get back on track without stress.</p>\n<h2><strong><b>The Role of Expertise in Orthodontic Success</b></strong></h2>\n<p>Your orthodontist&#8217;s competence is crucial in achieving successful outcomes. Skilled orthodontists apply modern methods and technology to develop precise, predictable, and comfortable treatments. Individualized planning means every patient gets personalized advice from start to finish.</p>\n<p>Technology, training, and a patient-centered attitude are all very important for achieving long-lasting and beautiful results.</p>\n<h2><strong><b>What to Expect During Your Orthodontic Visit</b></strong></h2>\n<p>Your first visit typically includes a digital evaluation and comprehensive oral assessment. This is when your orthodontist will discuss your treatment goals. They may use scans and imaging to create plans that align with your needs. This, in turn, allows our team to help you with functional and aesthetic improvements. You&#8217;ll also get clear guidance so you feel confident moving forward.</p>\n<h2><strong><b>Orthodontic Aftercare and Maintenance Tips</b></strong></h2>\n<p>Maintaining excellent oral hygiene is essential during <a href=\"/\"><u>orthodontic treatment</u></a>.</p>\n<p>You&#8217;re advised to brush around your brackets and use flossing tools designed for orthodontic appliances. In case of minor discomfort or loose brackets, temporary at-home remedies can help until you reach your orthodontist.</p>\n<p>After treatment, retainers play a crucial role. They uphold alignment and maintain long-term results.</p>\n<h2><strong><b>Why Choose a Trusted Orthodontic Team?</b></strong></h2>\n<p>A reliable orthodontic team values patient comfort, effective communication, and customized treatment. Accuracy is guaranteed via modern technologies, and a supportive environment empowers patients of any age to enjoy their journey to a healthier smile.</p>\n<p>A reliable team makes you feel confident. They help with long-term dental wellness for kids, teens, and adults.</p>\n<h2><strong><b>Book Your Orthodontic Consultation Today</b></strong></h2>\n<p>Take the first step toward a healthier and more confident smile. Book your orthodontic appointment now. Enjoy quality care and high-tech products to achieve the best outcomes.</p>\n<h2><strong><b>Locations We Serve</b></strong></h2>\n<ul>\n<li>Marin County</li>\n<li>San Rafael</li>\n<li>Mill Valley</li>\n<li>Novato</li>\n<li>&amp; surrounding areas</li>\n</ul>"
               }
             ]
           }
@@ -1244,7 +1244,7 @@
               "og_meta": {
                 "title": "Achieve a Confident, Straighter Smile with Advanced Invisalign Treatment",
                 "description": "Invisalign has emerged as one of the most reliable modern methods of orthodontic treatment. It’s a discreet and painless alternative to conventional metal braces. This system lets teenagers and adults improve their smiles and stay confident during the treatment process. Through current digital advancements, Invisalign provides very precise outcomes that support long-term oral health and",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png"
+                "image": "{{cdn}}/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png"
               }
             }
           },
@@ -1253,15 +1253,15 @@
             "date": "December 22, 2025",
             "excerpt": "Invisalign has emerged as one of the most reliable modern methods of orthodontic treatment. It’s a discreet and painless alternative to conventional metal braces. This system lets teenagers and adults improve their smiles and stay confident during the treatment process. Through current digital advancements, Invisalign provides very precise outcomes that support long-term oral health and",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
+              "src": "{{cdn}}/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
+              "webp": "{{cdn}}/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
               "alt": "Achieve a Confident, Straighter Smile with Advanced Invisalign Treatment",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
+              "src": "{{cdn}}/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
+              "webp": "{{cdn}}/uploads/2025/12/Achieve-a-Confident-Straighter-Smile-with-Advanced-Invisalign-Treatment.png",
               "alt": "Achieve a Confident, Straighter Smile with Advanced Invisalign Treatment",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -1269,7 +1269,7 @@
             "paragraphs": [
               {
                 "header": "",
-                "body": "<p>Invisalign has emerged as one of the most reliable modern methods of orthodontic treatment. It&#8217;s a discreet and painless alternative to conventional metal braces. This system lets teenagers and adults improve their smiles and stay confident during the treatment process.</p>\n<p>Through current digital advancements, Invisalign provides very precise outcomes that support long-term oral health and overall bite functionality.</p>\n<h3><strong><b>What Is Invisalign, and How Does It Work?</b></strong></h3>\n<p>Invisalign uses a series of clear, removable aligners. They guide teeth through targeted, gradual movement. These aligners are created using digital imaging and precise 3D scans.</p>\n<p>Treatment starts with a comprehensive consultation. This is when our orthodontist uses digital impressions to map out how your teeth will shift over time. You&#8217;ll get a set of aligners that you&#8217;ll replace at specific intervals. This allows for steady progress until you achieve your final smile.</p>\n<h3><strong><b>Benefits of Choosing Invisalign over Traditional Braces</b></strong></h3>\n<p>Invisalign offers a number of significant benefits for people who want discreet <a href=\"https://www.valleyorthodontics.net/\"><u>orthodontic treatment</u></a>. The aligners are very transparent, so you can enhance your smile without drawing attention to your treatment. Their smooth design reduces irritation. Plus, they&#8217;re removable. That means maintaining daily oral hygiene is easier than with fixed appliances.</p>\n<p>You can take your aligners out before meals. Additionally, using digital planning to map out efficient tooth movement reduces treatment time for many people.</p>\n<h3><strong><b>Who&#8217;s a Good Candidate for Invisalign?</b></strong></h3>\n<p>Invisalign is effective for mild to moderate crowding, spacing issues, and certain bite irregularities. It&#8217;s a perfect solution for working professionals who want a discreet option that fits into their lives. This system is also beneficial for teens who&#8217;d like a less conspicuous method they can wear consistently.</p>\n<p>Successful treatment requires commitment. So you&#8217;ll need to follow your orthodontist&#8217;s guidance and wear your aligners for the recommended number of hours each day.</p>\n<h3><strong><b>The Invisalign Treatment Process</b></strong></h3>\n<p><strong><b>Step 1:</b></strong> Your consultation includes a full orthodontic examination and a 3D scan to create an accurate digital model of your teeth.</p>\n<p><strong><b>Step 2:</b></strong> Your orthodontist plans an individualized treatment.</p>\n<p><strong><b>Step 3:</b></strong> You&#8217;ll return for progress appointments. This is when we ensure your teeth are shifting properly. You&#8217;ll also receive updated aligners during these visits.</p>\n<p><strong><b>Step 4:</b></strong> Once treatment is complete, you&#8217;ll get retainers to protect your alignment.</p>\n<h3><strong><b>Why Choose an Invisalign Specialist?</b></strong></h3>\n<p>The difference between orthodontic specialists and general dental providers is that the former can handle complex cases and align bite concerns with precision. By selecting an <a href=\"https://www.valleyorthodontics.net/invisalign \"><u>Invisalign specialist</u></a>, you can be sure that your treatment is based on high-level orthodontic education and experience in teeth movement.</p>\n<p>You&#8217;ll feel more confident knowing that your treatment is planned and directed by experts who understand all the aspects of orthodontics.</p>\n<h3><strong><b>Affordable Invisalign Treatment Options</b></strong></h3>\n<p>Many orthodontic practices offer flexible financing like monthly payment plans, insurance coordination, and financing programs. They&#8217;re all designed to help families manage treatment expenses comfortably. You’ll continue to get comprehensive digital planning, frequent monitoring, and quality retainers after treatment.</p>\n<h3><strong><b>Maintaining Results after Invisalign</b></strong></h3>\n<p>You&#8217;ve got a significant role to play in maintaining your new smile after treatment. Retainers help preserve tooth position and protect the investment you made during active alignment.</p>\n<p>Oral hygiene helps maintain gum health and prevents problems that may affect tooth stability. Regular checkups with your orthodontist help ensure that your alignment is intact and your retainers are still fitting well.</p>\n<p>Invisalign outcomes stay stable and attractive even after treatment is over with regular maintenance.</p>\n<h3><strong><b>Why Choose a Trusted Orthodontic Team for Invisalign?</b></strong></h3>\n<p>A trusted orthodontic team offers customized treatment. They use advanced digital planning and provide supportive guidance at every stage. Their expertise allows for the creation of comfortable aligners that move teeth with precision. So you&#8217;ll get reliable long-term stability.</p>\n<p>The technology and compassionate approach make it an ideal experience for anyone who wants a discreet but effective solution for their bite problem.</p>\n<h3><strong><b>Book Your Invisalign Consultation Today</b></strong></h3>\n<p>Transform your smile with professional guidance from trained Invisalign experts. Book your consultation today. Let&#8217;s discuss your concerns and find the best solution that fits your lifestyle.</p>\n<h3><strong><b>Locations We Serve</b></strong></h3>\n<ul>\n<li>Marin County</li>\n<li>San Rafael</li>\n<li>Mill Valley</li>\n<li>Novato</li>\n<li>&amp; surrounding areas</li>\n</ul>"
+                "body": "<p>Invisalign has emerged as one of the most reliable modern methods of orthodontic treatment. It&#8217;s a discreet and painless alternative to conventional metal braces. This system lets teenagers and adults improve their smiles and stay confident during the treatment process.</p>\n<p>Through current digital advancements, Invisalign provides very precise outcomes that support long-term oral health and overall bite functionality.</p>\n<h3><strong><b>What Is Invisalign, and How Does It Work?</b></strong></h3>\n<p>Invisalign uses a series of clear, removable aligners. They guide teeth through targeted, gradual movement. These aligners are created using digital imaging and precise 3D scans.</p>\n<p>Treatment starts with a comprehensive consultation. This is when our orthodontist uses digital impressions to map out how your teeth will shift over time. You&#8217;ll get a set of aligners that you&#8217;ll replace at specific intervals. This allows for steady progress until you achieve your final smile.</p>\n<h3><strong><b>Benefits of Choosing Invisalign over Traditional Braces</b></strong></h3>\n<p>Invisalign offers a number of significant benefits for people who want discreet <a href=\"/\"><u>orthodontic treatment</u></a>. The aligners are very transparent, so you can enhance your smile without drawing attention to your treatment. Their smooth design reduces irritation. Plus, they&#8217;re removable. That means maintaining daily oral hygiene is easier than with fixed appliances.</p>\n<p>You can take your aligners out before meals. Additionally, using digital planning to map out efficient tooth movement reduces treatment time for many people.</p>\n<h3><strong><b>Who&#8217;s a Good Candidate for Invisalign?</b></strong></h3>\n<p>Invisalign is effective for mild to moderate crowding, spacing issues, and certain bite irregularities. It&#8217;s a perfect solution for working professionals who want a discreet option that fits into their lives. This system is also beneficial for teens who&#8217;d like a less conspicuous method they can wear consistently.</p>\n<p>Successful treatment requires commitment. So you&#8217;ll need to follow your orthodontist&#8217;s guidance and wear your aligners for the recommended number of hours each day.</p>\n<h3><strong><b>The Invisalign Treatment Process</b></strong></h3>\n<p><strong><b>Step 1:</b></strong> Your consultation includes a full orthodontic examination and a 3D scan to create an accurate digital model of your teeth.</p>\n<p><strong><b>Step 2:</b></strong> Your orthodontist plans an individualized treatment.</p>\n<p><strong><b>Step 3:</b></strong> You&#8217;ll return for progress appointments. This is when we ensure your teeth are shifting properly. You&#8217;ll also receive updated aligners during these visits.</p>\n<p><strong><b>Step 4:</b></strong> Once treatment is complete, you&#8217;ll get retainers to protect your alignment.</p>\n<h3><strong><b>Why Choose an Invisalign Specialist?</b></strong></h3>\n<p>The difference between orthodontic specialists and general dental providers is that the former can handle complex cases and align bite concerns with precision. By selecting an <a href=\"/clear-aligners\"><u>Invisalign specialist</u></a>, you can be sure that your treatment is based on high-level orthodontic education and experience in teeth movement.</p>\n<p>You&#8217;ll feel more confident knowing that your treatment is planned and directed by experts who understand all the aspects of orthodontics.</p>\n<h3><strong><b>Affordable Invisalign Treatment Options</b></strong></h3>\n<p>Many orthodontic practices offer flexible financing like monthly payment plans, insurance coordination, and financing programs. They&#8217;re all designed to help families manage treatment expenses comfortably. You’ll continue to get comprehensive digital planning, frequent monitoring, and quality retainers after treatment.</p>\n<h3><strong><b>Maintaining Results after Invisalign</b></strong></h3>\n<p>You&#8217;ve got a significant role to play in maintaining your new smile after treatment. Retainers help preserve tooth position and protect the investment you made during active alignment.</p>\n<p>Oral hygiene helps maintain gum health and prevents problems that may affect tooth stability. Regular checkups with your orthodontist help ensure that your alignment is intact and your retainers are still fitting well.</p>\n<p>Invisalign outcomes stay stable and attractive even after treatment is over with regular maintenance.</p>\n<h3><strong><b>Why Choose a Trusted Orthodontic Team for Invisalign?</b></strong></h3>\n<p>A trusted orthodontic team offers customized treatment. They use advanced digital planning and provide supportive guidance at every stage. Their expertise allows for the creation of comfortable aligners that move teeth with precision. So you&#8217;ll get reliable long-term stability.</p>\n<p>The technology and compassionate approach make it an ideal experience for anyone who wants a discreet but effective solution for their bite problem.</p>\n<h3><strong><b>Book Your Invisalign Consultation Today</b></strong></h3>\n<p>Transform your smile with professional guidance from trained Invisalign experts. Book your consultation today. Let&#8217;s discuss your concerns and find the best solution that fits your lifestyle.</p>\n<h3><strong><b>Locations We Serve</b></strong></h3>\n<ul>\n<li>Marin County</li>\n<li>San Rafael</li>\n<li>Mill Valley</li>\n<li>Novato</li>\n<li>&amp; surrounding areas</li>\n</ul>"
               }
             ]
           }
@@ -1292,7 +1292,7 @@
               "og_meta": {
                 "title": "Transform Your Smile with Modern, Affordable Braces for Kids, Teens, and Adults",
                 "description": "Braces are one of the most reliable ways to get a beautiful, healthy smile. Over the years, we’ve moved from chunky metal appliances to comfortable, efficient aligners. Whether you’re dealing with alignment issues, bite problems, or just want to improve your smile’s appearance, today’s braces can make orthodontics effective and empowering. Understanding How Braces Work",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png"
+                "image": "{{cdn}}/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png"
               }
             }
           },
@@ -1301,15 +1301,15 @@
             "date": "December 22, 2025",
             "excerpt": "Braces are one of the most reliable ways to get a beautiful, healthy smile. Over the years, we’ve moved from chunky metal appliances to comfortable, efficient aligners. Whether you’re dealing with alignment issues, bite problems, or just want to improve your smile’s appearance, today’s braces can make orthodontics effective and empowering. Understanding How Braces Work",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
+              "src": "{{cdn}}/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
+              "webp": "{{cdn}}/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
               "alt": "Transform Your Smile with Modern, Affordable Braces for Kids, Teens, and Adults",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
+              "src": "{{cdn}}/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
+              "webp": "{{cdn}}/uploads/2025/12/Transform-Your-Smile-with-Modern-Affordable-Braces-for-Kids-Teens-and-Adults.png",
               "alt": "Transform Your Smile with Modern, Affordable Braces for Kids, Teens, and Adults",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -1317,7 +1317,7 @@
             "paragraphs": [
               {
                 "header": "",
-                "body": "<p>Braces are one of the most reliable ways to get a beautiful, healthy smile. Over the years, we’ve moved from chunky metal appliances to comfortable, efficient aligners. Whether you&#8217;re dealing with alignment issues, bite problems, or just want to improve your smile&#8217;s appearance, today&#8217;s braces can make orthodontics effective and empowering.</p>\n<h3>Understanding How Braces Work</h3>\n<p>Braces use consistent, gentle pressure to shift your teeth into the right position. The system includes brackets attached to each tooth, archwires that guide tooth movement, and elastics that fine-tune your bite.</p>\n<p>Together, these elements gradually move teeth into healthier positions. This corrects issues like crowding, gaps, overbites, and underbites.</p>\n<h3>Types of Braces Available</h3>\n<h4>Traditional Metal Braces</h4>\n<p>Metal braces can handle even the toughest orthodontic cases. They&#8217;re the most effective and durable option out there. They deliver solid results with consistent control.</p>\n<h4>Clear Ceramic Braces</h4>\n<p>Ceramic braces offer a more discreet alternative. They blend in with your natural tooth color. They&#8217;re perfect for adults and teens who want subtle treatment.</p>\n<h4>Damon Braces</h4>\n<p><a href=\"https://www.valleyorthodontics.net/braces\"><u>Damon braces</u></a> use self-ligating technology, which means they don&#8217;t need elastic ties. This provides quicker movement that’s comfortable and requires fewer adjustments.</p>\n<h4>Customized Treatment Options</h4>\n<p>Custom treatment plans are designed based on your age, tooth development, or aesthetic goals.</p>\n<h3>Braces for Kids: Early Orthodontic Intervention</h3>\n<p>It&#8217;s best to bring your kids in around ages 7 to 9 for early diagnosis. This lets your orthodontist spot any emerging concerns in their early stages.</p>\n<p>Early intervention guides jaw growth and helps create space for permanent teeth, reducing the need for extensive treatment later.</p>\n<h3>Braces for Teens: Discreet and Confident Smiles</h3>\n<p>Teens want discreet, comfortable treatment that keeps their confidence intact. That’s where options like clear braces and Damon systems come in. They support long-term oral health, giving teens a smile they feel proud to share.</p>\n<h3>Affordable Braces Options</h3>\n<p>Modern orthodontic practices deliver flexible solutions like payment plans, insurance arrangements, and financing options designed to fit most budgets. And just because it&#8217;s affordable doesn&#8217;t mean you have to compromise on quality. You&#8217;ll still get high-tech, personalized care with solid clinical expertise and technology.</p>\n<h3>Why Choose Modern Orthodontic Systems?</h3>\n<p>Today&#8217;s braces offer major advantages, including shorter treatment times and improved comfort. Digital imaging, 3D modeling, and advanced planning tools create accurate treatment plans based on each patient’s needs.</p>\n<h3>Benefits of Professional Orthodontic Care</h3>\n<p>Professional orthodontic treatment ensures customized planning designed for precise tooth movement and predictable results. Patients, regardless of age, experience improved overall health and functional benefits as well.</p>\n<h3>Caring for Your Braces</h3>\n<p>Caring for braces during treatment is pretty straightforward. Here&#8217;s how:</p>\n<ul>\n<li>Brush and floss daily using tools designed for braces.</li>\n<li>Avoid food that&#8217;s sticky or hard to chew.</li>\n<li>Make it a habit to visit your orthodontist for routine adjustments.</li>\n</ul>\n<h3>Why Choose a Trusted Orthodontic Team</h3>\n<p>Working with a trusted orthodontic team means gaining access to a group with extensive experience. These experts use advanced technology to deliver predictable outcomes. Your trusted team is committed to comfort, communication, and high-quality care.</p>\n<h3>Book Your Orthodontic Consultation Today</h3>\n<p>Achieving a beautiful and confident smile starts with making an appointment with our orthodontist. Don’t wait to explore a comfortable and customized approach to designing a perfectly aligned smile.</p>\n<h3>Locations We Serve</h3>\n<ul >\n<li>Marin County</li>\n<li>San Rafael</li>\n<li>Mill Valley</li>\n<li>Novato</li>\n<li>&amp; surrounding areas</li>\n</ul>"
+                "body": "<p>Braces are one of the most reliable ways to get a beautiful, healthy smile. Over the years, we’ve moved from chunky metal appliances to comfortable, efficient aligners. Whether you&#8217;re dealing with alignment issues, bite problems, or just want to improve your smile&#8217;s appearance, today&#8217;s braces can make orthodontics effective and empowering.</p>\n<h3>Understanding How Braces Work</h3>\n<p>Braces use consistent, gentle pressure to shift your teeth into the right position. The system includes brackets attached to each tooth, archwires that guide tooth movement, and elastics that fine-tune your bite.</p>\n<p>Together, these elements gradually move teeth into healthier positions. This corrects issues like crowding, gaps, overbites, and underbites.</p>\n<h3>Types of Braces Available</h3>\n<h4>Traditional Metal Braces</h4>\n<p>Metal braces can handle even the toughest orthodontic cases. They&#8217;re the most effective and durable option out there. They deliver solid results with consistent control.</p>\n<h4>Clear Ceramic Braces</h4>\n<p>Ceramic braces offer a more discreet alternative. They blend in with your natural tooth color. They&#8217;re perfect for adults and teens who want subtle treatment.</p>\n<h4>Damon Braces</h4>\n<p><a href=\"/braces\"><u>Damon braces</u></a> use self-ligating technology, which means they don&#8217;t need elastic ties. This provides quicker movement that’s comfortable and requires fewer adjustments.</p>\n<h4>Customized Treatment Options</h4>\n<p>Custom treatment plans are designed based on your age, tooth development, or aesthetic goals.</p>\n<h3>Braces for Kids: Early Orthodontic Intervention</h3>\n<p>It&#8217;s best to bring your kids in around ages 7 to 9 for early diagnosis. This lets your orthodontist spot any emerging concerns in their early stages.</p>\n<p>Early intervention guides jaw growth and helps create space for permanent teeth, reducing the need for extensive treatment later.</p>\n<h3>Braces for Teens: Discreet and Confident Smiles</h3>\n<p>Teens want discreet, comfortable treatment that keeps their confidence intact. That’s where options like clear braces and Damon systems come in. They support long-term oral health, giving teens a smile they feel proud to share.</p>\n<h3>Affordable Braces Options</h3>\n<p>Modern orthodontic practices deliver flexible solutions like payment plans, insurance arrangements, and financing options designed to fit most budgets. And just because it&#8217;s affordable doesn&#8217;t mean you have to compromise on quality. You&#8217;ll still get high-tech, personalized care with solid clinical expertise and technology.</p>\n<h3>Why Choose Modern Orthodontic Systems?</h3>\n<p>Today&#8217;s braces offer major advantages, including shorter treatment times and improved comfort. Digital imaging, 3D modeling, and advanced planning tools create accurate treatment plans based on each patient’s needs.</p>\n<h3>Benefits of Professional Orthodontic Care</h3>\n<p>Professional orthodontic treatment ensures customized planning designed for precise tooth movement and predictable results. Patients, regardless of age, experience improved overall health and functional benefits as well.</p>\n<h3>Caring for Your Braces</h3>\n<p>Caring for braces during treatment is pretty straightforward. Here&#8217;s how:</p>\n<ul>\n<li>Brush and floss daily using tools designed for braces.</li>\n<li>Avoid food that&#8217;s sticky or hard to chew.</li>\n<li>Make it a habit to visit your orthodontist for routine adjustments.</li>\n</ul>\n<h3>Why Choose a Trusted Orthodontic Team</h3>\n<p>Working with a trusted orthodontic team means gaining access to a group with extensive experience. These experts use advanced technology to deliver predictable outcomes. Your trusted team is committed to comfort, communication, and high-quality care.</p>\n<h3>Book Your Orthodontic Consultation Today</h3>\n<p>Achieving a beautiful and confident smile starts with making an appointment with our orthodontist. Don’t wait to explore a comfortable and customized approach to designing a perfectly aligned smile.</p>\n<h3>Locations We Serve</h3>\n<ul >\n<li>Marin County</li>\n<li>San Rafael</li>\n<li>Mill Valley</li>\n<li>Novato</li>\n<li>&amp; surrounding areas</li>\n</ul>"
               }
             ]
           }
@@ -1340,7 +1340,7 @@
               "og_meta": {
                 "title": "Trick, Treat & Smile: How to Have a Braces-Friendly Halloween",
                 "description": "Trick or Treat with Braces? Yes You Can! — Your Friendly Guide to a Braces-Safe Halloween Halloween is just around the corner, and we know what that means — costumes, spooky decorations, and of course… CANDY! But if you’re rocking braces this year, you might be wondering: Can I still enjoy Halloween treats without breaking",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2025/10/AdobeStock_447820503-1-1024x751.jpeg"
+                "image": "{{cdn}}/uploads/2025/10/AdobeStock_447820503-1-1024x751.jpeg"
               }
             }
           },
@@ -1349,15 +1349,15 @@
             "date": "October 15, 2025",
             "excerpt": "Trick or Treat with Braces? Yes You Can! — Your Friendly Guide to a Braces-Safe Halloween Halloween is just around the corner, and we know what that means — costumes, spooky decorations, and of course… CANDY! But if you’re rocking braces this year, you might be wondering: Can I still enjoy Halloween treats without breaking",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/10/AdobeStock_447820503-1-768x563.jpeg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/10/AdobeStock_447820503-1-768x563.jpeg",
+              "src": "{{cdn}}/uploads/2025/10/AdobeStock_447820503-1-768x563.jpeg",
+              "webp": "{{cdn}}/uploads/2025/10/AdobeStock_447820503-1-768x563.jpeg",
               "alt": "Trick, Treat & Smile: How to Have a Braces-Friendly Halloween",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/10/AdobeStock_447820503-1-1024x751.jpeg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/10/AdobeStock_447820503-1-1024x751.jpeg",
+              "src": "{{cdn}}/uploads/2025/10/AdobeStock_447820503-1-1024x751.jpeg",
+              "webp": "{{cdn}}/uploads/2025/10/AdobeStock_447820503-1-1024x751.jpeg",
               "alt": "Trick, Treat & Smile: How to Have a Braces-Friendly Halloween",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -1388,7 +1388,7 @@
               "og_meta": {
                 "title": "Retainers for Life: Why Your Smile Needs a Lifetime Security System",
                 "description": "If you’ve recently finished orthodontic treatment or are just curious about keeping your smile straight forever, you need to know about one superstar appliance: the retainer! Let’s break down why your retainer is absolutely crucial—and how it keeps your teeth in line no matter your age. Why Teeth Never Stop Moving Did you know your",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2025/08/blog-retainer-for-life-1024x683.jpg"
+                "image": "{{cdn}}/uploads/2025/08/blog-retainer-for-life-1024x683.jpg"
               }
             }
           },
@@ -1397,15 +1397,15 @@
             "date": "August 14, 2025",
             "excerpt": "If you’ve recently finished orthodontic treatment or are just curious about keeping your smile straight forever, you need to know about one superstar appliance: the retainer! Let’s break down why your retainer is absolutely crucial—and how it keeps your teeth in line no matter your age. Why Teeth Never Stop Moving Did you know your",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/08/blog-retainer-for-life-768x512.jpg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/08/blog-retainer-for-life-768x512.jpg",
+              "src": "{{cdn}}/uploads/2025/08/blog-retainer-for-life-768x512.jpg",
+              "webp": "{{cdn}}/uploads/2025/08/blog-retainer-for-life-768x512.jpg",
               "alt": "Retainers for Life: Why Your Smile Needs a Lifetime Security System",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/08/blog-retainer-for-life-1024x683.jpg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/08/blog-retainer-for-life-1024x683.jpg",
+              "src": "{{cdn}}/uploads/2025/08/blog-retainer-for-life-1024x683.jpg",
+              "webp": "{{cdn}}/uploads/2025/08/blog-retainer-for-life-1024x683.jpg",
               "alt": "Retainers for Life: Why Your Smile Needs a Lifetime Security System",
               "bgColor": "#ffffff",
               "imageBackground": false
@@ -1436,7 +1436,7 @@
               "og_meta": {
                 "title": "What is Phase I “Early Interceptive” Orthodontic Treatment?",
                 "description": "What Is Phase I Treatment? Phase I, or “early interceptive” orthodontic treatment, is an approach designed for children while they still have some baby teeth. The goal is to address specific dental and jaw issues early—during a child’s active growth phase—so we can guide the development of their bite and smile in the healthiest direction",
-                "image": "https://www.valleyorthodontics.net/wp-content/uploads/2025/05/phase-one.jpeg"
+                "image": "{{cdn}}/uploads/2025/05/phase-one.jpeg"
               }
             }
           },
@@ -1445,15 +1445,15 @@
             "date": "May 28, 2025",
             "excerpt": "What Is Phase I Treatment? Phase I, or “early interceptive” orthodontic treatment, is an approach designed for children while they still have some baby teeth. The goal is to address specific dental and jaw issues early—during a child’s active growth phase—so we can guide the development of their bite and smile in the healthiest direction",
             "thumbnail_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/05/phase-one-768x512.jpeg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/05/phase-one-768x512.jpeg",
+              "src": "{{cdn}}/uploads/2025/05/phase-one-768x512.jpeg",
+              "webp": "{{cdn}}/uploads/2025/05/phase-one-768x512.jpeg",
               "alt": "What is Phase I “Early Interceptive” Orthodontic Treatment?",
               "bgColor": "#ffffff",
               "imageBackground": false
             },
             "main_image": {
-              "src": "https://www.valleyorthodontics.net/wp-content/uploads/2025/05/phase-one.jpeg",
-              "webp": "https://www.valleyorthodontics.net/wp-content/uploads/2025/05/phase-one.jpeg",
+              "src": "{{cdn}}/uploads/2025/05/phase-one.jpeg",
+              "webp": "{{cdn}}/uploads/2025/05/phase-one.jpeg",
               "alt": "What is Phase I “Early Interceptive” Orthodontic Treatment?",
               "bgColor": "#ffffff",
               "imageBackground": false

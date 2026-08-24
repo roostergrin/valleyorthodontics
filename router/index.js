@@ -72,6 +72,10 @@ const router = [
       {
         name: 'Iconix Braces',
         path: '/iconix-champagne-gold-braces'
+      },
+      {
+        name: 'Designer Braces',
+        path: '/designer-braces'
       }
     ]
   },
@@ -129,8 +133,14 @@ const router = [
         path: '/doctor-referrals-slips'
       },
       {
+        name: 'Newsletter',
+        path: '/newsletter'
+      },
+      {
+        // /privacypolicy is a legacy WordPress slug that now 301s here, and is
+        // no longer generated (see legacyDuplicateKeys in config/routes.config.js).
         name: 'Privacy Policy',
-        path: '/privacypolicy'
+        path: '/privacy-policy'
       }
     ]
   },

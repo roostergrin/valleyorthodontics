@@ -1,50 +1,21 @@
 import fs from 'fs'
 import path from 'path'
-import axios from 'axios'
-import { api } from '../resources/api'
+import { expandCdnTokens } from '../resources/cdn'
 import { siteHead } from './head.config.js'
 import buildConfig from './build.config.js'
 import { siteMap, setRobots } from './seo.config'
+import { getLocalBlogRoutes, getLocalDynamicRoutes } from './routes.config'
 import 'core-js/features/array/at'
 
 // Load theme.json using absolute path from project root
 const themeFile = path.join(process.cwd(), 'data', 'theme.json')
-const theme = JSON.parse(fs.readFileSync(themeFile, 'utf8'))
-const staticPageKeys = new Set(['Home', 'About', 'Get Started', 'Treatments', 'Contact', 'FAQ'])
-
-const getLocalDynamicRoutes = () => {
-  const pagesFile = path.join(process.cwd(), 'data', 'pages.json')
-  const pages = JSON.parse(fs.readFileSync(pagesFile, 'utf8'))
-
-  return Object.keys(pages)
-    .filter(key => !staticPageKeys.has(key))
-    .filter(key => /^[a-z0-9-]+$/.test(key))
-    .map(key => `/${key}`)
-}
-
-const getLocalBlogRoutes = () => {
-  const postsFile = path.join(process.cwd(), 'data', 'posts.json')
-  const postsData = JSON.parse(fs.readFileSync(postsFile, 'utf8'))
-  const posts = postsData.posts || []
-  const routes = new Set(['/blog/page/1'])
-
-  Object.keys(postsData.postsPerPage || {}).forEach((page) => {
-    routes.add(`/blog/page/${page}`)
-  })
-
-  posts.forEach((post) => {
-    if (post.slug) {
-      routes.add(`/blog/${post.slug}`)
-    }
-  })
-
-  return [...routes]
-}
-
+// Expanded here too: this raw read bypasses getThemeJSON(), and theme.favicon_url
+// feeds siteHead() — an unexpanded {{cdn}} token would ship literally into <head>.
+const theme = expandCdnTokens(JSON.parse(fs.readFileSync(themeFile, 'utf8')))
 const getHomeMeta = () => {
   const pagesFile = path.join(process.cwd(), 'data', 'pages.json')
   const pages = JSON.parse(fs.readFileSync(pagesFile, 'utf8'))
-  const seo = pages.Home.find(section => section.seo).seo
+  const seo = expandCdnTokens(pages.Home.find(section => section.seo).seo)
 
   return {
     title: 'home',
@@ -75,34 +46,15 @@ export default () => {
     },
     target: 'static',
     generate: {
-      async routes () {
-        const dyRoutes = getLocalDynamicRoutes()
-        const addRoute = route => !dyRoutes.includes(route) && dyRoutes.push(route)
-
-        getLocalBlogRoutes().forEach(addRoute)
-
-        try {
-          await axios.get(`${api}/wp/v2/posts?per_page=100`).then(async (response) => {
-            const dataPages = response.headers['x-wp-totalpages']
-            let postsArray = response.data
-            addRoute('/blog/page/1')
-            for (let i = 2; i <= dataPages; i++) {
-              const nextPage = await axios.get(
-                `${api}/wp/v2/posts?per_page=100&page=${i}`
-              )
-              postsArray = [...postsArray, ...nextPage.data]
-              addRoute('/blog/page/' + i)
-            }
-            return postsArray.map((post) => {
-              addRoute('/blog/' + post.slug)
-            })
-          })
-        } catch (e) {
-          console.warn(`Falling back to local blog routes; WordPress posts API unavailable: ${e}`)
-        }
-
-        return dyRoutes
-      }
+      // Built entirely from the local data/ mirror. The live WordPress API is
+      // deliberately not consulted: it is hosted on the domain this site
+      // replaces, so it disappears at cutover.
+      routes () {
+        return [...new Set([...getLocalDynamicRoutes(), ...getLocalBlogRoutes()])]
+      },
+      // Dev-only tooling: kept for `npm run dev`, never shipped. /style-guide
+      // also calls the live WordPress API, which will not exist post-cutover.
+      exclude: [/^\/style-guide/]
     },
     head: siteHead(meta, theme),
     globalName: 'globalContent',
@@ -141,12 +93,12 @@ export default () => {
       ...(googleFonts.length > 0 ? ['nuxt-webfontloader'] : []),
       '@nuxtjs/robots',
       '@nuxtjs/sitemap',
-      'nuxt-polyfill',
-      '@nuxtjs/gtm'
+      'nuxt-polyfill'
     ],
-    // gtm: {
-    //   id: 'GTM-MQ6QNRZ'
-    // },
+    // Analytics is GA4 loaded directly in config/head.config.js. @nuxtjs/gtm was
+    // registered here with its config commented out (and a template-default
+    // container id), so it shipped a module with no container — removed rather
+    // than run two tag systems.
     robots: setRobots,
     sitemap: siteMap,
     css: [

@@ -1,0 +1,1170 @@
+{
+  "_comment": "Attachment page path -> its mime type and parent page/post, from /wp/v2/media. mimeType is what decides whether an attachment URL is worth redirecting: image/video attachment pages already 301 to the raw file on the live WordPress site, so they never held page equity.",
+  "_capturedAt": "2026-08-20",
+  "parents": {
+    "/orthodontics-for-teens-braces-invisalign-and-everything-in-between/9f1f28_31093198357147809a13eb279146dd3amv2-horizontal": {
+      "mimeType": "image/webp",
+      "slug": "orthodontics-for-teens-braces-invisalign-and-everything-in-between",
+      "type": "post"
+    },
+    "/valley-orthodontics-patient-appreciation-ice-cream-social-2026": {
+      "mimeType": "image/jpeg"
+    },
+    "/introducing-grin-remote-orthodontic-monitoring-valley-orthodontics/grin-remote-orthodontic-monitoring-valley-orthodontics": {
+      "mimeType": "image/jpeg",
+      "slug": "introducing-grin-remote-orthodontic-monitoring-valley-orthodontics",
+      "type": "post"
+    },
+    "/adult-orthodontics-its-never-too-late-for-a-beautiful-healthy-smile/adult-braces": {
+      "mimeType": "image/jpeg",
+      "slug": "adult-orthodontics-its-never-too-late-for-a-beautiful-healthy-smile",
+      "type": "post"
+    },
+    "/home/fathers-day-promo-2": {
+      "mimeType": "image/jpeg",
+      "slug": "home",
+      "type": "page"
+    },
+    "/traveling-with-invisalign-aligners": {
+      "mimeType": "image/jpeg"
+    },
+    "/common-myths-orthodontic-treatment": {
+      "mimeType": "image/jpeg"
+    },
+    "/newsletter/fall-vo-newsletter-2": {
+      "mimeType": "image/png",
+      "slug": "newsletter",
+      "type": "page"
+    },
+    "/": {
+      "mimeType": "image/jpeg"
+    },
+    "/affordable-braces-in-san-rafael-payment-plans-insurance-and-how-to-fit-treatment-into-your-budget/airway-ortho": {
+      "mimeType": "image/jpeg",
+      "slug": "affordable-braces-in-san-rafael-payment-plans-insurance-and-how-to-fit-treatment-into-your-budget",
+      "type": "post"
+    },
+    "/home/5cdfdeec-eaf2-4ba7-bb1f-e91436eb542b": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/affordable-braces-in-san-rafael-payment-plans-insurance-and-how-to-fit-treatment-into-your-budget/affordable-braces-2": {
+      "mimeType": "image/jpeg",
+      "slug": "affordable-braces-in-san-rafael-payment-plans-insurance-and-how-to-fit-treatment-into-your-budget",
+      "type": "post"
+    },
+    "/braces-first-aid/braces-bump": {
+      "mimeType": "image/jpeg",
+      "slug": "braces-first-aid",
+      "type": "page"
+    },
+    "/braces-first-aid/bracket-broke": {
+      "mimeType": "image/jpeg",
+      "slug": "braces-first-aid",
+      "type": "page"
+    },
+    "/braces-first-aid/rubber-spacers": {
+      "mimeType": "image/jpeg",
+      "slug": "braces-first-aid",
+      "type": "page"
+    },
+    "/braces-first-aid/gaps-braces": {
+      "mimeType": "image/jpeg",
+      "slug": "braces-first-aid",
+      "type": "page"
+    },
+    "/braces-first-aid/broken-retainer": {
+      "mimeType": "image/jpeg",
+      "slug": "braces-first-aid",
+      "type": "page"
+    },
+    "/braces-first-aid/broken-wire": {
+      "mimeType": "image/jpeg",
+      "slug": "braces-first-aid",
+      "type": "page"
+    },
+    "/braces-first-aid/flossing": {
+      "mimeType": "image/jpeg",
+      "slug": "braces-first-aid",
+      "type": "page"
+    },
+    "/braces-first-aid/sore-lips": {
+      "mimeType": "image/jpeg",
+      "slug": "braces-first-aid",
+      "type": "page"
+    },
+    "/braces-first-aid/sore-mouth": {
+      "mimeType": "image/jpeg",
+      "slug": "braces-first-aid",
+      "type": "page"
+    },
+    "/braces-first-aid/lost-bracket": {
+      "mimeType": "image/jpeg",
+      "slug": "braces-first-aid",
+      "type": "page"
+    },
+    "/braces-first-aid/hurt-braces": {
+      "mimeType": "image/jpeg",
+      "slug": "braces-first-aid",
+      "type": "page"
+    },
+    "/team-photo-2": {
+      "mimeType": "image/jpeg"
+    },
+    "/parent-consult-checklist": {
+      "mimeType": "application/pdf"
+    },
+    "/7-questions": {
+      "mimeType": "image/jpeg"
+    },
+    "/instructional-videos/teaching_mom_to_use_dpe_-_initial_bond_ortho_v1-720p1": {
+      "mimeType": "video/mp4",
+      "slug": "instructional-videos",
+      "type": "page"
+    },
+    "/iconix-champagne-gold-braces/attachment/3": {
+      "mimeType": "image/png",
+      "slug": "iconix-champagne-gold-braces",
+      "type": "page"
+    },
+    "/iconix-champagne-gold-braces/attachment/2": {
+      "mimeType": "image/png",
+      "slug": "iconix-champagne-gold-braces",
+      "type": "page"
+    },
+    "/iconix-champagne-gold-braces/attachment/1": {
+      "mimeType": "image/png",
+      "slug": "iconix-champagne-gold-braces",
+      "type": "page"
+    },
+    "/iconix-champagne-gold-braces/3d-render-of-jaw-with-teeth-and-golden-orthodontic-braces-2": {
+      "mimeType": "image/jpeg",
+      "slug": "iconix-champagne-gold-braces",
+      "type": "page"
+    },
+    "/iconix-champagne-gold-braces/photo-of-adorable-happy-young-woman-look-empty-space-wear-teeth-braces-isolated-on-pink-color-background": {
+      "mimeType": "image/jpeg",
+      "slug": "iconix-champagne-gold-braces",
+      "type": "page"
+    },
+    "/iconix-champagne-gold-braces/3d-render-of-jaw-with-teeth-and-golden-orthodontic-braces": {
+      "mimeType": "image/jpeg",
+      "slug": "iconix-champagne-gold-braces",
+      "type": "page"
+    },
+    "/home/flyer": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/team-photo": {
+      "mimeType": "image/jpeg"
+    },
+    "/logo-fav/cropped-logo-fav-png": {
+      "mimeType": "image/png"
+    },
+    "/logo-fav": {
+      "mimeType": "image/png"
+    },
+    "/referral-slip-1": {
+      "mimeType": "application/pdf"
+    },
+    "/comprehensive-orthodontic-care-for-kids-families/comprehensive-orthodontic-care-for-kids-families-2": {
+      "mimeType": "image/png",
+      "slug": "comprehensive-orthodontic-care-for-kids-families",
+      "type": "post"
+    },
+    "/achieve-a-confident-straighter-smile-with-advanced-invisalign-treatment/achieve-a-confident-straighter-smile-with-advanced-invisalign-treatment-2": {
+      "mimeType": "image/png",
+      "slug": "achieve-a-confident-straighter-smile-with-advanced-invisalign-treatment",
+      "type": "post"
+    },
+    "/transform-your-smile-with-modern-affordable-braces-for-kids-teens-and-adults/transform-your-smile-with-modern-affordable-braces-for-kids-teens-and-adults-2": {
+      "mimeType": "image/png",
+      "slug": "transform-your-smile-with-modern-affordable-braces-for-kids-teens-and-adults",
+      "type": "post"
+    },
+    "/2025-yelp-award": {
+      "mimeType": "image/png"
+    },
+    "/newsletter/winter-2025-news-1": {
+      "mimeType": "image/jpeg",
+      "slug": "newsletter",
+      "type": "page"
+    },
+    "/trick-treat-smile-how-to-have-a-braces-friendly-halloween/adobestock_447820503-1": {
+      "mimeType": "image/jpeg",
+      "slug": "trick-treat-smile-how-to-have-a-braces-friendly-halloween",
+      "type": "post"
+    },
+    "/pink-out-poster-for-charlenes-business-jpg-format-2": {
+      "mimeType": "image/jpeg"
+    },
+    "/home/timing-icon1": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/address-icon1": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/email-icon1": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/phone-icon1": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/supporting-our-local-community/lv-swim-team": {
+      "mimeType": "image/png",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/supporting-our-local-community/9f1f28_59ac817e6e9644cab5d6de174d8efb01mv2": {
+      "mimeType": "image/webp",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/supporting-our-local-community/vo-boys-baseball": {
+      "mimeType": "image/jpeg",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/supporting-our-local-community/vo-girls-softball": {
+      "mimeType": "image/jpeg",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/instructional-videos/what-to-expect": {
+      "mimeType": "video/mp4",
+      "slug": "instructional-videos",
+      "type": "page"
+    },
+    "/instructional-videos/bracket-bonding": {
+      "mimeType": "video/mp4",
+      "slug": "instructional-videos",
+      "type": "page"
+    },
+    "/instructional-videos/elastic-tooth-separator": {
+      "mimeType": "video/mp4",
+      "slug": "instructional-videos",
+      "type": "page"
+    },
+    "/instructional-videos/wax-patient-comfort": {
+      "mimeType": "video/mp4",
+      "slug": "instructional-videos",
+      "type": "page"
+    },
+    "/instructional-videos/broken-brackets": {
+      "mimeType": "video/mp4",
+      "slug": "instructional-videos",
+      "type": "page"
+    },
+    "/instructional-videos/flossing-with-superfloss": {
+      "mimeType": "video/mp4",
+      "slug": "instructional-videos",
+      "type": "page"
+    },
+    "/instructional-videos/oral-irrigation-2": {
+      "mimeType": "video/mp4",
+      "slug": "instructional-videos",
+      "type": "page"
+    },
+    "/instructional-videos/oral-irrigation": {
+      "mimeType": "video/x-ms-wmv",
+      "slug": "instructional-videos",
+      "type": "page"
+    },
+    "/blog-retainer-for-life": {
+      "mimeType": "image/jpeg"
+    },
+    "/what-sets-us-apart/smiling-pro": {
+      "mimeType": "image/jpeg",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/tour-the-office/bgfile-3": {
+      "mimeType": "video/mp4",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/tour-the-office/bgfile-2": {
+      "mimeType": "video/mp4",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/tour-the-office/file_example_mp4_480_1_5mg-3": {
+      "mimeType": "video/mp4",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/tour-the-office/file_example_mp4_480_1_5mg-2": {
+      "mimeType": "video/mp4",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/tour-the-office/file_example_mp4_480_1_5mg": {
+      "mimeType": "video/mp4",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/newsletter/the-ortho-outlook": {
+      "mimeType": "image/jpeg",
+      "slug": "newsletter",
+      "type": "page"
+    },
+    "/share-a-smile-referral": {
+      "mimeType": "image/jpeg"
+    },
+    "/home/timing-icon": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/email-icon": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/address-icon": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/phone-icon": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/lil-palates-sweeper": {
+      "mimeType": "image/png",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/for-children/ortho-children": {
+      "mimeType": "image/jpeg",
+      "slug": "for-children",
+      "type": "page"
+    },
+    "/what-is-phase-i-early-interceptive-orthodontic-treatment/phase-one": {
+      "mimeType": "image/jpeg",
+      "slug": "what-is-phase-i-early-interceptive-orthodontic-treatment",
+      "type": "post"
+    },
+    "/complimentary-consultation/image-edit": {
+      "mimeType": "image/jpeg",
+      "slug": "complimentary-consultation",
+      "type": "page"
+    },
+    "/image2": {
+      "mimeType": "image/jpeg"
+    },
+    "/newsletter/image0-3": {
+      "mimeType": "image/jpeg",
+      "slug": "newsletter",
+      "type": "page"
+    },
+    "/designer-braces/star": {
+      "mimeType": "image/png",
+      "slug": "designer-braces",
+      "type": "page"
+    },
+    "/designer-braces/heart": {
+      "mimeType": "image/png",
+      "slug": "designer-braces",
+      "type": "page"
+    },
+    "/designer-braces/flower": {
+      "mimeType": "image/png",
+      "slug": "designer-braces",
+      "type": "page"
+    },
+    "/designer-braces/diamond": {
+      "mimeType": "image/png",
+      "slug": "designer-braces",
+      "type": "page"
+    },
+    "/designer-braces/mouse": {
+      "mimeType": "image/png",
+      "slug": "designer-braces",
+      "type": "page"
+    },
+    "/logo-tm_angel-aligner-logo": {
+      "mimeType": "image/png"
+    },
+    "/meet-the-team/carrie": {
+      "mimeType": "image/png",
+      "slug": "meet-the-team",
+      "type": "page"
+    },
+    "/meet-the-team/abi": {
+      "mimeType": "image/png",
+      "slug": "meet-the-team",
+      "type": "page"
+    },
+    "/meet-the-team/alison-2": {
+      "mimeType": "image/jpeg",
+      "slug": "meet-the-team",
+      "type": "page"
+    },
+    "/meet-the-team/anna-1": {
+      "mimeType": "image/jpeg",
+      "slug": "meet-the-team",
+      "type": "page"
+    },
+    "/meet-the-team/marina-2": {
+      "mimeType": "image/jpeg",
+      "slug": "meet-the-team",
+      "type": "page"
+    },
+    "/meet-the-team/alisaon-2": {
+      "mimeType": "image/png",
+      "slug": "meet-the-team",
+      "type": "page"
+    },
+    "/meet-the-team/carrier-headshot": {
+      "mimeType": "image/png",
+      "slug": "meet-the-team",
+      "type": "page"
+    },
+    "/meet-the-team/abi-headshot": {
+      "mimeType": "image/png",
+      "slug": "meet-the-team",
+      "type": "page"
+    },
+    "/meet-the-team/marina-headshot": {
+      "mimeType": "image/png",
+      "slug": "meet-the-team",
+      "type": "page"
+    },
+    "/meet-the-team/alisaon-headshot": {
+      "mimeType": "image/png",
+      "slug": "meet-the-team",
+      "type": "page"
+    },
+    "/meet-the-team/anna-headshhot": {
+      "mimeType": "image/png",
+      "slug": "meet-the-team",
+      "type": "page"
+    },
+    "/supporting-our-local-community/image1-2": {
+      "mimeType": "image/jpeg",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/meet-abi-our-dental-assistant/image1": {
+      "mimeType": "image/jpeg",
+      "slug": "meet-abi-our-dental-assistant",
+      "type": "page"
+    },
+    "/meet-abi-our-dental-assistant/image0-2": {
+      "mimeType": "image/jpeg",
+      "slug": "meet-abi-our-dental-assistant",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/screenshot-2025-02-03-at-1-37-42-pm": {
+      "mimeType": "image/png",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/61mgrllryul-_sx466_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/719l3ausjhl-_ac_sx679_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/61euvt66usl-_ac_sx679_pibundle-2topright00_sh20_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/71lkj03sk3l-_ac_sx679_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/71jovkcnbll-_sx466_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/61ylhwrkd9l-_ac_sx679_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/71aowthebxl-_ac_sx679_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/718o4j92fyl-_ac_sx679_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/61giivu6jfl-_ac_sx679_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/719wjhc4nol-_ac_sx679_pibundle-24topright00_sh20_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/81w8yqf8pyl-_sx522_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/81zzo96pl-_ac_sx679_pibundle-100topright00_sh20_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/618-qihe17l-_sx466_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/71arkkrbgsl-_sx466_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/71anl6hywjl-_sx466_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/orthodontic-products-we-recommend/81pyhr1phel-_sx466_": {
+      "mimeType": "image/jpeg",
+      "slug": "orthodontic-products-we-recommend",
+      "type": "page"
+    },
+    "/sound": {
+      "mimeType": "image/png"
+    },
+    "/mute": {
+      "mimeType": "image/png"
+    },
+    "/supporting-our-local-community/can-do-2": {
+      "mimeType": "image/png",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/newsletter/newsletter-image": {
+      "mimeType": "image/png",
+      "slug": "newsletter",
+      "type": "page"
+    },
+    "/meet-dr-rocha/image4-min": {
+      "mimeType": "image/jpeg",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/image2-12-min": {
+      "mimeType": "image/jpeg",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/image61": {
+      "mimeType": "image/jpeg",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/image7": {
+      "mimeType": "image/jpeg",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/image0-1": {
+      "mimeType": "image/jpeg",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/image31": {
+      "mimeType": "image/jpeg",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/image5": {
+      "mimeType": "image/jpeg",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/image8": {
+      "mimeType": "image/png",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/referral-slip": {
+      "mimeType": "application/pdf"
+    },
+    "/food-drive-flier-for-char-jpg": {
+      "mimeType": "image/jpeg"
+    },
+    "/home/unnamed-3": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/unnamed-2": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/unnamed-1": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/unnamed": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/image0": {
+      "mimeType": "image/jpeg"
+    },
+    "/what-sets-us-apart/book-1": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/what-sets-us-apart/book": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/9f1f28_2741aa25950148cb83e93ba67ec05df4mv2/cropped-9f1f28_2741aa25950148cb83e93ba67ec05df4mv2-jpg": {
+      "mimeType": "image/jpeg"
+    },
+    "/9f1f28_2741aa25950148cb83e93ba67ec05df4mv2": {
+      "mimeType": "image/jpeg"
+    },
+    "/complimentary-consultation/consult-banner-2": {
+      "mimeType": "image/jpeg",
+      "slug": "complimentary-consultation",
+      "type": "page"
+    },
+    "/complimentary-consultation/consult-banner": {
+      "mimeType": "image/jpeg",
+      "slug": "complimentary-consultation",
+      "type": "page"
+    },
+    "/complimentary-consultation/9f1f28_be65c4a5f5fa42b69136be01909e45a1mv2-3": {
+      "mimeType": "image/webp",
+      "slug": "complimentary-consultation",
+      "type": "page"
+    },
+    "/logo/cropped-logo-webp": {
+      "mimeType": "image/webp"
+    },
+    "/1cc85cbea2ae49e3abdecbb7a4bc6904": {
+      "mimeType": "image/webp"
+    },
+    "/d6eac3bee19440d68c941428f31c0f09": {
+      "mimeType": "image/webp"
+    },
+    "/84770f_02b3ddc056fa48fcb36b5ae65fdc02cdmv2_d_3264_2448_s_4_2": {
+      "mimeType": "image/webp"
+    },
+    "/84770f_d1cff376fa38409bb6d7afe36ddc3326mv2_d_2562_2656_s_4_2": {
+      "mimeType": "image/webp"
+    },
+    "/braces/nsplsh_19486c2d339c48c8b9e5d49b0d4250b8mv2": {
+      "mimeType": "image/webp",
+      "slug": "braces",
+      "type": "page"
+    },
+    "/11062b_e4f51512c6a64b839b6d7479f5d5e047mv2": {
+      "mimeType": "image/webp"
+    },
+    "/11062b_2381e8a6e7444f4f902e7b649aa3f0acmv2": {
+      "mimeType": "image/webp"
+    },
+    "/11062b_55e4be1e75564866b6c28290f9a9d271mv2": {
+      "mimeType": "image/webp"
+    },
+    "/img_0007-jpg": {
+      "mimeType": "image/jpeg"
+    },
+    "/what-sets-us-apart/imgpsh_fullsize_anim": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/what-sets-us-apart/imgpsh_fullsize_anim-1": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/what-sets-us-apart/imgpsh_fullsize_anim-2": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/what-sets-us-apart/imgpsh_fullsize_anim-3": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/what-sets-us-apart/imgpsh_fullsize_anim-4": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/what-sets-us-apart/imgpsh_fullsize_anim-5": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/what-sets-us-apart/imgpsh_fullsize_anim-6": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/what-sets-us-apart/imgpsh_fullsize_anim-7": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/patients-experiences/9f1f28_2d6f320bf4d747b387c878a98aeadc73mv2": {
+      "mimeType": "image/webp",
+      "slug": "patients-experiences",
+      "type": "page"
+    },
+    "/invisalign/9f1f28_4a65f79a920e46bb92a72dae8b59bbeemv2": {
+      "mimeType": "image/webp",
+      "slug": "invisalign",
+      "type": "page"
+    },
+    "/faq/9f1f28_33a2b0e5bd574ff095685b63aaf8a7camv2-3": {
+      "mimeType": "image/webp",
+      "slug": "faq",
+      "type": "page"
+    },
+    "/faq/9f1f28_6caa0fab415f433997eee83e1914ead5mv2-2": {
+      "mimeType": "image/webp",
+      "slug": "faq",
+      "type": "page"
+    },
+    "/doctor-referals-slips/teeth-icon": {
+      "mimeType": "image/png",
+      "slug": "doctor-referals-slips",
+      "type": "page"
+    },
+    "/about-orthodontics/icons8-ceramic-braces-100": {
+      "mimeType": "image/webp",
+      "slug": "about-orthodontics",
+      "type": "page"
+    },
+    "/about-orthodontics/straightens-teeth": {
+      "mimeType": "image/webp",
+      "slug": "about-orthodontics",
+      "type": "page"
+    },
+    "/about-orthodontics/icons8-chair-100": {
+      "mimeType": "image/webp",
+      "slug": "about-orthodontics",
+      "type": "page"
+    },
+    "/about-orthodontics/icons8-orthodontic-100-3": {
+      "mimeType": "image/webp",
+      "slug": "about-orthodontics",
+      "type": "page"
+    },
+    "/about-orthodontics/icons8-braces-100-2": {
+      "mimeType": "image/webp",
+      "slug": "about-orthodontics",
+      "type": "page"
+    },
+    "/about-orthodontics/icons8-orthodontic-100-4": {
+      "mimeType": "image/webp",
+      "slug": "about-orthodontics",
+      "type": "page"
+    },
+    "/about-orthodontics/icons8-set-of-teeth-100": {
+      "mimeType": "image/webp",
+      "slug": "about-orthodontics",
+      "type": "page"
+    },
+    "/about-orthodontics/icons8-metal-braces-100": {
+      "mimeType": "image/webp",
+      "slug": "about-orthodontics",
+      "type": "page"
+    },
+    "/about-orthodontics/9f1f28_754f668a85344e359a0991b7852761f0mv2": {
+      "mimeType": "image/webp",
+      "slug": "about-orthodontics",
+      "type": "page"
+    },
+    "/about-us/9f1f28_be65c4a5f5fa42b69136be01909e45a1mv2-2": {
+      "mimeType": "image/webp",
+      "slug": "about-us",
+      "type": "page"
+    },
+    "/for-children/9f1f28_31093198357147809a13eb279146dd3amv2": {
+      "mimeType": "image/webp",
+      "slug": "for-children",
+      "type": "page"
+    },
+    "/why-choose-us/9f1f28_f2c906076e704feb86c5312155ae52dbmv2": {
+      "mimeType": "image/webp",
+      "slug": "why-choose-us",
+      "type": "page"
+    },
+    "/why-choose-us/9f1f28_c8cfd00f84c34478bbe387c807903a55mv2": {
+      "mimeType": "image/webp",
+      "slug": "why-choose-us",
+      "type": "page"
+    },
+    "/why-choose-us/9f1f28_b4849342b10c4b36be2bdd69a5f566f8mv2": {
+      "mimeType": "image/webp",
+      "slug": "why-choose-us",
+      "type": "page"
+    },
+    "/why-choose-us/9f1f28_977d44c50ca34c62975f7ac329eaaf74mv2": {
+      "mimeType": "image/webp",
+      "slug": "why-choose-us",
+      "type": "page"
+    },
+    "/why-choose-us/9f1f28_84f463a8fff64d4c9f840c07d71be052mv2": {
+      "mimeType": "image/webp",
+      "slug": "why-choose-us",
+      "type": "page"
+    },
+    "/why-choose-us/9f1f28_ab2ddb19c6084a59bd02c9d5354b3394mv2": {
+      "mimeType": "image/webp",
+      "slug": "why-choose-us",
+      "type": "page"
+    },
+    "/why-choose-us/9f1f28_ac7db148668042ce965ce67ecd967542mv2": {
+      "mimeType": "image/webp",
+      "slug": "why-choose-us",
+      "type": "page"
+    },
+    "/why-choose-us/9f1f28_0211a566b5184665b3d111d1c93c4624mv2": {
+      "mimeType": "image/webp",
+      "slug": "why-choose-us",
+      "type": "page"
+    },
+    "/financial-information/9f1f28_1367c5e5a9e44b25814b8c06194a6617mv2": {
+      "mimeType": "image/webp",
+      "slug": "financial-information",
+      "type": "page"
+    },
+    "/financial-information/9f1f28_a7e4914cdbdf4e4d800bf5e9dba01b5cmv2": {
+      "mimeType": "image/webp",
+      "slug": "financial-information",
+      "type": "page"
+    },
+    "/financial-information/9f1f28_a68081c92c0a48f394cd7d5fdb5b2014mv2-2": {
+      "mimeType": "image/webp",
+      "slug": "financial-information",
+      "type": "page"
+    },
+    "/for-new-patients/9f1f28_33a2b0e5bd574ff095685b63aaf8a7camv2-2": {
+      "mimeType": "image/webp",
+      "slug": "for-new-patients",
+      "type": "page"
+    },
+    "/for-new-patients/9f1f28_6caa0fab415f433997eee83e1914ead5mv2": {
+      "mimeType": "image/webp",
+      "slug": "for-new-patients",
+      "type": "page"
+    },
+    "/supporting-our-local-community/nsplsh_584d4761424e34664d3538mv2_d_6720_4480_s_4_2": {
+      "mimeType": "image/webp",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/supporting-our-local-community/items-11-2": {
+      "mimeType": "image/png",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/supporting-our-local-community/items-11": {
+      "mimeType": "image/png",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/supporting-our-local-community/9f1f28_748e0a52b1d94758a50f3d680682c1c2mv2": {
+      "mimeType": "image/webp",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/supporting-our-local-community/9f1f28_ca04df871dd247f19ac733314dfc9282mv2": {
+      "mimeType": "image/webp",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/supporting-our-local-community/9f1f28_a7733a1dbfa74086bd448ea7dff74c15mv2": {
+      "mimeType": "image/webp",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/supporting-our-local-community/9f1f28_a5fed92df0124c4d9cbce3814f341efbmv2": {
+      "mimeType": "image/webp",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/supporting-our-local-community/9f1f28_1e5135917e6c4bfa91bcd33f79442348mv2": {
+      "mimeType": "image/webp",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/supporting-our-local-community/9f1f28_a4611d790df9448a941ff6417edf7231mv2": {
+      "mimeType": "image/webp",
+      "slug": "supporting-our-local-community",
+      "type": "page"
+    },
+    "/what-to-expect-on-the-first-day-of-braces/9f1f28_abde632b973f464ba73ba1d3ffe17ae5mv2": {
+      "mimeType": "image/webp",
+      "slug": "what-to-expect-on-the-first-day-of-braces",
+      "type": "page"
+    },
+    "/what-to-expect-on-the-first-day-of-braces/item-10": {
+      "mimeType": "image/jpeg",
+      "slug": "what-to-expect-on-the-first-day-of-braces",
+      "type": "page"
+    },
+    "/what-to-expect-on-the-first-day-of-braces/9f1f28_be65c4a5f5fa42b69136be01909e45a1mv2": {
+      "mimeType": "image/webp",
+      "slug": "what-to-expect-on-the-first-day-of-braces",
+      "type": "page"
+    },
+    "/braces/nsplsh_22ed1a6ecc694e8a9680b3e9e184034emv2": {
+      "mimeType": "image/webp",
+      "slug": "braces",
+      "type": "page"
+    },
+    "/for-adults/9f1f28_c8e7991d345d453dab8a3f36ef4631f8mv2": {
+      "mimeType": "image/webp",
+      "slug": "for-adults",
+      "type": "page"
+    },
+    "/for-teens/9f1f28_7202fb53890a489f997f65bc25df52f5mv2": {
+      "mimeType": "image/webp",
+      "slug": "for-teens",
+      "type": "page"
+    },
+    "/invisalign/e5da7948-ef09-4377-80b4-1e6bec778d60": {
+      "mimeType": "image/webp",
+      "slug": "invisalign",
+      "type": "page"
+    },
+    "/invisalign/ae5d86d4-5593-4a8d-8442-1865ca75dae0": {
+      "mimeType": "image/webp",
+      "slug": "invisalign",
+      "type": "page"
+    },
+    "/meet-dr-rocha/dr_-rocha": {
+      "mimeType": "image/webp",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/9f1f28_2ca1b56e218e43f3a4c428ee1bd2d6dcmv2": {
+      "mimeType": "image/webp",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/9f1f28_e673666cd4034725acc0ce3eb9505eaemv2": {
+      "mimeType": "image/webp",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/9f1f28_ff54275519ae4cf581324456300c26ebmv2": {
+      "mimeType": "image/webp",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/9f1f28_e5030f8ccaf6449ba4e51e80cd6a7326mv2": {
+      "mimeType": "image/webp",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/9f1f28_dbc28a70716f4f9f8889895eb1b5531emv2": {
+      "mimeType": "image/webp",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/meet-dr-rocha/9f1f28_fe49e6187a3c4692b75552bd72dd1d1bmv2": {
+      "mimeType": "image/webp",
+      "slug": "meet-dr-rocha",
+      "type": "page"
+    },
+    "/what-sets-us-apart/item-6": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/what-sets-us-apart/item-5": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/what-sets-us-apart/item-8": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/what-sets-us-apart/item-7": {
+      "mimeType": "image/png",
+      "slug": "what-sets-us-apart",
+      "type": "page"
+    },
+    "/tour-the-office/9f1f28_421f4a35d4004ce5b9b161d04a546f5cmv2": {
+      "mimeType": "image/webp",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/tour-the-office/9f1f28_9d0ce31e703148a0bb596122a8442ab4mv2-2": {
+      "mimeType": "image/webp",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/tour-the-office/9f1f28_33a2b0e5bd574ff095685b63aaf8a7camv2": {
+      "mimeType": "image/webp",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/tour-the-office/9f1f28_931d6bdcceeb4627b14f3b8726d9f7c7mv2": {
+      "mimeType": "image/webp",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/tour-the-office/9f1f28_ebbe39e7716344779884109f78e1c2cemv2": {
+      "mimeType": "image/webp",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/tour-the-office/9f1f28_1c5ba7a86e154f5996171d236f4da98cmv2": {
+      "mimeType": "image/webp",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/tour-the-office/9f1f28_5d66cab415754632bf675e7490c3f2f1mv2": {
+      "mimeType": "image/webp",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/tour-the-office/9f1f28_caa434e62ef944c1a5dddb6497a4f9c4mv2": {
+      "mimeType": "image/webp",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/tour-the-office/9f1f28_53d8925865884d1099770efba47879c0mv2": {
+      "mimeType": "image/webp",
+      "slug": "tour-the-office",
+      "type": "page"
+    },
+    "/meet-alison-our-orthodontic-assistant/alison": {
+      "mimeType": "image/webp",
+      "slug": "meet-alison-our-orthodontic-assistant",
+      "type": "page"
+    },
+    "/meet-marina-our-orthodontic-assistant/marina": {
+      "mimeType": "image/webp",
+      "slug": "meet-marina-our-orthodontic-assistant",
+      "type": "page"
+    },
+    "/meet-anna-our-practice-coordinator/anna": {
+      "mimeType": "image/webp",
+      "slug": "meet-anna-our-practice-coordinator",
+      "type": "page"
+    },
+    "/84770f_71452a9fe6d44784ad7909dca9778e69mv2_d_5184_3456_s_4_2": {
+      "mimeType": "image/webp"
+    },
+    "/6de947df4d8641efa8adba45f790b8a4": {
+      "mimeType": "image/webp"
+    },
+    "/home/11062b_9850b9cad2e3423d8a034323a520879emv2": {
+      "mimeType": "image/webp",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/col-items2": {
+      "mimeType": "image/jpeg",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/cik-items3": {
+      "mimeType": "image/jpeg",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/col-items1": {
+      "mimeType": "image/jpeg",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/invisalign-provider-logo-rgb": {
+      "mimeType": "image/webp",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/item6": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/item5": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/item4": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/item3": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/item2": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/item1": {
+      "mimeType": "image/png",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/9f1f28_a68081c92c0a48f394cd7d5fdb5b2014mv2": {
+      "mimeType": "image/webp",
+      "slug": "home",
+      "type": "page"
+    },
+    "/home/9f1f28_9d0ce31e703148a0bb596122a8442ab4mv2": {
+      "mimeType": "image/webp",
+      "slug": "home",
+      "type": "page"
+    },
+    "/bgfile": {
+      "mimeType": "video/mp4"
+    },
+    "/poster": {
+      "mimeType": "image/png"
+    },
+    "/logo": {
+      "mimeType": "image/webp"
+    }
+  }
+}

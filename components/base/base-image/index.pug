@@ -1,16 +1,20 @@
-.base-image(v-if='loaded', :class=`{ 'base-image--bg': imageType === 'cover' }`)
-  picture(v-waypoint=`{ active: true, callback: onWaypoint, options: intersectionOptions }`)
-    source(:srcset='currWebP' type='image/webp')
-    source(:srcset='currJp2' type='image/jp2')
+.base-image(:class=`{ 'base-image--bg': imageType === 'cover' }`)
+  picture
+    source(v-if='webp', :srcset='webp', type='image/webp')
     img.base-image__image(
+      ref='image',
       :alt='alt',
       :aria-hidden=`imageBackground && !forceAlt ? 'true' : 'false'`,
       :class=`{ 'base-image__image--bg': imageType === 'cover' }`,
-      :src='currentImg',
-      :style=`{ objectPosition: objectPosition }`
+      :src='src',
+      :style=`{ objectPosition: objectPosition }`,
+      :loading='loadingAttribute',
+      :fetchpriority='fetchPriority',
+      decoding='async',
+      @load='onLoad'
     )
   transition(name='fade-src-img')
-    .base-image__overlay(v-if='loading', :style=`{ backgroundColor: bgColor }`)
+    .base-image__overlay(v-if='showOverlay', :style=`{ backgroundColor: bgColor }`)
       svg.base-image__spinner(
         width='30px',
         height='30px',

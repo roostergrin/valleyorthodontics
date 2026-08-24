@@ -210,6 +210,7 @@ export const renderedSectionLayouts = [
   'before_after_slider',
   'map',
   'form',
+  'block_document_list',
   'block_grid',
   'image_only',
   'image_text',
@@ -358,6 +359,22 @@ export const sectionTemplates = {
     testimonials: [{ author: 'Patient name', testimonial: 'Add a testimonial here.' }],
     has_background: false,
     background: '',
+    linear_gradient: ''
+  }),
+  block_document_list: () => template('block_document_list', {
+    eyebrow: '',
+    title: 'New document list',
+    intro: 'Add an introduction here.',
+    tabs_label: 'Choose a group',
+    note: '',
+    groups: [{
+      label: 'New group',
+      summary: '',
+      documents: [{ title: 'New document', text: 'Add a short description here.', href: '', icon: 'files-tooth', aria_label: '' }]
+    }],
+    has_background: false,
+    background: '',
+    add_texture: false,
     linear_gradient: ''
   }),
   block_resource_grid: () => template('block_resource_grid', {

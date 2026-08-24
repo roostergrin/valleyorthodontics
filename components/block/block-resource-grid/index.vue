@@ -10,6 +10,12 @@ let fancyboxLoadPromise = null
 
 export default {
   props: {
+    // 'h1' when this block is the first rendered section on the page (its hero is
+    // hidden), otherwise 'h2'. Passed down from page-sections.
+    headingLevel: {
+      type: String,
+      default: 'h2'
+    },
     props: {
       type: Object,
       default: () => ({})
@@ -150,7 +156,10 @@ export default {
 
       return {
         src: `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
-        webp: `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
+        // No webp: YouTube serves these as JPEG, and advertising the same URL
+        // under <source type="image/webp"> told the browser to decode a JPEG
+        // as webp.
+        webp: '',
         alt: item.title || 'Video thumbnail',
         aria_hidden: false,
         objectPosition: 'center',

@@ -5,5 +5,6 @@
     @closemodal='handleClose')
     .popup__container
       BaseImage.popup__image(v-if='props.image' v-bind='props.image')
-      h1.popup__title(v-if='props.title' v-html='props.title')
+      //- h2: the popup is an overlay on top of a page that already has an h1.
+      h2.popup__title(v-if='props.title' v-html='props.title')
       .popup__text(v-if='props.text' v-html='props.text')

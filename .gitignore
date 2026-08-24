@@ -87,3 +87,7 @@ sw.*
 
 dist/
 tmp/
+
+# Local staging for the pre-launch media migration (see scripts/migrate-media.js).
+# ~68 MB of downloaded assets destined for S3 — not part of the repo.
+media-staging

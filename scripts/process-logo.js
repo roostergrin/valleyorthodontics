@@ -4,6 +4,7 @@ const fs = require('fs')
 const path = require('path')
 
 const themeFile = path.join(__dirname, '../data/theme.json')
+const cdnFile = path.join(__dirname, '../resources/cdn.js')
 const outputPath = path.join(__dirname, '../assets/icons/logo.svg')
 const outputPathWhite = path.join(__dirname, '../assets/icons/logo-white.svg')
 
@@ -15,6 +16,28 @@ function loadTheme () {
     console.error(`Error loading theme.json: ${err.message}`)
     return null
   }
+}
+
+// theme.json references media with the "{{cdn}}" token (see resources/cdn.js).
+// This script is plain CommonJS run outside the Nuxt build, so it cannot import
+// that ESM module — read the base out of it instead of duplicating the literal.
+function cdnBase () {
+  try {
+    const match = fs.readFileSync(cdnFile, 'utf8').match(/export const cdn = '([^']+)'/)
+    return match ? match[1] : null
+  } catch (err) {
+    return null
+  }
+}
+
+function expandCdn (str) {
+  if (!str || !str.includes('{{cdn}}')) { return str }
+  const base = cdnBase()
+  if (!base) {
+    console.log('Could not resolve the {{cdn}} base from resources/cdn.js')
+    return str
+  }
+  return str.replace(/\{\{cdn\}\}/g, base)
 }
 
 function isDataUri (str) {
@@ -131,7 +154,7 @@ async function main () {
     return
   }
 
-  const logoUrl = theme.default?.logo_url
+  const logoUrl = expandCdn(theme.default?.logo_url)
 
   if (!logoUrl) {
     console.log('No logo_url found in theme.json, skipping')

@@ -43,13 +43,28 @@
 </template>
 
 <script>
-import { setJSONData } from '~/resources/utils'
+import { setJSONData, setMeta } from '~/resources/utils'
 
 export default {
   components: {},
   async asyncData () {
     const data = await setJSONData('global', 'globalData')
     return { props: data }
+  },
+  // Without a head() this page inherited the global default verbatim: the
+  // homepage's title, description and canonical, making it a duplicate of the
+  // homepage in every meta respect.
+  head () {
+    const title = `Privacy Policy - ${this.props.company_name}`
+
+    return setMeta({
+      path: this.$route.path,
+      title,
+      seo: {
+        page_title: title,
+        page_description: `How ${this.props.company_name} collects, uses and protects the information you provide through this website.`
+      }
+    })
   },
   mounted () {
     this.$nextTick(() => {

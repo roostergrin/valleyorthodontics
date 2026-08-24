@@ -176,7 +176,7 @@
     "title": "Welcome to Valley Orthodontics",
     "text": "Creating healthy, confident smiles for children and adults in Marin County. Book a complimentary consultation or call 415-479-2400.",
     "image": {
-      "src": "https://www.valleyorthodontics.net/wp-content/uploads/2024/09/9f1f28_be65c4a5f5fa42b69136be01909e45a1mv2-1.webp",
+      "src": "{{cdn}}/uploads/2024/09/9f1f28_be65c4a5f5fa42b69136be01909e45a1mv2-1.webp",
       "webp": "",
       "alt": "Valley Orthodontics office interior",
       "aria_hidden": false,

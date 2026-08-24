@@ -269,6 +269,23 @@
       width: 100%
       height: 100%
 
+  &--newsletters
+    .block-resource-grid__grid
+      gap: 1.4rem
+
+      @include desktop
+        grid-template-columns: repeat(auto-fit, minmax(rem-calc(240), 1fr))
+        gap: 1.65rem
+
+    .block-resource-grid__media--image
+      // Issues are portrait page scans, so a 3:4 well shows the whole cover
+      // without cropping it or leaving a band of empty space above and below.
+      aspect-ratio: 3 / 4
+      background: rgba(var(--secondary-rgb), .06)
+
+    .block-resource-grid__image
+      padding: 0
+
   &--products
     .block-resource-grid__grid
       gap: 1.4rem

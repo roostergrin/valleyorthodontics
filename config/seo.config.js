@@ -1,33 +1,19 @@
-import fs from 'fs'
-import path from 'path'
-import axios from 'axios'
-import { api, url } from '../resources/api'
+import { url } from '../resources/api'
+import {
+  getLocalBlogRoutes,
+  getLocalDynamicRoutes,
+  noIndexRoutes
+} from './routes.config'
 
-// Build blog routes from the local data/posts.json mirror. Used as a fallback
-// when the live WordPress API is unavailable or returns unexpected data, so the
-// sitemap route generator always resolves to an array (never undefined).
-const getLocalBlogRoutes = () => {
-  try {
-    const postsFile = path.join(process.cwd(), 'data', 'posts.json')
-    const postsData = JSON.parse(fs.readFileSync(postsFile, 'utf8'))
-    const posts = Array.isArray(postsData.posts) ? postsData.posts : []
-    const routes = new Set(['/blog/page/1'])
-
-    Object.keys(postsData.postsPerPage || {}).forEach((page) => {
-      routes.add(`/blog/page/${page}`)
-    })
-
-    posts.forEach((post) => {
-      if (post.slug) {
-        routes.add(`/blog/${post.slug}`)
-      }
-    })
-
-    return [...routes]
-  } catch (e) {
-    return ['/blog/page/1']
-  }
-}
+// Routes that exist in the build but must stay out of the sitemap: the noindex
+// set, plus the two dev-only pages, plus blog pagination beyond page 1 (thin
+// listing pages that compete with the posts themselves).
+const sitemapExclude = [
+  ...noIndexRoutes,
+  '/test',
+  '/style-guide',
+  '/blog/page/*'
+]
 
 export const siteMap = {
   path: '/sitemap.xml',
@@ -37,67 +23,55 @@ export const siteMap = {
   sitemaps: [
     {
       path: '/sitemap-pages.xml',
+      exclude: sitemapExclude,
       defaults: {
-        changefreq: 'daily',
-        priority: 0.9,
+        changefreq: 'weekly',
+        priority: 0.7,
         lastmod: new Date()
       },
-      routes: [
-        {
-          url: '/',
-          priority: 1
-        }
+      // The pages sub-sitemap must enumerate the file-based routes AND the
+      // pages.json-driven routes. Passing `routes` overrides the module's
+      // generate.routes default entirely, so the dynamic routes have to be
+      // listed here explicitly or they silently vanish from the sitemap.
+      //
+      // `exclude` only filters routes the module discovers itself, not entries
+      // handed to it via `routes` — so the noindex set has to be filtered out
+      // of this list directly.
+      routes: () => [
+        { url: '/', priority: 1.0, changefreq: 'weekly' },
+        { url: '/about', priority: 0.8 },
+        { url: '/treatments', priority: 0.9 },
+        { url: '/contact', priority: 0.9 },
+        { url: '/faq', priority: 0.7 },
+        { url: '/get-started', priority: 0.8 },
+        { url: '/accessibility', priority: 0.2 },
+        { url: '/privacy-policy', priority: 0.2 },
+        ...getLocalDynamicRoutes()
+          .filter(route => !noIndexRoutes.includes(route))
+          .map(route => ({ url: route, priority: 0.7 }))
       ]
     },
     {
       path: '/blog/sitemap-blog.xml',
+      exclude: ['/**'],
       defaults: {
-        changefreq: 'daily',
-        priority: 0.1,
+        changefreq: 'monthly',
+        priority: 0.5,
         lastmod: new Date()
       },
-      exclude: ['/**'],
-      routes: async () => {
-        try {
-          // Get All Blog Posts
-          const response = await axios.get(`${api}/wp/v2/posts?per_page=100`)
-          if (!Array.isArray(response.data)) {
-            throw new TypeError(
-              'WordPress posts API returned a non-array response'
-            )
-          }
-          const dataPages = response.headers['x-wp-totalpages']
-          const routes = []
-          let blogArray = response.data
-          routes.push('/blog/page/1')
-          for (let i = 2; i <= dataPages; i++) {
-            const nextPage = await axios.get(
-              `${api}/wp/v2/posts?per_page=100&page=${i}`
-            )
-            if (Array.isArray(nextPage.data)) {
-              blogArray = [...blogArray, ...nextPage.data]
-            }
-            routes.push('/blog/page/' + i)
-          }
-          blogArray.forEach((post) => {
-            routes.push('/blog/' + post.slug)
-          })
-          return routes
-        } catch (e) {
-          // Never return undefined: the sitemap module maps over this result,
-          // so fall back to the local blog routes to keep the build alive.
-          console.warn(
-            `SITEMAP BLOG API: falling back to local blog routes; WordPress posts API unavailable: ${e}`
-          )
-          return getLocalBlogRoutes()
-        }
-      }
+      // Local mirror only — the live WordPress API lives on the domain this
+      // site replaces and disappears at cutover.
+      routes: () => getLocalBlogRoutes()
+        .filter(route => !route.startsWith('/blog/page/'))
+        .concat('/blog/page/1')
     }
   ]
 }
 
 export const setRobots = {
   UserAgent: '*',
-  Disallow: '/',
+  // An empty Disallow means "allow everything". This was `'/'` (blocking the
+  // entire site) for the whole staging period — do not reintroduce that.
+  Disallow: '',
   Sitemap: url + 'sitemap.xml'
 }

@@ -1,0 +1,59 @@
+.block-document-list(:class='[props.background ? `block-document-list--${props.background}` : null]')
+  BaseTexture(v-if='props.add_texture')
+  .block-document-list__container
+    header.block-document-list__header(v-if='props.eyebrow || props.title || props.intro')
+      p.block-document-list__eyebrow(v-if='props.eyebrow' v-html='props.eyebrow')
+      //- Dynamic tag for the same reason as block-resource-grid: this block owns
+      //- the page's only h1 if it ever renders as the first visible section.
+      component.block-document-list__title(:is='headingLevel' v-if='props.title' v-html='props.title')
+      p.block-document-list__intro(v-if='props.intro' v-html='props.intro')
+
+    .block-document-list__body(v-if='groups.length')
+      .block-document-list__tabs(role='tablist' :aria-label='props.tabs_label || "Patient type"')
+        button.block-document-list__tab(
+          v-for='(group, i) in groups',
+          :key='`document-tab-${i}`',
+          :id='tabId(i)',
+          :class='{ "block-document-list__tab--active": i === active }',
+          :aria-selected='i === active ? "true" : "false"',
+          :aria-controls='panelId(i)',
+          :tabindex='i === active ? 0 : -1',
+          ref='tabs',
+          role='tab',
+          type='button',
+          @click='select(i)',
+          @keydown='onTabKeydown($event, i)'
+        )
+          span.block-document-list__tab-label(v-html='group.label')
+          span.block-document-list__tab-count(:aria-hidden='true') {{ group.documents.length }}
+
+      //- Every panel is in the static HTML; only visibility is toggled, so all
+      //- documents stay crawlable and linkable regardless of the active tab.
+      .block-document-list__panel(
+        v-for='(group, i) in groups',
+        :key='`document-panel-${i}`',
+        :id='panelId(i)',
+        :aria-labelledby='tabId(i)',
+        :hidden='i !== active',
+        role='tabpanel'
+      )
+        p.block-document-list__summary(v-if='group.summary' v-html='group.summary')
+
+        ul.block-document-list__docs
+          li.block-document-list__doc(v-for='(doc, j) in group.documents' :key='`document-${i}-${j}`')
+            a.block-document-list__doc-link(
+              :href='doc.href',
+              :aria-label='docAria(doc)',
+              target='_blank',
+              rel='noopener'
+            )
+              div.block-document-list__doc-icon
+                BaseIcon(:name='doc.icon || "files-tooth"')
+              span.block-document-list__doc-text
+                span.block-document-list__doc-title(v-html='doc.title')
+                span.block-document-list__doc-description(v-if='doc.text' v-html='doc.text')
+              div.block-document-list__doc-meta
+                span.block-document-list__doc-format PDF
+                BaseIcon.block-document-list__doc-arrow(name='caret')
+
+    p.block-document-list__note(v-if='props.note' v-html='props.note')
