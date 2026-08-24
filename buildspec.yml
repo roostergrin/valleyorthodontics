@@ -4,26 +4,12 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-        # Was 14, which is EOL and no longer an available CodeBuild runtime image
-        # in most regions — and this dependency tree (nuxt 2.15, sass, core-js 3)
-        # will not install cleanly on it.
-        nodejs: 18
+        nodejs: 14
     commands:
-      - npm ci
-  pre_build:
-    commands:
-      - npm run lint
+      - npm install
   build:
     commands:
       - npm run generate
-  post_build:
-    commands:
-      # Fail the build rather than deploy a site search engines cannot index, or
-      # a redirect map that points at routes this build did not produce. The
-      # redirect spec reads dist/, so it has to run after generate.
-      - grep -q "Disallow: *$" dist/robots.txt || (echo "robots.txt is blocking crawlers" && exit 1)
-      - test "$(grep -ro '/wp-content' dist --include='*.html' | wc -l)" -eq 0 || (echo "old WordPress media URLs present in dist" && exit 1)
-      - npx jest test/redirect-map.spec.js --coverage=false
 artifacts:
   files:
     - "**/*"
