@@ -92,6 +92,12 @@
   &__logo
     display: inline-block
     position: relative
+    // Required because the img carries width/height attributes. Those map to a
+    // presentational hint of `width: 322px`, and with only `height` set in CSS
+    // there was nothing to override it — the logo rendered at full intrinsic
+    // width, overflowed the navbar and wrapped the hamburger onto a second row.
+    // `auto` hands the width back to the aspect ratio the attributes describe.
+    width: auto
     height: rem-calc(65)
     object-fit: contain
     @include phone-land-lg

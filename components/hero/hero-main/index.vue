@@ -85,18 +85,31 @@ export default {
   methods: {
     // The hero video is decorative and large. Fetching it after the page has
     // painted keeps it from competing with the CSS, fonts and hero poster.
-    // The hero video is decorative, so it is a large-screen enhancement rather
-    // than something every visitor pays for. Skipping it leaves the poster in
-    // place: nothing is lost but the movement.
+    isSmallScreen () {
+      return !!(window.matchMedia && window.matchMedia('(max-width: 1024px)').matches)
+    },
+    // Phones and tablets get a much smaller cut of the same clip. Once the
+    // <video> mounts it becomes the LCP element and does not finish painting
+    // until the file has arrived, so on a throttled connection the full 7.5MB
+    // file put LCP at 10.4s; the mobile cut is under 1MB.
+    videoSourceUrl () {
+      const video = this.props.video || {}
+      if (this.isSmallScreen() && video.src_mobile) {
+        return video.src_mobile
+      }
+      return video.src
+    },
+    // The video is decorative, so it is skipped outright where movement is
+    // unwanted or bandwidth is metered. The poster stays in place: nothing is
+    // lost but the movement.
     shouldSkipVideo () {
       const media = window.matchMedia
       if (media && media('(prefers-reduced-motion: reduce)').matches) {
         return true
       }
-      // Phones and tablets. Measured on a throttled mobile connection: once the
-      // <video> mounts it becomes the LCP element and does not finish painting
-      // until the whole file has arrived, taking LCP from 1.1s (poster) to 10.4s.
-      if (media && media('(max-width: 1024px)').matches) {
+      // No mobile-sized cut available, so a small screen would have to download
+      // the full-size file.
+      if (this.isSmallScreen() && !(this.props.video || {}).src_mobile) {
         return true
       }
       const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection
@@ -116,7 +129,7 @@ export default {
       }
 
       const start = () => {
-        this.videoSrc = this.props.video.src
+        this.videoSrc = this.videoSourceUrl()
         this.$nextTick(() => {
           const video = this.$refs.video
           if (!video) {
@@ -156,7 +169,7 @@ export default {
     playVideo () {
       // Covers the case where a visitor hits play before the deferred load ran.
       if (!this.videoSrc) {
-        this.videoSrc = this.props.video.src
+        this.videoSrc = this.videoSourceUrl()
       }
       this.$nextTick(() => {
         this.$refs.video.play()
