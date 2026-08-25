@@ -63,6 +63,15 @@ export default {
     logoUrl () {
       return this.theme?.logo_url || this.theme?.logo_config?.url
     },
+    // Intrinsic dimensions, so the browser can reserve the logo's box before it
+    // loads instead of reflowing the header. Kept in theme.json rather than
+    // hardcoded here because the logo is themeable and aspect ratios differ.
+    logoWidth () {
+      return this.theme?.logo_config?.width || null
+    },
+    logoHeight () {
+      return this.theme?.logo_config?.height || null
+    },
     companyName () {
       return this.$store.state.global?.company_name || 'Practice Name'
     },

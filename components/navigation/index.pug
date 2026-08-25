@@ -6,7 +6,7 @@ header.navigation(:class="{ 'navigation--floating': !isDarkVariant && !isScrolli
     
     .navigation__navbar(ref='navBar')
       nuxt-link.navigation__home(to='/' @click.native='closeDropdown' aria-label='Home')
-        img.navigation__logo(v-if='hasLogo && useUrlLogo' :src='logoUrl' :alt='companyName + " - Home"' :class="{ 'navigation__logo--light-variant': !isDarkVariant }")
+        img.navigation__logo(v-if='hasLogo && useUrlLogo' :src='logoUrl' :alt='companyName + " - Home"' :width='logoWidth' :height='logoHeight' :class="{ 'navigation__logo--light-variant': !isDarkVariant }")
         BaseIcon.navigation__logo(v-else-if='hasLogo' :name='logoName')
         span.navigation__logo-text(v-else) {{ companyName }}
       
@@ -42,7 +42,7 @@ header.navigation(:class="{ 'navigation--floating': !isDarkVariant && !isScrolli
       .navigation__drawer-container(ref='drawer' v-if='drawerOpen')
         .navigation__header
           nuxt-link.navigation__home--mobile(to='/' @click.native='closeDrawer' aria-label='Home')
-            img.navigation__logo-mobile(v-if='hasLogo && useUrlLogo' :src='logoUrl' :alt='companyName + " - Home"')
+            img.navigation__logo-mobile(v-if='hasLogo && useUrlLogo' :src='logoUrl' :alt='companyName + " - Home"' :width='logoWidth' :height='logoHeight')
             BaseIcon.navigation__logo-mobile(v-else-if='hasLogo' :name='mobileLogoName')
             span.navigation__logo-text-mobile(v-else) {{ companyName }}
           button.navigation__drawer-close(@click='closeDrawer' tabindex='0') Close

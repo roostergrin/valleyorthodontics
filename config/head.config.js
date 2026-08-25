@@ -2,10 +2,9 @@ import { url } from '../resources/api'
 import { buildPracticeSchema, buildWebSiteSchema } from '../resources/structured-data'
 import globalData from '../data/globalData.json'
 
-// Measurement IDs, verified against the live site's own tags. Google Ads
-// (AW-16625950169) is not listed here because it fires from inside GTM, not from
-// the page — confirm it is still in one of these containers before launch.
-const GA4_ID = 'G-TV4GGB5LJQ'
+// The site's two GTM containers, matching the live site. Everything else —
+// GA4 (G-TV4GGB5LJQ) and Google Ads (AW-16625950169) — is configured inside
+// them, so nothing else is loaded from the page.
 const GTM_IDS = ['GTM-KDN4NRNP', 'GTM-T3RF7MX6']
 
 // Sitewide JSON-LD. The site shipped no structured data at all, while
@@ -71,28 +70,16 @@ export const siteHead = (meta, theme = {}) => {
         type: 'application/ld+json',
         innerHTML: JSON.stringify(webSiteSchema)
       },
-      // Analytics must match the live site's tags exactly. The template shipped
-      // with G-EP9BQ2J5P8, which belongs to a different RoosterGrin practice and
-      // is not one of this site's tags — measurement would have started in the
-      // wrong property on day one.
-      {
-        hid: 'gtag',
-        src: `https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`,
-        async: true
-      },
-      {
-        hid: 'gtag-config',
-        type: 'text/javascript',
-        innerHTML: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${GA4_ID}');
-        `
-      },
-      // Two containers, matching the live site. Google Ads (AW-16625950169) fires
-      // from inside one of them rather than from the page, so it comes back with
-      // these and needs no separate snippet.
+      // GA4 is NOT loaded from the page. GTM-T3RF7MX6 holds a Google tag that
+      // already loads G-TV4GGB5LJQ (alongside GT-MK4NKVGK), so a gtag.js snippet
+      // here was a second config call for the same measurement ID — a duplicate
+      // page_view on every pageview, plus a redundant script. Google Ads
+      // (AW-16625950169) likewise fires from inside a container, not the page.
+      //
+      // The template shipped with G-EP9BQ2J5P8, a different RoosterGrin
+      // practice's property. Leaving it would have started measurement in the
+      // wrong account; it is gone rather than corrected because the containers
+      // own GA4 now.
       {
         hid: 'gtm',
         type: 'text/javascript',
@@ -107,7 +94,6 @@ export const siteHead = (meta, theme = {}) => {
       }
     ],
     __dangerouslyDisableSanitizersByTagID: {
-      'gtag-config': ['innerHTML'],
       gtm: ['innerHTML'],
       'ld-practice': ['innerHTML'],
       'ld-website': ['innerHTML']

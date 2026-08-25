@@ -85,10 +85,33 @@ export default {
   methods: {
     // The hero video is decorative and large. Fetching it after the page has
     // painted keeps it from competing with the CSS, fonts and hero poster.
+    // The hero video is decorative, so it is a large-screen enhancement rather
+    // than something every visitor pays for. Skipping it leaves the poster in
+    // place: nothing is lost but the movement.
+    shouldSkipVideo () {
+      const media = window.matchMedia
+      if (media && media('(prefers-reduced-motion: reduce)').matches) {
+        return true
+      }
+      // Phones and tablets. Measured on a throttled mobile connection: once the
+      // <video> mounts it becomes the LCP element and does not finish painting
+      // until the whole file has arrived, taking LCP from 1.1s (poster) to 10.4s.
+      if (media && media('(max-width: 1024px)').matches) {
+        return true
+      }
+      const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection
+      if (connection) {
+        if (connection.saveData) {
+          return true
+        }
+        if (['slow-2g', '2g', '3g'].includes(connection.effectiveType)) {
+          return true
+        }
+      }
+      return false
+    },
     queueVideoLoad () {
-      const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches
-      if (reduceMotion) {
-        // Leave the poster in place; nothing is lost but the movement.
+      if (this.shouldSkipVideo()) {
         return
       }
 
