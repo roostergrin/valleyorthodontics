@@ -107,6 +107,36 @@ export const buildWebSiteSchema = global => ({
 })
 
 /**
+ * BreadcrumbList from an ordered trail of { name, path }, Home included. Used
+ * directly by pages whose trail isn't derivable from the nav (blog posts).
+ */
+export const buildCrumbList = (trail = []) => {
+  if (!trail.length) { return null }
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: trail.map((entry, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: entry.name,
+      item: absolute(entry.path)
+    }))
+  }
+}
+
+/**
+ * Pages that sit directly under Home and are deliberately absent from the nav
+ * definition, so the router lookup below can't name them.
+ */
+const OFF_NAV_CRUMBS = {
+  '/get-started': 'Get Started',
+  '/accessibility': 'Accessibility Statement',
+  // The blog listing. Bare /blog redirects here, so /blog/page/1 is the crumb.
+  '/blog/page/1': 'Blog'
+}
+
+/**
  * Breadcrumbs from router/index.js, which is the nav definition. Only emitted
  * for pages that actually sit under a parent section.
  */
@@ -124,24 +154,24 @@ export const buildBreadcrumbSchema = (routePath, router = []) => {
 
   const current = (parent && parent.children.find(child => child.path === routePath)) ||
     router.find(item => item.path === routePath)
-  if (!current) { return null }
 
-  const items = [{ name: 'Home', item: absolute('/') }]
+  if (!current) {
+    const offNavName = OFF_NAV_CRUMBS[routePath]
+    if (!offNavName) { return null }
+
+    return buildCrumbList([
+      { name: 'Home', path: '/' },
+      { name: offNavName, path: routePath }
+    ])
+  }
+
+  const trail = [{ name: 'Home', path: '/' }]
   if (parent && parent.path !== routePath) {
-    items.push({ name: parent.name, item: absolute(parent.path) })
+    trail.push({ name: parent.name, path: parent.path })
   }
-  items.push({ name: current.name, item: absolute(routePath) })
+  trail.push({ name: current.name, path: routePath })
 
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: items.map((entry, index) => ({
-      '@type': 'ListItem',
-      position: index + 1,
-      name: entry.name,
-      item: entry.item
-    }))
-  }
+  return buildCrumbList(trail)
 }
 
 /**
@@ -189,13 +219,16 @@ export const buildFaqSchema = (sections = []) => {
   }
 }
 
-export const buildArticleSchema = ({ routePath, title, description, image, datePublished, companyName }) => ({
+export const buildArticleSchema = ({ routePath, title, description, image, datePublished, dateModified, companyName }) => ({
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
   headline: title,
   ...(description && { description }),
   ...(image && { image }),
+  // Both must be ISO 8601 for Google to read them; callers pass the WordPress
+  // timestamp, never the formatted display date.
   ...(datePublished && { datePublished }),
+  ...(dateModified && { dateModified }),
   mainEntityOfPage: absolute(routePath),
   author: { '@type': 'Organization', name: companyName || 'Valley Orthodontics' },
   publisher: { '@id': `${url}#practice` }

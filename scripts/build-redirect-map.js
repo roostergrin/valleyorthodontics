@@ -11,8 +11,8 @@
  *   test/fixtures/legacy-parents.json  attachment -> parent page/post
  *
  * Also reads:
- *   static/_redirects  the editorial decisions already made about which legacy
- *                      page maps to which new page (kept as the source of truth)
+ *   infra/redirect-rules.txt  the editorial decisions already made about which
+ *                      legacy page maps to which new page (the source of truth)
  *   dist/              to confirm every destination is a real generated route
  *
  * Output: infra/redirect-map.json, in the shape the shared edge redirect handler
@@ -78,11 +78,11 @@ const walkDist = (dir, prefix = '') => {
 }
 walkDist(path.join(ROOT, 'dist'))
 
-// -------------------------------------------- editorial decisions in _redirects
+// --------------------------------- editorial decisions in infra/redirect-rules
 
 const editorial = new Map()
 const editorialPrefix = new Map()
-for (const raw of fs.readFileSync(path.join(ROOT, 'static', '_redirects'), 'utf8').split('\n')) {
+for (const raw of fs.readFileSync(path.join(ROOT, 'infra', 'redirect-rules.txt'), 'utf8').split('\n')) {
   const line = raw.trim()
   if (!line || line.startsWith('#')) { continue }
   const [from, to] = line.split(/\s+/)
@@ -123,7 +123,7 @@ const resolvePage = (legacyPath) => {
  * Two cases still earn a rule:
  *   - Documents. A PDF is the kind of thing a patient bookmarks or a referring
  *     dentist emails, so it keeps a redirect to the page that offers the form.
- *   - A hand-written rule in static/_redirects that names a *specific*
+ *   - A hand-written rule in infra/redirect-rules.txt that names a *specific*
  *     destination — someone judged that URL worth keeping (e.g. /7-questions/,
  *     a shortlink to a blog post).
  *

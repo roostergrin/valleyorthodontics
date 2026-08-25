@@ -1,3 +1,15 @@
+# Editorial source for infra/redirect-map.json: which legacy WordPress URL maps
+# to which new page. Consumed by scripts/build-redirect-map.js, which compiles it
+# (plus the legacy-URL fixtures) into the map the edge redirect handler reads.
+#
+# This file is NOT deployed and is not read at runtime. It lived in static/ until
+# post-launch, where the build copied it into dist/ and shipped it to S3 — the
+# Netlify/Cloudflare `_redirects` convention has no meaning on CloudFront, so it
+# was inert there and only made it look like live routing config.
+#
+# The `:attachment` wildcard rules are Netlify placeholder syntax and were never
+# expressible at the edge; they are kept for the record, not as live rules.
+#
 # Canonical replacements for legacy WordPress pages
 /about-us/ /about 301
 # Staff bios retired at launch: they were indexed on the old site but linked from

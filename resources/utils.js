@@ -197,7 +197,17 @@ export const setData = async (slug, customPostType = 'pages') => {
       const local = expandCdnTokens(require('../data/posts.json'))
       const item = (local.posts || []).find(p => p.slug === slug)
       if (item) {
-        return { title: item.title, slug: item.slug, ...item.post }
+        // `date`/`modified` are the WordPress ISO 8601 timestamps and are kept
+        // alongside the ACF payload: post.blog_post.date is the display string
+        // ("July 29, 2026"), which is not a valid schema.org date. Spread last
+        // so the ACF payload can't shadow them.
+        return {
+          title: item.title,
+          slug: item.slug,
+          ...item.post,
+          date: item.date,
+          modified: item.modified
+        }
       }
     } catch (e) {
       console.warn(`Falling back to live post API for ${slug}: ${e}`)

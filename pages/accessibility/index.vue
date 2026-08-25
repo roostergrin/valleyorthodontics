@@ -9,6 +9,8 @@
 
 <script>
 import { setJSONData, setMeta } from '~/resources/utils'
+import router from '~/router'
+import { buildBreadcrumbSchema } from '~/resources/structured-data'
 
 export default {
   components: {},
@@ -20,7 +22,7 @@ export default {
     const title = `Accessibility Statement - ${this.props.company_name}`
     const description = `${this.props.company_name} is committed to facilitating the accessibility and usability of its website for everyone.`
 
-    return setMeta({
+    const meta = setMeta({
       path: this.$route.path,
       title,
       seo: {
@@ -28,6 +30,23 @@ export default {
         page_description: description
       }
     })
+
+    // This page renders standalone rather than through PageSections, so it does
+    // not pick up the breadcrumb the contentMetaPreview mixin adds elsewhere.
+    const breadcrumb = buildBreadcrumbSchema(this.$route.path, router)
+    if (!breadcrumb) { return meta }
+
+    return {
+      ...meta,
+      script: [
+        { hid: 'ld-breadcrumb', type: 'application/ld+json', innerHTML: JSON.stringify(breadcrumb) }
+      ],
+      __dangerouslyDisableSanitizersByTagID: {
+        'ld-breadcrumb': ['innerHTML'],
+        'ld-practice': ['innerHTML'],
+        'ld-website': ['innerHTML']
+      }
+    }
   },
   mounted () {
     this.$nextTick(() => {

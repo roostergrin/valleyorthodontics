@@ -54,7 +54,16 @@ export default () => {
       },
       // Dev-only tooling: kept for `npm run dev`, never shipped. /style-guide
       // also calls the live WordPress API, which will not exist post-cutover.
-      exclude: [/^\/style-guide/]
+      //
+      // /blog is a middleware-only redirect to /blog/page/1, and it reached the
+      // build from two independent sources that each need blocking: pages/blog/
+      // index.vue, filtered here, and the `blog` key in pages.json, filtered by
+      // dataOnlyPageKeys in routes.config.js. This list alone is not enough —
+      // routes() results are merged in by decorateWithPayloads after this filter
+      // runs. Excluded rather than deleting the page component, so client-side
+      // navigation to /blog still redirects. Anchored so /blog/page/N and
+      // /blog/<slug> still generate.
+      exclude: [/^\/style-guide/, /^\/blog\/?$/]
     },
     head: siteHead(meta, theme),
     globalName: 'globalContent',

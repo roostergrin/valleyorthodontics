@@ -33,14 +33,28 @@ export const legacyDuplicateKeys = new Set([
 ])
 
 /**
- * Routes that exist but must never be indexed or appear in the sitemap.
- * /blog is a middleware-only redirect to /blog/page/1, not a real page.
+ * Keys whose section data is consumed by a dedicated page component, so the key
+ * must not also become a route of its own.
+ *
+ * `blog` holds the listing's sections, which pages/blog/page/_page.vue reads via
+ * setJSONData('blog') to render /blog/page/N. The route /blog itself is only a
+ * middleware redirect to /blog/page/1: its middleware runs before the page
+ * component exists, so head() never merges and the pre-rendered file inherited
+ * the global default verbatim, i.e. the homepage's title, description and
+ * canonical. The edge 301s both /blog and /blog/index.html so that file was
+ * unreachable, but there is no reason to ship a homepage duplicate to S3.
+ *
+ * This has to be filtered here rather than through generate.exclude: routes
+ * returned by generate.routes() are merged in by decorateWithPayloads AFTER the
+ * exclude filter runs, so an exclude pattern would never match this one.
  */
+export const dataOnlyPageKeys = new Set(['blog'])
+
 /**
  * Pages retired at launch. The staff bios were live and indexed on the old site
  * but were never linked from /meet-the-team, so they were orphans drawing search
  * traffic to a dead end. Their content stays in pages.json so it is recoverable;
- * their old URLs 301 to /meet-the-team (see static/_redirects).
+ * their old URLs 301 to /meet-the-team (see infra/redirect-map.json).
  */
 export const retiredPageKeys = new Set([
   'meet-carrie-our-patient-care-coordinator',
@@ -62,6 +76,7 @@ export const getLocalDynamicRoutes = () => {
     .filter(key => !staticPageKeys.has(key))
     .filter(key => !legacyDuplicateKeys.has(key))
     .filter(key => !retiredPageKeys.has(key))
+    .filter(key => !dataOnlyPageKeys.has(key))
     // Keys containing a slash or uppercase (e.g. "category/all-posts") have no
     // matching generated route — pages/category/_slug.vue handles those.
     .filter(key => /^[a-z0-9-]+$/.test(key))
