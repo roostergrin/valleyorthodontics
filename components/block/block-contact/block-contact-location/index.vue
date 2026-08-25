@@ -18,7 +18,7 @@ export default {
   }),
   mounted () {
     const loadMap = new Loader ({
-      apiKey: 'AIzaSyDZACTJZaObfFPVKCr4309ty6E5YqlrCBg'
+      apiKey: 'AIzaSyCQ0O4eUjDGqN1rjAEPViij-MemNaR-u6c'
     })
     loadMap.load().then(()=> {
       if (this.mapDestroyed || !this.$refs.theMap) {
