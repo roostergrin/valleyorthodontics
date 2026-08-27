@@ -2,6 +2,8 @@
   .topbar__bar(:class='barClasses' @click='canOpenPopup ? openModal() : null' @keyup.enter='canOpenPopup ? openModal() : null', :tabindex='canOpenPopup ? 0 : -1', :aria-label='canOpenPopup ? props.announcement.label : null', :aria-haspopup='canOpenPopup ? true : false')
     .topbar__container(:class='`topbar__container--${props.content_alignment}`')
 
+      .topbar__note(v-if='props.note && props.type === "links"' v-html='props.note')
+
       .topbar__links(v-if='props.type === "links"')
         a.topbar__link(v-for='(link, i) in props.links' :key='`link--${i}`' :href='link.href' :aria-label='link.label' :target='link.new_window ? "_blank" : "_self"' :rel='link.new_window ? "noopener noreferrer" : null') 
           BaseIcon.topbar__link-icon(:name='link.icon')

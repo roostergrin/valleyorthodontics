@@ -64,6 +64,19 @@
     &--center
       justify-content: center
     
+  &__note
+    display: flex
+    align-items: center
+    margin-right: rem-calc(24)
+    font-style: italic
+    .topbar__bar--light &
+      color: var(--primary)
+    .topbar__bar--dark &
+      color: $white
+    @include phone-lg
+      margin-right: rem-calc(16)
+      font-size: rem-calc(14)
+
   &__links
     display: flex
     

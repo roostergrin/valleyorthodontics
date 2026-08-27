@@ -866,24 +866,6 @@
           }
         },
         {
-          "name": "Abi",
-          "position": "Dental Assistant",
-          "bio": "Abi is proud to be part of the Valley Orthodontics team, where she helps create a welcoming, comfortable experience for patients at every visit. As a dental assistant, she enjoys supporting patients throughout their orthodontic journey and being part of a team that helps people feel more confident in their smiles.<br><br>Known for her friendly personality and caring approach, Abi loves getting to know patients and making sure they feel at ease in the chair. She appreciates the positive, family-like environment at Valley Orthodontics and is grateful to play a role in helping patients of all ages achieve healthy, beautiful smiles.<br><br>Outside of the office, Abi enjoys spending time with family and friends, exploring new places, and making the most of her time in the community.",
-          "image": {
-            "src": "{{cdn}}/uploads/2025/03/abi.png",
-            "webp": "{{cdn}}/uploads/2025/03/abi.png",
-            "alt": "Abi, Dental Assistant",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
           "name": "Carrie",
           "position": "Patient Care Coordinator",
           "bio": "Carrie helps keep each patient’s experience smooth from the moment they reach out to Valley Orthodontics. In her role as Patient Care Coordinator, she assists with scheduling, communication, and helping families feel prepared for their visits. She enjoys being a helpful resource for patients and making sure they feel supported every step of the way.<br><br>Carrie brings a calm, organized, and thoughtful presence to the front office. She understands that starting orthodontic treatment can come with questions, and she is always happy to help make the process feel simple and welcoming.<br><br>When she is not at the office, Carrie enjoys spending time with the people she loves, finding new local places to visit, and enjoying all that the Bay Area has to offer.",
@@ -4406,24 +4388,6 @@
             "src": "{{cdn}}/meet-the-team/alison-2.jpg",
             "webp": "{{cdn}}/meet-the-team/alison-2.webp",
             "alt": "Alison, Lead Orthodontic Assistant",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Abi",
-          "position": "Dental Assistant",
-          "bio": "Abi is proud to be part of the Valley Orthodontics team, where she helps create a welcoming, comfortable experience for patients at every visit. As a dental assistant, she enjoys supporting patients throughout their orthodontic journey and being part of a team that helps people feel more confident in their smiles.<br><br>Known for her friendly personality and caring approach, Abi loves getting to know patients and making sure they feel at ease in the chair. She appreciates the positive, family-like environment at Valley Orthodontics and is grateful to play a role in helping patients of all ages achieve healthy, beautiful smiles.<br><br>Outside of the office, Abi enjoys spending time with family and friends, exploring new places, and making the most of her time in the community.",
-          "image": {
-            "src": "{{cdn}}/uploads/2025/03/abi.png",
-            "webp": "{{cdn}}/uploads/2025/03/abi.png",
-            "alt": "Abi, Dental Assistant",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -8549,9 +8513,9 @@
       },
       "media_type": "image",
       "image": {
-        "src": "{{cdn}}/uploads/2024/09/9f1f28_a68081c92c0a48f394cd7d5fdb5b2014mv2-1.webp",
-        "webp": "{{cdn}}/uploads/2024/09/9f1f28_a68081c92c0a48f394cd7d5fdb5b2014mv2-1.webp",
-        "alt": "FINANCIAL INFORMATION at Valley Orthodontics",
+        "src": "{{cdn}}/resources/financial-info-hero-2.jpg",
+        "webp": "{{cdn}}/resources/financial-info-hero-2.webp",
+        "alt": "Financial information at Valley Orthodontics",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -8560,7 +8524,7 @@
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
-          "context_category": "Legacy Page"
+          "context_category": "Resource Page"
         }
       },
       "video": {
