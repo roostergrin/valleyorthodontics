@@ -3708,6 +3708,30 @@
         },
         {
           "type": "video",
+          "title": "How to Cut a Poking Braces Wire at Home",
+          "text": "",
+          "image": {
+            "src": "https://img.youtube.com/vi/W9uEQgaZolA/hqdefault.jpg",
+            "webp": "https://img.youtube.com/vi/W9uEQgaZolA/hqdefault.jpg",
+            "alt": "How to Cut a Poking Braces Wire at Home",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "center",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Instructional Video"
+            }
+          },
+          "video": {
+            "type": "embedded",
+            "src": "https://www.youtube.com/embed/W9uEQgaZolA"
+          }
+        },
+        {
+          "type": "video",
           "title": "Placing Separators",
           "text": "",
           "video": {
