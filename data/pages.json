@@ -882,6 +882,24 @@
             "loading_mask": "",
             "image_selection_hints": null
           }
+        },
+        {
+          "name": "Demet",
+          "position": "Dental Assistant",
+          "bio": "Originally from Istanbul, Turkey, Demet practiced dentistry for many years before making Marin County her new home with her three children. Her passion for orthodontics and working with children helps young patients feel comfortable and confident in the dental chair.<br><br>Outside the office, Demet loves cooking healthy meals for family and friends, listening to classical music, and exploring Marin by bike. She also writes and publishes dental stories for children to make learning about oral health fun and approachable.",
+          "image": {
+            "src": "/meet-the-team/demet.jpeg",
+            "webp": "/meet-the-team/demet.webp",
+            "alt": "Demet, Dental Assistant at Valley Orthodontics",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
         }
       ],
       "component_options": {
@@ -4430,6 +4448,24 @@
             "src": "{{cdn}}/meet-the-team/carrie-2.jpg",
             "webp": "{{cdn}}/meet-the-team/carrie-2.webp",
             "alt": "Carrie, Patient Care Coordinator",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          }
+        },
+        {
+          "name": "Demet",
+          "position": "Dental Assistant",
+          "bio": "Originally from Istanbul, Turkey, Demet practiced dentistry for many years before making Marin County her new home with her three children. Her passion for orthodontics and working with children helps young patients feel comfortable and confident in the dental chair.<br><br>Outside the office, Demet loves cooking healthy meals for family and friends, listening to classical music, and exploring Marin by bike. She also writes and publishes dental stories for children to make learning about oral health fun and approachable.",
+          "image": {
+            "src": "/meet-the-team/demet.jpeg",
+            "webp": "/meet-the-team/demet.webp",
+            "alt": "Demet, Dental Assistant at Valley Orthodontics",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
