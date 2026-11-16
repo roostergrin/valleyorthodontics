@@ -60,6 +60,8 @@ export const siteHead = (meta, theme = {}) => {
       { hid: 'canonical', rel: 'canonical', href: url }
     ],
     script: [
+      // Cookie consent banner (CookieConsent v3, opt-out) — must load before GTM/gtag
+      { hid: 'cookieconsent', src: '/cookieconsent-init.js?v=1' },
       {
         hid: 'ld-practice',
         type: 'application/ld+json',
