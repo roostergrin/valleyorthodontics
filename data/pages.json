@@ -12349,6 +12349,7 @@
     },
     {
       "acf_fc_layout": "image_text",
+      "hide_component": true,
       "title": "Dental Pain Eraser",
       "paragraphs": [
         {
@@ -12396,7 +12397,7 @@
         "hash": "dental-pain-eraser",
         "component_padding": "half",
         "component_margins": "none",
-        "hide_component": false
+        "hide_component": true
       },
       "has_background": true,
       "background": "bg2",
@@ -12468,7 +12469,7 @@
       "seo": {
         "page_title": "What Sets Us Apart - Valley Orthodontics",
         "page_description": "Learn what makes the Valley Orthodontics experience extraordinary, from customization and technology to atmosphere, caring, fun, and giving.",
-        "page_keywords": "Valley Orthodontics, what sets us apart, orthodontist San Rafael, orthodontic technology, dental pain eraser",
+        "page_keywords": "Valley Orthodontics, what sets us apart, orthodontist San Rafael, orthodontic technology",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
