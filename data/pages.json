@@ -65,9 +65,9 @@
       "title": "Why Choose Us",
       "items": [
         {
-          "title": "Customization",
+          "title": "Personalized Care",
           "icon": "why-customization",
-          "text": "No two patients, smiles, or bites are the same. Dr. Rocha uses years of experience and specialty training to personalize each treatment plan around the patient’s unique needs and ideal outcome.",
+          "text": "No two patients, smiles, or bites are the same. Dr. Rocha personalizes each treatment plan around your unique needs, and our fun, friendly team cares for every patient as a whole person, going the extra mile at every visit.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -81,7 +81,7 @@
         {
           "title": "Financing",
           "icon": "why-financing",
-          "text": "Financing terms that are right for you. We offer flexible and monthly payments and adjustable payment periods. You have all our efforts so that you can do your treatment until the end.",
+          "text": "We offer interest-free financing with flexible monthly payments and adjustable payment periods, so you can choose terms that are right for you and complete your treatment with confidence.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -123,7 +123,7 @@
         {
           "title": "Expertise",
           "icon": "why-expertise",
-          "text": "We specialize exclusively in orthodontics, dedicating years of study to personalized care. Join the many families who have trusted Dr. Rocha to create smiles for over 10 years.",
+          "text": "We specialize exclusively in orthodontics, dedicating years of study to personalized care. Dr. Rocha has over 12 years of experience treating patients of all ages with braces, clear aligners, and expansion appliances.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -135,9 +135,9 @@
           }
         },
         {
-          "title": "Personalized Care",
-          "icon": "why-personalized-care",
-          "text": "At Valley Orthodontics, our fun, friendly team cares for each patient as a whole person, going the extra mile to make a lasting difference in every life.",
+          "title": "Airway Orthodontics",
+          "icon": "why-airway",
+          "text": "Airway-focused orthodontics is an area of specialty for Dr. Rocha. Beyond straightening teeth, we evaluate breathing, jaw development, and facial balance to support healthy growth and a confident smile.",
           "add_button": false,
           "button": {
             "button_type": "button",
@@ -886,10 +886,10 @@
         {
           "name": "Tami",
           "position": "Registered Dental Assistant",
-          "bio": "",
+          "bio": "As a Registered Dental Assistant, Tami helps patients feel comfortable and cared for at every visit to Valley Orthodontics.<br><br>Tami was born and raised in Petaluma. Her favorite way to start the day is watching the sunrise with a cup of coffee, and in her free time she enjoys reading and hiking.<br><br>Tami loves music, going to concerts, and dancing. At home, she shares her life with her Siamese cat, Tucker.",
           "image": {
-            "src": "/meet-the-team/tami-teal.jpeg",
-            "webp": "/meet-the-team/tami-teal.webp",
+            "src": "/meet-the-team/tami-teal-square.jpeg",
+            "webp": "/meet-the-team/tami-teal-square.webp",
             "alt": "Tami, Registered Dental Assistant at Valley Orthodontics",
             "aria_hidden": false,
             "bgColor": "",
@@ -4461,10 +4461,10 @@
         {
           "name": "Tami",
           "position": "Registered Dental Assistant",
-          "bio": "",
+          "bio": "As a Registered Dental Assistant, Tami helps patients feel comfortable and cared for at every visit to Valley Orthodontics.<br><br>Tami was born and raised in Petaluma. Her favorite way to start the day is watching the sunrise with a cup of coffee, and in her free time she enjoys reading and hiking.<br><br>Tami loves music, going to concerts, and dancing. At home, she shares her life with her Siamese cat, Tucker.",
           "image": {
-            "src": "/meet-the-team/tami-teal.jpeg",
-            "webp": "/meet-the-team/tami-teal.webp",
+            "src": "/meet-the-team/tami-teal-square.jpeg",
+            "webp": "/meet-the-team/tami-teal-square.webp",
             "alt": "Tami, Registered Dental Assistant at Valley Orthodontics",
             "aria_hidden": false,
             "bgColor": "",
